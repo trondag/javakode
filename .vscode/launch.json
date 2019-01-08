@@ -1,0 +1,11 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Oppgave",
+      "request": "launch",
+      "mainClass": "oblig1.Oppgave",
+      "projectName": "javakode_666ce4bf"
+    }
+  ]
+}
