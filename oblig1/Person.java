@@ -7,6 +7,13 @@ public class Person{
     public String etternavn;
     public int alder;
 
+    //Konstruktør-metode. Lager en person-objekt utifra parameterne.
+    public Person(String fornavn, String etternavn, int alder){
+        this.fornavn = fornavn;
+        this.etternavn = etternavn;
+        this.alder = alder;
+    }
+
     //Get metoder
     public String getFornavn(){
         return fornavn;
@@ -21,20 +28,20 @@ public class Person{
     }
 
     //Set metoder
-    public void setFornavn(){
+    public void setFornavn(String fornavn){
         this.fornavn = fornavn;
     }
 
-    public void setEtternavn(){
+    public void setEtternavn(String etternavn){
         this.etternavn = etternavn;
     }
 
-    public void setAlder(){
+    public void setAlder(int alder){
         this.alder = alder;
     }
 
     //Metode for å printe til terminalen
     public void printPersonInfo(){
-        System.out.println("Navn: " + fornavn + " " + etternavn + "\nAlder: " + alder);
+        System.out.println("Navn: " + fornavn + " " + etternavn + "\nAlder: " + alder + "\n************");
     }
 }
