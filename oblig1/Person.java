@@ -42,6 +42,6 @@ public class Person{
 
     //Metode for å printe til terminalen
     public void printPersonInfo(){
-        System.out.println("Navn: " + fornavn + " " + etternavn + "\nAlder: " + alder + "\n************");
+        System.out.println("*********\nNavn: " + fornavn + " " + etternavn + "\nAlder: " + alder + "\n************");
     }
 }
