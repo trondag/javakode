@@ -8,11 +8,11 @@ public class Episode extends TVSerie{
     private int episodeNummer;
     private int sesongNummer;
 
-    public Episode(String tittel, String beskrivelse, LocalDate utgivelsesdato, ArrayList episoder, int episodeNummer, int sesongNummer, String tittel1, String spilletid) {
-        super(tittel, beskrivelse, utgivelsesdato, episoder);
+    public Episode(String tittel, String beskrivelse, LocalDate utgivelsesdato, ArrayList episoder, int episodeNummer, int sesongNummer, String episodeTittel, String spilletid) {
+        super(tittel, beskrivelse, utgivelsesdato);
         this.episodeNummer = episodeNummer;
         this.sesongNummer = sesongNummer;
-        this.tittel = tittel1;
+        this.tittel = episodeTittel;
         this.spilletid = spilletid;
     }
 
@@ -33,6 +33,10 @@ public class Episode extends TVSerie{
 
     public String getSpilletid() {
         return spilletid;
+    }
+
+    public leggTilEnEpisode(){
+
     }
 
 
