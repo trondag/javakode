@@ -29,7 +29,7 @@ public class TVSerie{
         this.utgivelsesdato = utgivelsesdato;
     }
 
-    public TVSerie(String tittel, String beskrivelse, LocalDate utgivelsesdato) {
+    public TVSerie(String tittel, String beskrivelse, LocalDate utgivelsesdato, ArrayList<Episode> episoder) {
         this.tittel = tittel;
         this.beskrivelse = beskrivelse;
         this.utgivelsesdato = utgivelsesdato;

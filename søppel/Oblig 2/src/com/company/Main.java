@@ -10,6 +10,8 @@ public class Main {
 	    TVSerie friends = new TVSerie("Friends", "Sitkom om 6 venner", friendsSluppet);
         System.out.println("Serien " + friends.getTittel() + " som er en " + friends.getBeskrivelse());
 
+        TVSerie breakingbad = new Episode()
+
         Episode e1 = new Episode()
     }
 }
