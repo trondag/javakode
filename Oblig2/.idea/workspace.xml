@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16670c75-b479-4a74-a862-44990acb4849" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/troar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oblig2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hiof/trondag/oblig2/Episode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hiof/trondag/oblig2/TVSerie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oblig 2/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oblig 2/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oblig 2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oblig 2/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oblig 2/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oblig 2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oblig 2/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oblig 2/Oblig 2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oblig 2/out/production/Oblig 2/META-INF/Oblig 2.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oblig 2/out/production/Oblig 2/com/company/Episode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oblig 2/out/production/Oblig 2/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oblig 2/out/production/Oblig 2/com/company/TVSerie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oblig 2/src/com/company/Episode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oblig 2/src/com/company/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oblig 2/src/com/company/TVSerie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,7 +28,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig2/TVSerie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
+            <state relative-caret-position="270">
               <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -151,7 +129,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548433332975" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548433864540" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../søppel/Oblig 2" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
@@ -194,16 +172,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548414990732</updated>
-      <workItem from="1548414994792" duration="9649000" />
+      <workItem from="1548414994792" duration="9751000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9649000" />
+    <option name="totallyTimeSpent" value="9751000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -213,7 +190,7 @@
       <window_info id="Learn" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1328859" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32960895" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -221,7 +198,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32960895" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32960895" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39944133" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -272,7 +249,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig2/TVSerie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
+        <state relative-caret-position="270">
           <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
