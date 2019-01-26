@@ -1,6 +1,7 @@
 package hiof.trondag.oblig2;
 import java.time.LocalDate;
 import java.util.ArrayList;
+import java.time.Duration;
 
 /************************'
  * Klassen TVSerie, som inneholder konstruktør, get-metoder og en leggTilEpisode-metode.
@@ -11,6 +12,7 @@ public class TVSerie {
     private String beskrivelse;
     private LocalDate publiseringsDato;
     public ArrayList<Episode> episoder;
+    public Duration gjennomSnittligSpilletid;
 
     public TVSerie(String tittel, String beskrivelse, LocalDate publiseringsDato) {
         this.tittel = tittel;
@@ -38,6 +40,10 @@ public class TVSerie {
 
     public ArrayList<Episode> getEpisoder() {
         return episoder;
+    }
+
+    public Duration getGjennomSnittligSpilletid() {
+        return gjennomSnittligSpilletid;
     }
 
     /****
@@ -77,20 +83,18 @@ public class TVSerie {
             for(int j = 1 ; j <= antallEpisoder ; j++){
                 Episode episode = new Episode("Episode " + j, j, i);
                 serie.leggTilEpisode(episode);
+                oppdaterGjennomsnittligSpilletid();
             }
         }
         return serie;
     }
-/*
-    public TVSerie hentEnSesong(TVSerie serie, int sesong){
-        for(int i = 0; i < serie.episoder.size() ; i++){
-            if (serie.episoder.get(i).getSesongNummer() == sesong){
-                serie.leggTilEpisode(serie.episoder.get(i));
-            }
-        }
-        return serie;
-    }
-*/
 
+    /****
+     * ------------Metode som regner ut gjennomsnittlig spilletid
+     */
+
+    private Duration oppdaterGjennomsnittligSpilletid(){
+
+    }
 }
 

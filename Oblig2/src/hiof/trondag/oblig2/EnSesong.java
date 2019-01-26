@@ -28,8 +28,20 @@ public class EnSesong {
 
     }
 
+    /*****
+     * ----------Fryktelig stygg dublisert kode, men jeg fikk ikke til å gjenbruke iterEpisoder fra klasse: TVSerie
+     * @return
+     */
+
     @Override
     public String toString(){
-        return sesongTittel + "\nInneholder episodene :\n" + TVSerie.iterEpisoder();
+        return sesongTittel + "\n**********************\nInneholder episodene:\n" + iterEpisoderSesong();
+    }
+    public String iterEpisoderSesong(){
+        StringBuilder stringBuilder = new StringBuilder();
+        for(int i = 0; i<episoder.size() ; i++){
+            stringBuilder.append(episoder.get(i).getEpisodeNummer() + ". " + episoder.get(i).getEpisodeTittel() + "\n");
+        }
+        return stringBuilder.toString();
     }
 }
