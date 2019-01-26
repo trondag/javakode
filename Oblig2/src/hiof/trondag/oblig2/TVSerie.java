@@ -68,11 +68,29 @@ public class TVSerie {
     }
 
     /************************
-     * -----------Metode som henter alle episodene
+     * -----------Metode som lager episoder
      */
 
-    public void episoderFraEnSesong(TVSerie serie, int sesong){
 
+    public TVSerie lagEpisoder(TVSerie serie, int antallSesonger, int antallEpisoder){
+        for(int i = 1 ; i <=antallSesonger ; i++){
+            for(int j = 1 ; j <= antallEpisoder ; j++){
+                Episode episode = new Episode("Episode " + j, j, i);
+                serie.leggTilEpisode(episode);
+            }
+        }
+        return serie;
     }
+/*
+    public TVSerie hentEnSesong(TVSerie serie, int sesong){
+        for(int i = 0; i < serie.episoder.size() ; i++){
+            if (serie.episoder.get(i).getSesongNummer() == sesong){
+                serie.leggTilEpisode(serie.episoder.get(i));
+            }
+        }
+        return serie;
+    }
+*/
+
 }
 
