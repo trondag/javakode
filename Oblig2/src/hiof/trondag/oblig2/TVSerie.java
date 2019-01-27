@@ -51,12 +51,20 @@ public class TVSerie {
     }
 
     /******************************************
-     *      METODE SOM LEGGER TIL EPISODER
+     *      METODE SOM LEGGER TIL EPISODER (oppgave 9)
      * @param episode
      */
 
     public void leggTilEpisode(Episode episode){
-        episoder.add(episode);
+        if(episode.getSesongNummer() > (getAntallSesonger())+1){
+            System.out.println("Error: Episoden tilhører for høy sesong.");
+            return;
+        } else {
+            episoder.add(episode);
+            if(episode.getSesongNummer() == (getAntallSesonger()+1)){
+                antallSesonger++;
+            }
+        }
     }
 
     //-------------------------------//
@@ -120,10 +128,6 @@ public class TVSerie {
         Double raaSekunder = (minTall % minutter)*60;
         int sekunder = (int) Math.floor(raaSekunder);
         return minutter + "." + sekunder + "(min.sek)";
-    }
-
-    public void leggTilEpisode(Episode episode, TVSerie serie, int sesong){
-        if(sesong >= serie.)
     }
 }
 

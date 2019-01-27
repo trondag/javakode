@@ -25,6 +25,7 @@ public class Main {
 		friends.leggTilEpisode(e03);
 		Episode e04 = new Episode("The One with George Stephanopoulos", 4, 1, treKvarter);
 		friends.leggTilEpisode(e04);
+		System.out.println("antall sesonger: " + friends.getAntallSesonger());
 
 		/************************
 		 * -------Tester override toString metodene---
@@ -50,6 +51,18 @@ public class Main {
 
 		System.out.println("Oppgave 8:");
 		System.out.println("Gjennomsnittlig spilletid: " + bigBang.minutterOgSekunder(bigBang.gjennomSnittligSpilletid));
+
+		System.out.println("Oppgave 9:");
+		System.out.println("antall sesonger: " + bigBang.getAntallSesonger() + "\n");
+		Episode e01s06 = new Episode("Episode 1", 1, 6, 22.5);
+		bigBang.leggTilEpisode(e01s06);
+		System.out.println(e01s06);
+
+		System.out.println("Prøver å legge til episode fra sesong 6, som ikke skal gå");
+		Episode e01s08 = new Episode("Episode 1", 1, 8, 23.0);
+		bigBang.leggTilEpisode(e01s08);
+		System.out.println(e01s08);
+		System.out.println("Episoden jeg lagde eksisterer, men ikke inne i TVSerie-objektet.");
 
 
 		//System.out.println(bigBang.toString());
