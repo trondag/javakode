@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="16670c75-b479-4a74-a862-44990acb4849" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hiof/trondag/oblig2/EnSesong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hiof/trondag/oblig2/EnSesong.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hiof/trondag/oblig2/TVSerie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hiof/trondag/oblig2/TVSerie.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig2/TVSerie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="96" column="8" lean-forward="true" selection-start-line="96" selection-start-column="8" selection-end-line="96" selection-end-column="8" />
+            <state relative-caret-position="373">
+              <caret line="95" column="56" lean-forward="true" selection-start-line="95" selection-start-column="56" selection-end-line="95" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,7 +77,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="width" value="977" />
     <option name="height" value="1050" />
@@ -119,7 +117,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548521713781" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548529484076" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
@@ -164,7 +162,7 @@
       <updated>1548414990732</updated>
       <workItem from="1548414994792" duration="9751000" />
       <workItem from="1548434373140" duration="5309000" />
-      <workItem from="1548514561681" duration="7146000" />
+      <workItem from="1548514561681" duration="8380000" />
     </task>
     <task id="LOCAL-00001" summary="Nesten ferdig med oppgave 6">
       <created>1548519905810</created>
@@ -173,14 +171,28 @@
       <option name="project" value="LOCAL" />
       <updated>1548519905811</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Ferdig med oppgave 6">
+      <created>1548521734829</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1548521734829</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Ferdig med oppgave 6">
+      <created>1548521744487</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1548521744487</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22206000" />
+    <option name="totallyTimeSpent" value="23440000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13539445" />
@@ -220,7 +232,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Nesten ferdig med oppgave 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nesten ferdig med oppgave 6" />
+    <MESSAGE value="Ferdig med oppgave 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ferdig med oppgave 6" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig2/Main.java">
@@ -249,8 +262,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig2/TVSerie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="96" column="8" lean-forward="true" selection-start-line="96" selection-start-column="8" selection-end-line="96" selection-end-column="8" />
+        <state relative-caret-position="373">
+          <caret line="95" column="56" lean-forward="true" selection-start-line="95" selection-start-column="56" selection-end-line="95" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
