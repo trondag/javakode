@@ -1,7 +1,6 @@
 package hiof.trondag.oblig2;
 
 import java.time.LocalDate;
-import java.time.Duration;
 
 public class Main {
 
@@ -12,7 +11,7 @@ public class Main {
 		 */
 		LocalDate friendsDato = LocalDate.of(2004, 1, 7);
 		TVSerie friends = new TVSerie("Friends", "En sitkom med 6 venner", friendsDato);
-		Duration treKvarter = Duration.ofMinutes(45);
+		Double treKvarter = 45.0;
 
 		/************************
 		 * -------Lager episode-objekter-----
@@ -44,6 +43,13 @@ public class Main {
 		EnSesong sesongFire = new EnSesong();
 		sesongFire.hentEnSesong(bigBang, 4, sesongFire);
 		System.out.println(sesongFire.toString());
+
+		/************************
+		 * -------Skriver ut den gjennomsnittlige spilletiden.
+		 */
+
+		System.out.println("Oppgave 8:");
+		System.out.println("Gjennomsnittlig spilletid: " + bigBang.minutterOgSekunder(bigBang.gjennomSnittligSpilletid));
 
 
 		//System.out.println(bigBang.toString());

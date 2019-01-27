@@ -40,7 +40,8 @@ public class EnSesong {
     public String iterEpisoderSesong(){
         StringBuilder stringBuilder = new StringBuilder();
         for(int i = 0; i<episoder.size() ; i++){
-            stringBuilder.append(episoder.get(i).getEpisodeNummer() + ". " + episoder.get(i).getEpisodeTittel() + "\n");
+            stringBuilder.append(episoder.get(i).getEpisodeNummer() + ". " + episoder.get(i).getEpisodeTittel() + ",  "
+                + "Spilletid: " + episoder.get(i).getSpilletid() + "\n");
         }
         return stringBuilder.toString();
     }

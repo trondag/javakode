@@ -1,7 +1,5 @@
 package hiof.trondag.oblig2;
 
-import java.time.Duration;
-
 public class Episode{
         //Instansvariabler
     private String episodeTittel;
@@ -17,11 +15,11 @@ public class Episode{
         this.sesongNummer = sesongNummer;
     }
 
-    private Duration spilletid;
+    private Double spilletid;
         //-------------------------//
         //Konstruktør med spilletid//
         //-------------------------//
-    public Episode(String episodeTittel, int episodeNummer, int sesongNummer, Duration spilletid) {
+    public Episode(String episodeTittel, int episodeNummer, int sesongNummer, Double spilletid) {
         this.episodeTittel = episodeTittel;
         this.episodeNummer = episodeNummer;
         this.sesongNummer = sesongNummer;
@@ -43,7 +41,7 @@ public class Episode{
         return sesongNummer;
     }
 
-    public Duration getSpilletid() {
+    public Double getSpilletid() {
         return spilletid;
     }
 
@@ -56,7 +54,7 @@ public class Episode{
         return "Tittel: " + episodeTittel + "\nNummer: E:" + episodeNummer + " S:" + sesongNummer + "\nSpilletid: " + spilletid;
     }
 
-    public void setSpilletid(Duration spilletid) {
+    public void setSpilletid(Double spilletid) {
         this.spilletid = spilletid;
     }
 }
