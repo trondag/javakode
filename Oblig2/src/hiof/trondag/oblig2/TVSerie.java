@@ -10,11 +10,12 @@ public class TVSerie {
     private String tittel;
     private String beskrivelse;
     private LocalDate publiseringsDato;
-    public ArrayList<Episode> episoder;
-    public Double gjennomSnittligSpilletid;
+    private ArrayList<Episode> episoder;
+    private double gjennomSnittligSpilletid;
     private int antallSesonger;
 
-    public TVSerie(String tittel, String beskrivelse, LocalDate publiseringsDato) {
+
+    TVSerie(String tittel, String beskrivelse, LocalDate publiseringsDato) {
         this.tittel = tittel;
         this.beskrivelse = beskrivelse;
         this.publiseringsDato = publiseringsDato;
@@ -51,14 +52,13 @@ public class TVSerie {
     }
 
     /******************************************
-     *      METODE SOM LEGGER TIL EPISODER (oppgave 9)
+     *      METODE SOM LEGGER TIL EPISODER (oppgave 3, 4 og 9)
      * @param episode
      */
 
     public void leggTilEpisode(Episode episode){
         if(episode.getSesongNummer() > (getAntallSesonger())+1){
             System.out.println("Error: Episoden tilhører for høy sesong.");
-            return;
         } else {
             episoder.add(episode);
             if(episode.getSesongNummer() == (getAntallSesonger()+1)){
@@ -67,10 +67,10 @@ public class TVSerie {
         }
     }
 
-    //-------------------------------//
-    // OVERRIDE TOSTRING() oppgave 5 //
-    //-------------------------------//
-
+    /****************************
+     * -------------Override av toString (Oppgave 5)
+     * @return
+     */
     public String iterEpisoder(){
         StringBuilder stringBuilder = new StringBuilder();
         for(int i = 0; i<episoder.size() ; i++){
@@ -85,15 +85,29 @@ public class TVSerie {
                 + "\nInneholder episodene: \n" + iterEpisoder();
     }
 
+    /********************************
+     * -------------Henter alle episodene fra en sesong og legger disse i et TVSerie-objekt (Oppgave 6)
+     */
+    
+    public ArrayList<Episode> hentFraEnSesong(TVSerie serie, int sesong){
+        ArrayList<Episode> enSesong = new ArrayList<>();
+        for(int i = 0; i < serie.episoder.size() ; i++){
+            if (serie.episoder.get(i).getSesongNummer() == sesong) {
+                enSesong.add(serie.episoder.get(i));
+            }
+        }
+        return enSesong;
+    }
+
     /************************
-     * -----------Metode som lager episoder
+     * -----------Metode som lager episoder (Oppgave 6)
      */
 
 
     public TVSerie lagEpisoder(TVSerie serie, int antallSesonger, int antallEpisoder){
         for(int i = 1 ; i <=antallSesonger ; i++){
             for(int j = 1 ; j <= antallEpisoder ; j++){
-                Double minutter = Math.random()*10+20;
+                double minutter = Math.random()*10+20;
                 Episode episode = new Episode("Episode " + j, j, i, minutter);
                 serie.leggTilEpisode(episode);
                 oppdaterGjennomsnittligSpilletid(serie);
@@ -103,7 +117,7 @@ public class TVSerie {
     }
 
     /****
-     * ------------Metode som regner ut gjennomsnittlig spilletid
+     * ------------Metode som regner ut gjennomsnittlig spilletid (Oppgave 7 og 8)
      */
 
     private void oppdaterGjennomsnittligSpilletid(TVSerie serie) {
@@ -125,7 +139,7 @@ public class TVSerie {
 
     public String minutterOgSekunder(double minTall){
         int minutter = (int) Math.floor(minTall);
-        Double raaSekunder = (minTall % minutter)*60;
+        double raaSekunder = (minTall % minutter)*60;
         int sekunder = (int) Math.floor(raaSekunder);
         return minutter + "." + sekunder + "(min.sek)";
     }
