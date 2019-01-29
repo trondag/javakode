@@ -42,7 +42,7 @@ public class TVSerie {
         return episoder;
     }
 
-    public Double getGjennomSnittligSpilletid() {
+    public double getGjennomSnittligSpilletid() {
         return gjennomSnittligSpilletid;
     }
 
@@ -107,10 +107,10 @@ public class TVSerie {
      */
 
     private void oppdaterGjennomsnittligSpilletid(TVSerie serie) {
-        Double snittSpilleTid = 0.0;
+        double snittSpilleTid = 0.0;
         int k;
         for (k = 0; k < serie.episoder.size(); k++) {
-            Double episodensSpilletid = serie.episoder.get(k).getSpilletid();
+            double episodensSpilletid = serie.episoder.get(k).getSpilletid();
             snittSpilleTid += episodensSpilletid;
         }
         serie.gjennomSnittligSpilletid = snittSpilleTid / (k + 1);
@@ -123,7 +123,7 @@ public class TVSerie {
      * @return
      */
 
-    public String minutterOgSekunder(Double minTall){
+    public String minutterOgSekunder(double minTall){
         int minutter = (int) Math.floor(minTall);
         Double raaSekunder = (minTall % minutter)*60;
         int sekunder = (int) Math.floor(raaSekunder);

@@ -11,7 +11,7 @@ public class Main {
 		 */
 		LocalDate friendsDato = LocalDate.of(2004, 1, 7);
 		TVSerie friends = new TVSerie("Friends", "En sitkom med 6 venner", friendsDato);
-		Double treKvarter = 45.0;
+		double treKvarter = 45.0;
 
 		/************************
 		 * -------Lager episode-objekter-----
