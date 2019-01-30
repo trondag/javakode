@@ -45,7 +45,7 @@ public class Main {
 		///////////////////////////////////////////////////////////////
 
 		System.out.println("\nOppgave 6: ");
-		System.out.println(bigBang.hentFraEnSesong(bigBang, 4).toString());
+		System.out.println(bigBang.hentFraEnSesong(bigBang, 4));
 
 		/////////////////////////////////////////////////////////////////////////////////////////////////////
 		//-------Skriver ut den gjennomsnittlige spilletiden av The Big Bang Theory. (Oppgave 8 og 9)------//
@@ -56,13 +56,13 @@ public class Main {
 
 		System.out.println("\nOppgave 9:");
 		System.out.println("antall sesonger: " + bigBang.getAntallSesonger() + "\n");
-		Episode e01s06 = new Episode("Episode 1", 1, 6, 22.5);
 
 		///////////////////////////////////////////////////////////////////////////////////////////////
 		//-------Tester om jeg kan legge inn en episode fra sesong 6, så sesong 8 (Oppgave 10)-------//
 		///////////////////////////////////////////////////////////////////////////////////////////////
 
 		System.out.println("\nOppgave 10: Prøver først å legge til for sesong 6, så prøver jeg fra sesong 8, som ikke skal gå");
+		Episode e01s06 = new Episode("Episode 1", 1, 6, 22.5);
 		bigBang.leggTilEpisode(e01s06);
 		System.out.println(e01s06);
 

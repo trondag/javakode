@@ -5,6 +5,7 @@ public class Episode{
     private String episodeTittel;
     private int episodeNummer;
     private int sesongNummer;
+    private double spilletid;
 
         //--------------------------//
         //Konstruktør uten spilletid//
@@ -15,7 +16,6 @@ public class Episode{
         this.sesongNummer = sesongNummer;
     }
 
-    private double spilletid;
         //-------------------------//
         //Konstruktør med spilletid//
         //-------------------------//

@@ -24,7 +24,8 @@ public class TVSerie {
 
     /*******
      *        GET-METODER
-     * @return
+     * @return tittel
+     *
      */
 
     public String getTittel() {
@@ -71,7 +72,7 @@ public class TVSerie {
      * -------------Override av toString (Oppgave 5)
      * @return
      */
-    public String iterEpisoder(){
+    private String iterEpisoder(){
         StringBuilder stringBuilder = new StringBuilder();
         for(int i = 0; i<episoder.size() ; i++){
             stringBuilder.append(episoder.get(i).getEpisodeNummer() + ". " + episoder.get(i).getEpisodeTittel() + "\n");
@@ -128,7 +129,6 @@ public class TVSerie {
             snittSpilleTid += episodensSpilletid;
         }
         serie.gjennomSnittligSpilletid = snittSpilleTid / (k + 1);
-        return;
     }
 
     /**************

@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16670c75-b479-4a74-a862-44990acb4849" name="Default Changelist" comment="Siste finish">
+    <list default="true" id="16670c75-b479-4a74-a862-44990acb4849" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Oblig2/hiof/trondag/oblig2/EnSesong.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Oblig2/hiof/trondag/oblig2/Episode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Oblig2/hiof/trondag/oblig2/Episode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Oblig2/hiof/trondag/oblig2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Oblig2/hiof/trondag/oblig2/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Oblig2/hiof/trondag/oblig2/TVSerie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Oblig2/hiof/trondag/oblig2/TVSerie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hiof/trondag/oblig2/EnSesong.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hiof/trondag/oblig2/Episode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hiof/trondag/oblig2/Episode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hiof/trondag/oblig2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hiof/trondag/oblig2/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hiof/trondag/oblig2/TVSerie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hiof/trondag/oblig2/TVSerie.java" afterDir="false" />
     </list>
@@ -23,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig2/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1005">
-              <caret line="66" column="35" lean-forward="true" selection-start-line="66" selection-start-column="35" selection-end-line="66" selection-end-column="35" />
+            <state relative-caret-position="317">
+              <caret line="47" column="62" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -32,14 +28,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig2/TVSerie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+            <state relative-caret-position="738">
+              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1103#1104#0" expanded="true" />
-                <element signature="e#1150#1151#0" expanded="true" />
-                <element signature="e#1188#1189#0" expanded="true" />
-                <element signature="e#1225#1226#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -48,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig2/Episode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="666">
-              <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+            <state relative-caret-position="342">
+              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -74,17 +66,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/hiof/trondag/oblig2/Episode.java" />
         <option value="$PROJECT_DIR$/src/hiof/trondag/oblig2/EnSesong.java" />
-        <option value="$PROJECT_DIR$/src/hiof/trondag/oblig2/Main.java" />
+        <option value="$PROJECT_DIR$/src/hiof/trondag/oblig2/Episode.java" />
         <option value="$PROJECT_DIR$/src/hiof/trondag/oblig2/TVSerie.java" />
+        <option value="$PROJECT_DIR$/src/hiof/trondag/oblig2/Main.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="width" value="978" />
-    <option name="height" value="1050" />
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -92,7 +85,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -115,13 +108,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548801039199" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548875539210" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
@@ -169,6 +162,8 @@
       <workItem from="1548514561681" duration="8380000" />
       <workItem from="1548601671847" duration="11344000" />
       <workItem from="1548768818830" duration="877000" />
+      <workItem from="1548843427091" duration="1539000" />
+      <workItem from="1548873289226" duration="2231000" />
     </task>
     <task id="LOCAL-00001" summary="Nesten ferdig med oppgave 6">
       <created>1548519905810</created>
@@ -198,17 +193,24 @@
       <option name="project" value="LOCAL" />
       <updated>1548611649835</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Siste finish!!">
+      <created>1548801060907</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1548801060907</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41830000" />
+    <option name="totallyTimeSpent" value="45707000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1380597" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.141258" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -248,40 +250,31 @@
     <MESSAGE value="Ferdig med oppgave 6" />
     <MESSAGE value="Ferdig med oppgave 7 og 8" />
     <MESSAGE value="Siste finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="Siste finish" />
+    <MESSAGE value="Siste finish!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Siste finish!!" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig2/EnSesong.java">
+    <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig2/EnSesong.java" />
+    <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig2/Episode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        <state relative-caret-position="342">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig2/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
-          <caret line="66" column="35" lean-forward="true" selection-start-line="66" selection-start-column="35" selection-end-line="66" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig2/Episode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+        <state relative-caret-position="317">
+          <caret line="47" column="62" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig2/TVSerie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        <state relative-caret-position="738">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1103#1104#0" expanded="true" />
-            <element signature="e#1150#1151#0" expanded="true" />
-            <element signature="e#1188#1189#0" expanded="true" />
-            <element signature="e#1225#1226#0" expanded="true" />
           </folding>
         </state>
       </provider>
