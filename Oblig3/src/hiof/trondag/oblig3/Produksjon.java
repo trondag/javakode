@@ -1,6 +1,7 @@
 package hiof.trondag.oblig3;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
 
 public class Produksjon {
 
@@ -9,6 +10,11 @@ public class Produksjon {
     private double spilletid;
     private LocalDate utgivelsesdato;
     private Person regissor;
+    private ArrayList<Rolle> roller = new ArrayList<>();
+
+    public ArrayList<Rolle> getRoller() {
+        return roller;
+    }
 
     public Produksjon(String tittel, String beskrivelse, double spilletid, LocalDate utgivelsesdato, Person regissor) {
         this.tittel = tittel;
@@ -61,5 +67,28 @@ public class Produksjon {
 
     public void setSpilletid(double spilletid) {
         this.spilletid = spilletid;
+    }
+
+
+    public void leggTilEnRolle(Rolle enRolle){
+        this.roller.add(enRolle);
+    }
+
+    public void leggTilMangeRoller(ArrayList<Rolle> flereRoller){
+        this.roller.addAll(flereRoller);
+    }
+
+    public void skrivUtRoller(){
+        System.out.println("Skuespillere i produksjonen " + tittel);
+        for (Rolle rolle:this.roller
+             ) {
+            System.out.println(rolle.toString());
+        }
+    }
+
+    @Override
+    public String toString(){
+        return "Produksjonen " + getTittel() + " er utgitt " + getUtgivelsesdato() + ", og er regissert av " + getRegissor()
+                + ".\nBeskrivelse: " + getBeskrivelse() + "\nSpilletid: " + getSpilletid() + " minutter.";
     }
 }

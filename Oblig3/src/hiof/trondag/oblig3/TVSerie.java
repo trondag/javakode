@@ -6,7 +6,7 @@ import java.util.ArrayList;
  * Klassen TVSerie, som inneholder konstruktør, get-metoder og en leggTilEpisode-metode.
  */
 
-public class TVSerie{
+public class TVSerie {
     private String tittel;
     private String beskrivelse;
     private LocalDate publiseringsDato;
@@ -57,12 +57,12 @@ public class TVSerie{
      * @param episode
      */
 
-    public void leggTilEpisode(Episode episode){
-        if(episode.getSesongNummer() > (getAntallSesonger())+1){
+    public void leggTilEpisode(Episode episode) {
+        if (episode.getSesongNummer() > (getAntallSesonger()) + 1) {
             System.out.println("Error: Episoden tilhører for høy sesong.");
         } else {
             episoder.add(episode);
-            if(episode.getSesongNummer() == (getAntallSesonger()+1)){
+            if (episode.getSesongNummer() == (getAntallSesonger() + 1)) {
                 antallSesonger++;
             }
         }
@@ -72,16 +72,16 @@ public class TVSerie{
      * -------------Override av toString (Oppgave 5)
      * @return
      */
-    private String iterEpisoder(){
+    private String iterEpisoder() {
         StringBuilder stringBuilder = new StringBuilder();
-        for(int i = 0; i<episoder.size() ; i++){
+        for (int i = 0; i < episoder.size(); i++) {
             stringBuilder.append(episoder.get(i).getEpisodeNummer() + ". " + episoder.get(i).getTittel() + "\n");
         }
         return stringBuilder.toString();
     }
 
     @Override
-    public String toString(){
+    public String toString() {
         return "Tittel: " + tittel + "\nBeskrivelse: " + beskrivelse + "\nPubliseringsdato: " + publiseringsDato
                 + "\nInneholder episodene: \n" + iterEpisoder();
     }
@@ -89,12 +89,12 @@ public class TVSerie{
     /********************************
      * -------------Henter alle episodene fra en sesong og legger disse i et TVSerie-objekt (Oppgave 6)
      */
-    
-    public ArrayList<Episode> hentFraEnSesong(TVSerie serie, int sesong){
+
+    public ArrayList<Episode> hentFraEnSesong(int sesong) {
         ArrayList<Episode> enSesong = new ArrayList<>();
-        for(int i = 0; i < serie.episoder.size() ; i++){
-            if (serie.episoder.get(i).getSesongNummer() == sesong) {
-                enSesong.add(serie.episoder.get(i));
+        for (int i = 0; i < this.episoder.size(); i++) {
+            if (this.episoder.get(i).getSesongNummer() == sesong) {
+                enSesong.add(this.episoder.get(i));
             }
         }
         return enSesong;
@@ -105,10 +105,10 @@ public class TVSerie{
      */
 
 
-    public TVSerie lagEpisoder(TVSerie serie, int antallSesonger, int antallEpisoder){
-        for(int i = 1 ; i <=antallSesonger ; i++){
-            for(int j = 1 ; j <= antallEpisoder ; j++){
-                double minutter = Math.random()*10+20;
+    public TVSerie lagEpisoder(TVSerie serie, int antallSesonger, int antallEpisoder) {
+        for (int i = 1; i <= antallSesonger; i++) {
+            for (int j = 1; j <= antallEpisoder; j++) {
+                double minutter = Math.random() * 10 + 20;
                 Episode episode = new Episode("Episode " + j, j, i, minutter);
                 serie.leggTilEpisode(episode);
                 oppdaterGjennomsnittligSpilletid(serie);
@@ -137,11 +137,39 @@ public class TVSerie{
      * @return
      */
 
-    public String minutterOgSekunder(double minTall){
+    public String minutterOgSekunder(double minTall) {
         int minutter = (int) Math.floor(minTall);
-        double raaSekunder = (minTall % minutter)*60;
+        double raaSekunder = (minTall % minutter) * 60;
         int sekunder = (int) Math.floor(raaSekunder);
         return minutter + "." + sekunder + "(min.sek)";
+    }
+
+    public ArrayList<Rolle> hentRollebesetning() {
+        //Listen som skal fylles og returneres
+        ArrayList<Rolle> rolleBesetning = new ArrayList<>();
+        //Går gjennom hver episode
+        for (int i = 0; i < this.episoder.size(); i++) {
+            //Går gjennom hver rolle
+            for (int j = 0; j < this.episoder.get(i).getRoller().size(); j++) {
+                // går senere gjennom rollebesetning
+                // Hvis rollebesetning er 0, går det galt med løkka
+                if(rolleBesetning.size() == 0){
+                    rolleBesetning.add(this.episoder.get(i).getRoller().get(j));
+                }
+                boolean duplikatRolle = false;
+                for (int k = 0; k < rolleBesetning.size() ; k++){
+                    if(this.episoder.get(i).getRoller().get(j) == rolleBesetning.get(k)){
+                        duplikatRolle = true;
+                    }
+                }
+                if (duplikatRolle == false){
+                    rolleBesetning.add(this.episoder.get(i).getRoller().get(j));
+                } else {
+                    continue;
+                }
+            }
+        }
+        return rolleBesetning;
     }
 }
 

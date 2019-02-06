@@ -34,4 +34,9 @@ public class Person {
     public String getFulltNavn() {
         return fornavn + " " + etternavn;
     }
+
+    @Override
+    public String toString(){
+        return "Personen " + getFulltNavn() + " er født den " + getFodselsDag() + " og kommer fra " + getHjemland();
+    }
 }
