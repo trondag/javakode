@@ -57,7 +57,7 @@ public class TVSerie {
      */
 
     public void leggTilEpisode(Episode episode){
-        if(episode.getSesongNummer() > (getAntallSesonger())+1){
+        if(episode.getSesongNummer() > (this.getAntallSesonger())+1){
             System.out.println("Error: Episoden tilhører for høy sesong.");
         } else {
             episoder.add(episode);
@@ -89,11 +89,11 @@ public class TVSerie {
      * -------------Henter alle episodene fra en sesong og legger disse i et TVSerie-objekt (Oppgave 6)
      */
     
-    public ArrayList<Episode> hentFraEnSesong(TVSerie serie, int sesong){
+    public ArrayList<Episode> hentFraEnSesong(int sesong){
         ArrayList<Episode> enSesong = new ArrayList<>();
-        for(int i = 0; i < serie.episoder.size() ; i++){
-            if (serie.episoder.get(i).getSesongNummer() == sesong) {
-                enSesong.add(serie.episoder.get(i));
+        for(int i = 0; i < this.serie.episoder.size() ; i++){
+            if (this.serie.episoder.get(i).getSesongNummer() == sesong) {
+                enSesong.add(this.serie.episoder.get(i));
             }
         }
         return enSesong;
@@ -110,7 +110,7 @@ public class TVSerie {
                 double minutter = Math.random()*10+20;
                 Episode episode = new Episode("Episode " + j, j, i, minutter);
                 serie.leggTilEpisode(episode);
-                oppdaterGjennomsnittligSpilletid(serie);
+                oppdaterGjennomsnittligSpilletid();
             }
         }
         return serie;
@@ -120,15 +120,14 @@ public class TVSerie {
      * ------------Metode som regner ut gjennomsnittlig spilletid (Oppgave 7 og 8)
      */
 
-    private void oppdaterGjennomsnittligSpilletid(TVSerie serie) {
+    private void oppdaterGjennomsnittligSpilletid() {
         double snittSpilleTid = 0.0;
         int k;
-        for (k = 0; k < serie.episoder.size(); k++) {
-            double episodensSpilletid = serie.episoder.get(k).getSpilletid();
+        for (k = 0; k < this.episoder.size(); k++) {
+            double episodensSpilletid = this.episoder.get(k).getSpilletid();
             snittSpilleTid += episodensSpilletid;
         }
-        serie.gjennomSnittligSpilletid = snittSpilleTid / (k + 1);
-        return;
+        this.gjennomSnittligSpilletid = snittSpilleTid / (k + 1);
     }
 
     /**************

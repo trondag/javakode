@@ -51,7 +51,8 @@ public class Episode{
 
     @Override
     public String toString(){
-        return "Tittel: " + episodeTittel + "\nNummer: E:" + episodeNummer + " S:" + sesongNummer + "\nSpilletid: " + spilletid;
+        return "Tittel: " + episodeTittel + "\nNummer: E:" + episodeNummer
+                + " S:" + sesongNummer + "\nSpilletid: " + spilletid;
     }
 
     public void setSpilletid(double spilletid) {
