@@ -79,7 +79,7 @@ public class Produksjon {
     }
 
     public void skrivUtRoller(){
-        System.out.println("Skuespillere i produksjonen " + tittel);
+        System.out.println("Skuespillere i produksjonen " + tittel + ":");
         for (Rolle rolle:this.roller
              ) {
             System.out.println(rolle.toString());
