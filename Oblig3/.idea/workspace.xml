@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="16670c75-b479-4a74-a862-44990acb4849" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Oblig2/out/production/Oblig2/hiof/trondag/oblig2/Film.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oblig2/out/production/Oblig2/hiof/trondag/oblig2/Produksjon.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/troar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oblig3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Oblig3/hiof/trondag/oblig3/Episode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Oblig3/hiof/trondag/oblig3/Film.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Oblig3/hiof/trondag/oblig3/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Oblig3/hiof/trondag/oblig3/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Oblig3/hiof/trondag/oblig3/Produksjon.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Oblig3/hiof/trondag/oblig3/Rolle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Oblig3/hiof/trondag/oblig3/TVSerie.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hiof/trondag/oblig3/Episode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hiof/trondag/oblig3/Film.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hiof/trondag/oblig3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hiof/trondag/oblig3/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hiof/trondag/oblig3/Produksjon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hiof/trondag/oblig3/Rolle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hiof/trondag/oblig3/TVSerie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oblig2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Oblig2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oblig2/out/production/Oblig2/hiof/trondag/oblig2/Episode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Oblig2/out/production/Oblig2/hiof/trondag/oblig2/Episode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oblig2/out/production/Oblig2/hiof/trondag/oblig2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Oblig2/out/production/Oblig2/hiof/trondag/oblig2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oblig2/out/production/Oblig2/hiof/trondag/oblig2/TVSerie.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Oblig2/out/production/Oblig2/hiof/trondag/oblig2/TVSerie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oblig2/src/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Oblig2/src/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oblig2/src/hiof/trondag/oblig2/Episode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Oblig2/src/hiof/trondag/oblig2/Episode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oblig2/src/hiof/trondag/oblig2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Oblig2/src/hiof/trondag/oblig2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oblig2/src/hiof/trondag/oblig2/TVSerie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Oblig2/src/hiof/trondag/oblig2/TVSerie.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig3/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="173" column="60" selection-start-line="173" selection-start-column="60" selection-end-line="173" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig3/TVSerie.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="452">
+              <caret line="206" column="28" lean-forward="true" selection-start-line="206" selection-start-column="28" selection-end-line="206" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig3/Film.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="28" selection-start-column="28" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig3/Produksjon.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig3/Episode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="20" column="43" lean-forward="true" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig3/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+              <folding>
+                <element signature="e#474#475#0" expanded="true" />
+                <element signature="e#504#505#0" expanded="true" />
+                <element signature="e#540#541#0" expanded="true" />
+                <element signature="e#572#573#0" expanded="true" />
+                <element signature="e#612#613#0" expanded="true" />
+                <element signature="e#645#646#0" expanded="true" />
+                <element signature="e#680#681#0" expanded="true" />
+                <element signature="e#711#712#0" expanded="true" />
+                <element signature="e#747#748#0" expanded="true" />
+                <element signature="e#795#796#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig3/Rolle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+              <folding>
+                <element signature="e#406#407#0" expanded="true" />
+                <element signature="e#441#442#0" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
+                <element signature="e#519#520#0" expanded="true" />
+                <element signature="e#557#558#0" expanded="true" />
+                <element signature="e#591#592#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Double</find>
+      <find>hent</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/hiof/trondag/oblig2/EnSesong.java" />
+        <option value="$PROJECT_DIR$/src/hiof/trondag/oblig2/Produksjon.java" />
+        <option value="$PROJECT_DIR$/src/hiof/trondag/oblig2/Episode.java" />
+        <option value="$PROJECT_DIR$/src/hiof/trondag/oblig2/TVSerie.java" />
+        <option value="$PROJECT_DIR$/src/hiof/trondag/oblig2/Film.java" />
+        <option value="$PROJECT_DIR$/src/hiof/trondag/oblig2/Main.java" />
+        <option value="$PROJECT_DIR$/src/hiof/trondag/oblig3/Rolle.java" />
+        <option value="$PROJECT_DIR$/src/hiof/trondag/oblig3/Film.java" />
+        <option value="$PROJECT_DIR$/src/hiof/trondag/oblig3/Person.java" />
+        <option value="$PROJECT_DIR$/src/hiof/trondag/oblig3/Episode.java" />
+        <option value="$PROJECT_DIR$/src/hiof/trondag/oblig3/Produksjon.java" />
+        <option value="$PROJECT_DIR$/src/hiof/trondag/oblig3/Main.java" />
+        <option value="$PROJECT_DIR$/src/hiof/trondag/oblig3/TVSerie.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1937" />
+    <option name="height" value="1057" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Oblig3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Oblig3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Oblig3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Oblig3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Oblig3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Oblig3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="oblig3" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549672522701" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="hiof.trondag.oblig3.Main" />
+      <module name="Oblig3" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="16670c75-b479-4a74-a862-44990acb4849" name="Default Changelist" comment="" />
+      <created>1548414990732</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1548414990732</updated>
+      <workItem from="1548414994792" duration="9751000" />
+      <workItem from="1548434373140" duration="5309000" />
+      <workItem from="1548514561681" duration="8380000" />
+      <workItem from="1548601671847" duration="11344000" />
+      <workItem from="1548768818830" duration="877000" />
+      <workItem from="1548843427091" duration="1539000" />
+      <workItem from="1548873289226" duration="3072000" />
+      <workItem from="1549050213553" duration="1819000" />
+      <workItem from="1549052183107" duration="3121000" />
+      <workItem from="1549381342342" duration="55000" />
+      <workItem from="1549385039731" duration="8218000" />
+      <workItem from="1549472478091" duration="13268000" />
+      <workItem from="1549651887451" duration="7711000" />
+    </task>
+    <task id="LOCAL-00001" summary="Nesten ferdig med oppgave 6">
+      <created>1548519905810</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1548519905811</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Ferdig med oppgave 6">
+      <created>1548521734829</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1548521734829</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Ferdig med oppgave 6">
+      <created>1548521744487</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1548521744487</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Ferdig med oppgave 7 og 8">
+      <created>1548611649834</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1548611649835</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Siste finish!!">
+      <created>1548801060907</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1548801060907</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Siste finish!!!!">
+      <created>1548875612028</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1548875612028</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Starta på oblig 3">
+      <created>1549052377744</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1549052377744</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="80740000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4979253" visible="true" weight="0.15100671" />
+      <window_info id="Structure" order="1" sideWeight="0.5020747" side_tool="true" visible="true" weight="0.15100671" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32681563" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39664805" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3282123" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32681563" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Nesten ferdig med oppgave 6" />
+    <MESSAGE value="Ferdig med oppgave 6" />
+    <MESSAGE value="Ferdig med oppgave 7 og 8" />
+    <MESSAGE value="Siste finish" />
+    <MESSAGE value="Siste finish!!" />
+    <MESSAGE value="Siste finish!!!!" />
+    <MESSAGE value="Starta på oblig 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Starta på oblig 3" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig2/EnSesong.java" />
+    <entry file="file://$PROJECT_DIR$/Oblig3.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3114">
+          <caret line="244" column="18" selection-start-line="244" selection-start-column="18" selection-end-line="244" selection-end-column="18" />
+          <folding>
+            <element signature="e#10225#10226#0" expanded="true" />
+            <element signature="e#10308#10309#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig3/Film.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig3/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+            <element signature="e#747#748#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig3/Rolle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+          <folding>
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig3/Produksjon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig3/Episode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="43" lean-forward="true" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig3/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="173" column="60" selection-start-line="173" selection-start-column="60" selection-end-line="173" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig3/TVSerie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="206" column="28" lean-forward="true" selection-start-line="206" selection-start-column="28" selection-end-line="206" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

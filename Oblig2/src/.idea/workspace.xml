@@ -2,11 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1729399-766a-4b2f-a4a3-8994c2908c6f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../out/production/Oblig2/hiof/trondag/oblig2/Film.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Oblig2/hiof/trondag/oblig2/Produksjon.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Oblig3/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Oblig3/.idea/dictionaries/troar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Oblig3/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Oblig3/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Oblig3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Oblig3/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Oblig3/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Oblig3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Oblig3/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Oblig3/Oblig3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Oblig3/out/production/Oblig3/hiof/trondag/oblig3/Episode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Oblig3/out/production/Oblig3/hiof/trondag/oblig3/Film.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Oblig3/out/production/Oblig3/hiof/trondag/oblig3/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Oblig3/out/production/Oblig3/hiof/trondag/oblig3/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Oblig3/out/production/Oblig3/hiof/trondag/oblig3/Produksjon.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Oblig3/out/production/Oblig3/hiof/trondag/oblig3/Rolle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Oblig3/out/production/Oblig3/hiof/trondag/oblig3/TVSerie.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Oblig3/src/hiof/trondag/oblig3/Episode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Oblig3/src/hiof/trondag/oblig3/Film.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Oblig3/src/hiof/trondag/oblig3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Oblig3/src/hiof/trondag/oblig3/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Oblig3/src/hiof/trondag/oblig3/Produksjon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Oblig3/src/hiof/trondag/oblig3/Rolle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Oblig3/src/hiof/trondag/oblig3/TVSerie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/Oblig2/hiof/trondag/oblig2/EnSesong.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/Oblig2/hiof/trondag/oblig2/EnSesong.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Oblig2/hiof/trondag/oblig2/Episode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/Oblig2/hiof/trondag/oblig2/Episode.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../out/production/Oblig2/hiof/trondag/oblig2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/Oblig2/hiof/trondag/oblig2/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../out/production/Oblig2/hiof/trondag/oblig2/TVSerie.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/Oblig2/hiof/trondag/oblig2/TVSerie.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hiof/trondag/oblig2/Episode.java" beforeDir="false" afterPath="$PROJECT_DIR$/hiof/trondag/oblig2/Episode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hiof/trondag/oblig2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/hiof/trondag/oblig2/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hiof/trondag/oblig2/TVSerie.java" beforeDir="false" afterPath="$PROJECT_DIR$/hiof/trondag/oblig2/TVSerie.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,12 +43,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hiof/trondag/oblig2/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="40" column="53" lean-forward="true" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
+            <state relative-caret-position="720">
+              <caret line="40" column="53" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -30,28 +57,19 @@
         <entry file="file://$PROJECT_DIR$/hiof/trondag/oblig2/Episode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="630">
-              <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hiof/trondag/oblig2/TVSerie.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/ArrayList.java">
+        <entry file="file://$PROJECT_DIR$/hiof/trondag/oblig2/TVSerie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4500">
-              <caret line="177" column="21" selection-start-line="177" selection-start-column="21" selection-end-line="177" selection-end-column="21" />
+            <state relative-caret-position="-1872">
+              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,10 +87,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="756" />
-    <option name="width" value="1164" />
-    <option name="height" value="1043" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="755" />
+    <option name="width" value="1165" />
+    <option name="height" value="1044" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -105,36 +123,6 @@
               <item name="trondag" type="462c0819:PsiDirectoryNode" />
               <item name="oblig2" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="src" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="src" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 11 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="src" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 11 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="src" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 11 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.base" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="src" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 11 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.base" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -147,7 +135,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549650472042" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Oblig3" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -175,16 +163,17 @@
       <updated>1549374245929</updated>
       <workItem from="1549374247332" duration="623000" />
       <workItem from="1549538004250" duration="4074000" />
+      <workItem from="1549651612844" duration="267000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4697000" />
+    <option name="totallyTimeSpent" value="4964000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="605" y="0" width="931" height="834" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.29850745" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17449665" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -221,32 +210,32 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/hiof/trondag/oblig2/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="40" column="53" lean-forward="true" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
+        <state relative-caret-position="720">
+          <caret line="40" column="53" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hiof/trondag/oblig2/Episode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
-          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hiof/trondag/oblig2/TVSerie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4500">
-          <caret line="177" column="21" selection-start-line="177" selection-start-column="21" selection-end-line="177" selection-end-column="21" />
+        <state relative-caret-position="18">
+          <caret line="177" column="21" lean-forward="true" selection-start-line="177" selection-start-column="21" selection-end-line="177" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hiof/trondag/oblig2/TVSerie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1872">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

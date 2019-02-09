@@ -1,17 +1,23 @@
-package hiof.trondag.oblig2;
+package hiof.trondag.oblig3;
 
-public class Episode{
+import java.time.LocalDate;
+
+public class Episode extends Produksjon{
         //Instansvariabler
-    private String episodeTittel;
     private int episodeNummer;
     private int sesongNummer;
-    private double spilletid;
+
 
         //--------------------------//
         //Konstruktør uten spilletid//
         //--------------------------//
-    public Episode(String episodeTittel, int episodeNummer, int sesongNummer){
-        this.episodeTittel = episodeTittel;
+    public Episode(String tittel, int episodeNummer, int sesongNummer, double spilletid){
+        super(tittel, spilletid);
+        this.episodeNummer = episodeNummer;
+        this.sesongNummer = sesongNummer;
+    }
+    public Episode(String tittel, int episodeNummer, int sesongNummer, LocalDate utgivelsesdato){
+        super(tittel, utgivelsesdato);
         this.episodeNummer = episodeNummer;
         this.sesongNummer = sesongNummer;
     }
@@ -19,19 +25,15 @@ public class Episode{
         //-------------------------//
         //Konstruktør med spilletid//
         //-------------------------//
-    public Episode(String episodeTittel, int episodeNummer, int sesongNummer, double spilletid) {
-        this.episodeTittel = episodeTittel;
+    public Episode(String tittel, String beskrivelse, int episodeNummer, int sesongNummer, double spilletid, LocalDate utgivelsesdato, Person regissor) {
+        super(tittel, beskrivelse, spilletid, utgivelsesdato, regissor);
         this.episodeNummer = episodeNummer;
         this.sesongNummer = sesongNummer;
-        this.spilletid = spilletid;
     }
         //----------------------//
         //-----GETTERS----------//
         //----------------------//
 
-    public String getEpisodeTittel() {
-        return episodeTittel;
-    }
 
     public int getEpisodeNummer() {
         return episodeNummer;
@@ -41,21 +43,12 @@ public class Episode{
         return sesongNummer;
     }
 
-    public double getSpilletid() {
-        return spilletid;
-    }
-
     //-------------------------------//
     // OVERRIDE TOSTRING() oppgave 5 //
     //-------------------------------//
 
     @Override
     public String toString(){
-        return "Tittel: " + episodeTittel + "\nNummer: E:" + episodeNummer
-                + " S:" + sesongNummer + "\nSpilletid: " + spilletid;
-    }
-
-    public void setSpilletid(double spilletid) {
-        this.spilletid = spilletid;
+        return "Tittel: " + getTittel() + "\nNummer: E:" + episodeNummer + " S:" + sesongNummer + "\nSpilletid: " + getSpilletid();
     }
 }
