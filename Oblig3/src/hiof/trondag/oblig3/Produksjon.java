@@ -24,6 +24,11 @@ public class Produksjon {
         this.regissor = regissor;
     }
 
+    public Produksjon(String tittel, LocalDate utgivelsesdato){
+        this.tittel = tittel;
+        this.utgivelsesdato = utgivelsesdato;
+    }
+
     public Produksjon(String tittel, double spilletid) {
         this.tittel = tittel;
         this.spilletid = spilletid;

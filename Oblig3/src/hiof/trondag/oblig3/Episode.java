@@ -16,6 +16,11 @@ public class Episode extends Produksjon{
         this.episodeNummer = episodeNummer;
         this.sesongNummer = sesongNummer;
     }
+    public Episode(String tittel, int episodeNummer, int sesongNummer, LocalDate utgivelsesdato){
+        super(tittel, utgivelsesdato);
+        this.episodeNummer = episodeNummer;
+        this.sesongNummer = sesongNummer;
+    }
 
         //-------------------------//
         //Konstruktør med spilletid//

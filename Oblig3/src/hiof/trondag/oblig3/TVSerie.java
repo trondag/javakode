@@ -156,20 +156,58 @@ public class TVSerie {
                 if(rolleBesetning.size() == 0){
                     rolleBesetning.add(this.episoder.get(i).getRoller().get(j));
                 }
+                //Boolean som skal settes til true hvis løkka finner en duplikat rolle
                 boolean duplikatRolle = false;
                 for (int k = 0; k < rolleBesetning.size() ; k++){
                     if(this.episoder.get(i).getRoller().get(j) == rolleBesetning.get(k)){
                         duplikatRolle = true;
                     }
                 }
-                if (duplikatRolle == false){
+                if (!duplikatRolle){
                     rolleBesetning.add(this.episoder.get(i).getRoller().get(j));
-                } else {
-                    continue;
                 }
             }
         }
         return rolleBesetning;
+    }
+
+    public String antallEpisoderSkuespiller(Person skuespiller){
+         int antallEpisoder = 0;
+        for (Episode episode:this.episoder
+             ) {
+            for (int i = 0 ; i < episode.getRoller().size() ; i++){
+                if (episode.getRoller().get(i).getSkuespiller().equals(skuespiller)){
+                    antallEpisoder++;
+                }
+            }
+        }
+        return "Skuespilleren " + skuespiller.getFulltNavn() + " har spilt i " + antallEpisoder + " episoder i serien" + this.tittel + ".";
+    }
+
+    public void lagSaape(int antallEpisoder, LocalDate startDato){
+        ArrayList<Episode> episodene = new ArrayList<>();
+        int episodenummer = 1;
+        int sesongNummer = 1;
+        LocalDate dato = startDato;
+        int aar = dato.getYear();
+        int episodeTeller = 1;
+        while (episodeTeller < antallEpisoder){
+            if (dato.getDayOfWeek().getValue() == 6 || dato.getDayOfWeek().getValue() == 7){
+                dato = dato.plusDays(1);
+                continue;
+            }
+            if (dato.getYear() > aar){
+                aar++;
+                sesongNummer++;
+                episodenummer = 1;
+            }
+            Episode episode = new Episode("DooL_episode" + episodenummer, episodenummer, sesongNummer, dato);
+            episodene.add(episode);
+            dato = dato.plusDays(1);
+            episodeTeller++;
+            episodenummer++;
+        }
+        this.episoder = episodene;
     }
 }
 

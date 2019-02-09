@@ -165,5 +165,13 @@ public class Main {
 		System.out.println("\nOppgave 10 og 11:");
 		System.out.println(rollerFriends.get(0).toString());
 		System.out.println(rollerFriends.get(5).toString());
+
+		System.out.println("\nOppgave 12:\n");
+		System.out.println(friends.antallEpisoderSkuespiller(mattleBlanc));
+
+		TVSerie daysOfOurLives = new TVSerie("Days of our Lives", "En serie som handler om ting", LocalDate.of(1965, 11, 8));
+		daysOfOurLives.lagSaape(13518, LocalDate.of(1965, 11, 8));
+		System.out.println(daysOfOurLives.hentFraEnSesong(42));
+
 	}
 	}
