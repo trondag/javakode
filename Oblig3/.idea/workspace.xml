@@ -2,40 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16670c75-b479-4a74-a862-44990acb4849" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Oblig2/out/production/Oblig2/hiof/trondag/oblig2/Film.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Oblig2/out/production/Oblig2/hiof/trondag/oblig2/Produksjon.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/troar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oblig3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Oblig3/hiof/trondag/oblig3/Episode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Oblig3/hiof/trondag/oblig3/Film.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Oblig3/hiof/trondag/oblig3/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Oblig3/hiof/trondag/oblig3/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Oblig3/hiof/trondag/oblig3/Produksjon.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Oblig3/hiof/trondag/oblig3/Rolle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Oblig3/hiof/trondag/oblig3/TVSerie.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hiof/trondag/oblig3/Episode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hiof/trondag/oblig3/Film.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hiof/trondag/oblig3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hiof/trondag/oblig3/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hiof/trondag/oblig3/Produksjon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hiof/trondag/oblig3/Rolle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hiof/trondag/oblig3/TVSerie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oblig2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Oblig2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oblig2/out/production/Oblig2/hiof/trondag/oblig2/Episode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Oblig2/out/production/Oblig2/hiof/trondag/oblig2/Episode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oblig2/out/production/Oblig2/hiof/trondag/oblig2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Oblig2/out/production/Oblig2/hiof/trondag/oblig2/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oblig2/out/production/Oblig2/hiof/trondag/oblig2/TVSerie.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Oblig2/out/production/Oblig2/hiof/trondag/oblig2/TVSerie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oblig2/src/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Oblig2/src/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oblig2/src/hiof/trondag/oblig2/Episode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Oblig2/src/hiof/trondag/oblig2/Episode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oblig2/src/hiof/trondag/oblig2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Oblig2/src/hiof/trondag/oblig2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oblig2/src/hiof/trondag/oblig2/TVSerie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Oblig2/src/hiof/trondag/oblig2/TVSerie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,7 +16,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig3/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
+            <state relative-caret-position="3096">
               <caret line="173" column="60" selection-start-line="173" selection-start-column="60" selection-end-line="173" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -61,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig3/TVSerie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="206" column="28" lean-forward="true" selection-start-line="206" selection-start-column="28" selection-end-line="206" selection-end-column="28" />
+            <state relative-caret-position="239">
+              <caret line="209" column="20" selection-start-line="209" selection-start-column="20" selection-end-line="209" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,7 +49,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig3/Produksjon.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
+            <state relative-caret-position="450">
               <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -95,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig3/Episode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="20" column="43" lean-forward="true" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+              <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -124,7 +91,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig3/Rolle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
+            <state relative-caret-position="360">
               <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
               <folding>
                 <element signature="e#406#407#0" expanded="true" />
@@ -176,10 +143,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1937" />
-    <option name="height" value="1057" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1938" />
+    <option name="height" value="1058" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -188,7 +155,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -211,12 +177,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549672522701" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549725566388" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
@@ -271,7 +238,8 @@
       <workItem from="1549381342342" duration="55000" />
       <workItem from="1549385039731" duration="8218000" />
       <workItem from="1549472478091" duration="13268000" />
-      <workItem from="1549651887451" duration="7711000" />
+      <workItem from="1549651887451" duration="8380000" />
+      <workItem from="1550238595498" duration="203000" />
     </task>
     <task id="LOCAL-00001" summary="Nesten ferdig med oppgave 6">
       <created>1548519905810</created>
@@ -326,14 +294,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80740000" />
+    <option name="totallyTimeSpent" value="81612000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4979253" visible="true" weight="0.15100671" />
-      <window_info id="Structure" order="1" sideWeight="0.5020747" side_tool="true" visible="true" weight="0.15100671" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49688148" visible="true" weight="0.15302013" />
+      <window_info id="Structure" order="1" sideWeight="0.5031185" side_tool="true" visible="true" weight="0.15302013" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -342,12 +309,12 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32681563" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32681563" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39664805" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3282123" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3282123" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32681563" />
@@ -397,10 +364,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig3/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3096">
+          <caret line="173" column="60" selection-start-line="173" selection-start-column="60" selection-end-line="173" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig3/Film.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="28" selection-start-column="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig3/Produksjon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig3/Episode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -425,7 +419,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig3/Rolle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
+        <state relative-caret-position="360">
           <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
           <folding>
             <element signature="e#406#407#0" expanded="true" />
@@ -438,37 +432,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig3/Produksjon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig3/Episode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="43" lean-forward="true" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig3/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="173" column="60" selection-start-line="173" selection-start-column="60" selection-end-line="173" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig3/TVSerie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="206" column="28" lean-forward="true" selection-start-line="206" selection-start-column="28" selection-end-line="206" selection-end-column="28" />
+        <state relative-caret-position="239">
+          <caret line="209" column="20" selection-start-line="209" selection-start-column="20" selection-end-line="209" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
