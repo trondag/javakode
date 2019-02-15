@@ -144,6 +144,11 @@ public class TVSerie {
         return minutter + "." + sekunder + "(min.sek)";
     }
 
+    /********************
+     * ----------------Oppgave 10 og 11
+     * @return
+     */
+
     public ArrayList<Rolle> hentRollebesetning() {
         //Listen som skal fylles og returneres
         ArrayList<Rolle> rolleBesetning = new ArrayList<>();
@@ -171,6 +176,12 @@ public class TVSerie {
         return rolleBesetning;
     }
 
+    /********************************
+     * -----------------------Oppgave 12
+     * @param skuespiller
+     * @return
+     */
+
     public String antallEpisoderSkuespiller(Person skuespiller){
          int antallEpisoder = 0;
         for (Episode episode:this.episoder
@@ -183,6 +194,12 @@ public class TVSerie {
         }
         return "Skuespilleren " + skuespiller.getFulltNavn() + " har spilt i " + antallEpisoder + " episoder i serien" + this.tittel + ".";
     }
+
+    /************************************
+     * --------------------------Oppgave 13
+     * @param antallEpisoder
+     * @param startDato
+     */
 
     public void lagSaape(int antallEpisoder, LocalDate startDato){
         ArrayList<Episode> episodene = new ArrayList<>();

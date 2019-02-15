@@ -32,9 +32,11 @@ public class Main {
 		//-------Tester override toString metodene--- (Oppgave 5)----//
 		///////////////////////////////////////////////////////////////
 
+		/*
 		System.out.println("\nOppgave 5: ");
 		System.out.println(friends.toString());
 		System.out.println(friends_e02_s01.toString());
+		*/
 
 		/////////////////////////////////////////////////////////////
 		//--------Lager 5 sesonger med 20 episoder (oppgave 6)-----//
@@ -48,18 +50,22 @@ public class Main {
 		//-------Henter så ut sesong 4 av The Big Bang Theory--------//
 		///////////////////////////////////////////////////////////////
 
+		/*
 		System.out.println("\nOppgave 6: ");
 		System.out.println(bigBang.hentFraEnSesong(4));
+		*/
 
 		/////////////////////////////////////////////////////////////////////////////////////////////////////
 		//-------Skriver ut den gjennomsnittlige spilletiden av The Big Bang Theory. (Oppgave 8 og 9)------//
 		/////////////////////////////////////////////////////////////////////////////////////////////////////
 
+		/*
 		System.out.println("\nOppgave 8:");
 		System.out.println("Gjennomsnittlig spilletid: " + bigBang.minutterOgSekunder(bigBang.getGjennomSnittligSpilletid()));
 
 		System.out.println("\nOppgave 9:");
 		System.out.println("antall sesonger: " + bigBang.getAntallSesonger() + "\n");
+		*/
 
 		///////////////////////////////////////////////////////////////////////////////////////////////
 		//-------Tester om jeg kan legge inn en episode fra sesong 6, så sesong 8 (Oppgave 10)-------//
@@ -94,6 +100,10 @@ public class Main {
 
 		System.out.println("\nOppgave 5:");
 		System.out.println("Lagde filmene: " + kapteinSabeltann.getTittel() + " og " + lovenesKonge.getTittel());
+
+		///////////////////////////////
+		//---------Oppgave 7---------//
+		///////////////////////////////
 
 		System.out.println("\nOppgave 7:");
 		System.out.println("Regissør i Kaptein Sabeltann: " + kapteinSabeltann.getRegissor().getFulltNavn());
@@ -144,10 +154,13 @@ public class Main {
 		titanic.leggTilEnRolle(jackDawson);
 		titanic.leggTilEnRolle(roseBukater);
 
+		System.out.println("\n");
 		titanic.skrivUtRoller();
 
-		//Oppgave 10 og 11
-		//Legger til skuespillere i flere episoder
+		//////////////////////////////////////////////////
+		//  -------------Oppgave 10 og 11-------------  //
+		//  -Legger til skuespillere i flere episoder-  //
+		//////////////////////////////////////////////////
 
 		ArrayList<Rolle> skuespillereIFriends = new ArrayList<>();
 		skuespillereIFriends.add(monicaGeller);
@@ -166,11 +179,22 @@ public class Main {
 		System.out.println(rollerFriends.get(0).toString());
 		System.out.println(rollerFriends.get(5).toString());
 
+		//////////////////////////////////////////////////
+		//  ---------------Oppgave 12-----------------  //
+		//////////////////////////////////////////////////
+
 		System.out.println("\nOppgave 12:\n");
 		System.out.println(friends.antallEpisoderSkuespiller(mattleBlanc));
 
+		//////////////////////////////////////////////////
+		//  ---------------Oppgave 13-----------------  //
+		//////////////////////////////////////////////////
+
+		System.out.println("\nOppgave 13:\n");
 		TVSerie daysOfOurLives = new TVSerie("Days of our Lives", "En serie som handler om ting", LocalDate.of(1965, 11, 8));
 		daysOfOurLives.lagSaape(13518, LocalDate.of(1965, 11, 8));
+
+			//Kommenter ut linjen under for å se de andre oppgavene, JRE printer ut 260 episoder, siden det ble mange episoder per sesong.
 		System.out.println(daysOfOurLives.hentFraEnSesong(42));
 
 	}

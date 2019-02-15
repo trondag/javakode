@@ -8,6 +8,10 @@ public class Person {
     private LocalDate fodselsDag;
     private String hjemland;
 
+    /////////////////////////////////
+    //   ----Oppgave 7-----        //
+    /////////////////////////////////
+
     public Person(String fornavn, String etternavn, LocalDate fodselsDag, String hjemland) {
         this.fornavn = fornavn;
         this.etternavn = etternavn;

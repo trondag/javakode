@@ -5,6 +5,10 @@ public class Rolle {
     private String rolleEtternavn;
     private Person skuespiller;
 
+    //////////////////////////
+    //   ---Oppgave 8-----  //
+    //////////////////////////
+
     public Rolle(String rolleFornavn, String rolleEtternavn, Person skuespiller) {
         this.rolleFornavn = rolleFornavn;
         this.rolleEtternavn = rolleEtternavn;

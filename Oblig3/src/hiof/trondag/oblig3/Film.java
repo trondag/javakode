@@ -4,6 +4,9 @@ import java.time.LocalDate;
 
 public class Film extends Produksjon {
 
+    /////////////////
+    // -Oppgave 5--//
+    /////////////////
 
     public Film(String tittel, String beskrivelse, double spilletid, LocalDate utgivelsesdato, Person regissor){
         super(tittel, beskrivelse, spilletid, utgivelsesdato, regissor);
