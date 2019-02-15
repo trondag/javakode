@@ -74,6 +74,10 @@ public abstract class Produksjon {
         this.spilletid = spilletid;
     }
 
+    /******************
+     * ----------------- (Oblig 3) oppgave 8
+     * @param enRolle
+     */
 
     public void leggTilEnRolle(Rolle enRolle){
         this.roller.add(enRolle);
