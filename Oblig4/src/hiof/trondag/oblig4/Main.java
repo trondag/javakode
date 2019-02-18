@@ -1,24 +1,15 @@
 package hiof.trondag.oblig4;
+import hiof.trondag.oblig4.model.*;
+
 import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Main {
 
     public static void main(String[] args) {
 
-		///////////////////////////////////
-		//-------------------------------//
-		//--------Oblig 2----------------//         (Oblig 3 er lenger ned)
-		//-------------------------------//
-		//-------Lager sesong-objekt-----//
-		///////////////////////////////////
-
 		TVSerie friends = new TVSerie("Friends", "En sitkom med 6 venner", LocalDate.of(2004, 1, 7));
-
-		//////////////////////////////////////
-		//-------Lager episode-objekter-----//
-		//////////////////////////////////////
-
 		Episode friends_e01_s01 = new Episode("The one where Monica gets a new roommate", 1, 1, 25.0);
 		friends.leggTilEpisode(friends_e01_s01);
 		Episode friends_e02_s01 = new Episode("The one with the sonogram at the end", 2, 1, 23.0);
@@ -27,100 +18,29 @@ public class Main {
 		friends.leggTilEpisode(friends_e03_s01);
 		Episode friends_e04_s01 = new Episode("The One with George Stephanopoulos", 4, 1, 23.5);
 		friends.leggTilEpisode(friends_e04_s01);
-
-		///////////////////////////////////////////////////////////////
-		//-------Tester override toString metodene--- (Oppgave 5)----//
-		///////////////////////////////////////////////////////////////
-
-		System.out.println("\nOppgave 5: ");
-		System.out.println(friends.toString());
-		System.out.println(friends_e02_s01.toString());
-
-		/////////////////////////////////////////////////////////////
-		//--------Lager 5 sesonger med 20 episoder (oppgave 6)-----//
-		/////////////////////////////////////////////////////////////
-
-		LocalDate bigbangDato = LocalDate.of(2009,1,1);
+		LocalDate bigbangDato = LocalDate.of(2009, 1, 1);
 		TVSerie bigBang = new TVSerie("The Big Bang Theory", "Gjeng med nerder", bigbangDato);
-		bigBang = bigBang.lagEpisoder(bigBang,5, 20);
-
-		///////////////////////////////////////////////////////////////
-		//-------Henter så ut sesong 4 av The Big Bang Theory--------//
-		///////////////////////////////////////////////////////////////
-
-		System.out.println("\nOppgave 6: ");
-		System.out.println(bigBang.hentFraEnSesong(4));
-
-		/////////////////////////////////////////////////////////////////////////////////////////////////////
-		//-------Skriver ut den gjennomsnittlige spilletiden av The Big Bang Theory. (Oppgave 8 og 9)------//
-		/////////////////////////////////////////////////////////////////////////////////////////////////////
-
-		System.out.println("\nOppgave 8:");
-		System.out.println("Gjennomsnittlig spilletid: " + bigBang.minutterOgSekunder(bigBang.getGjennomSnittligSpilletid()));
-
-		System.out.println("\nOppgave 9:");
-		System.out.println("antall sesonger: " + bigBang.getAntallSesonger() + "\n");
-
-		///////////////////////////////////////////////////////////////////////////////////////////////
-		//-------Tester om jeg kan legge inn en episode fra sesong 6, så sesong 8 (Oppgave 10)-------//
-		///////////////////////////////////////////////////////////////////////////////////////////////
-
-		System.out.println("\nOppgave 10: Prøver først å legge til for sesong 6, så prøver jeg fra sesong 8, som ikke skal gå");
-		Episode e01s06 = new Episode("Episode 1", 1, 6, 22.5);
+		bigBang = bigBang.lagEpisoder(bigBang, 5, 20);
+		Episode e01s06 = new Episode("The Date Night Variable", 1, 6, 22.5);
 		bigBang.leggTilEpisode(e01s06);
-		System.out.println(e01s06);
-
-		Episode e01s08 = new Episode("Episode 1", 1, 8, 23.0);
-		bigBang.leggTilEpisode(e01s08);
-
-		/////////////////////////////////////////////////\
-		////--------------------		                /\
-		////       OBLIG 3                              /\
-		////						-Oppgave 5			/\
-		////--------------------                        /\
-		/////////////////////////////////////////////////\
-
-		System.out.println("\n*****************************");
-		System.out.println("**  Oblig 3 starter her:   **");
-		System.out.println("*****************************");
-
 		Person stigBergqvist = new Person("Stig", "Bergqvist", LocalDate.of(1962, 4, 28), "Sverige");
 		Film kapteinSabeltann = new Film("Kaptein Sabeltann", "Film om piraten Sabeltann", 100, LocalDate.of(2003, 11, 19), stigBergqvist);
 		Person jonFavreau = new Person("Jon", "Favreau", LocalDate.of(1966, 10, 19), "USA");
 		Film lovenesKonge = new Film("Løvenes Konge", "Film om dyr i Afrika", 90, LocalDate.of(1994, 8, 18), jonFavreau);
 		Person jamesBurrows = new Person("James", "Burrows", LocalDate.of(1940, 12, 30), "USA");
 		friends_e01_s01.setRegissor(jamesBurrows);
-
-
-		System.out.println("\nOppgave 5:");
-		System.out.println("Lagde filmene: " + kapteinSabeltann.getTittel() + " og " + lovenesKonge.getTittel());
-
-		System.out.println("\nOppgave 7:");
-		System.out.println("Regissør i Kaptein Sabeltann: " + kapteinSabeltann.getRegissor().getFulltNavn());
-		System.out.println("Regissør i Friends e01 s01: " + friends_e01_s01.getRegissor().getFulltNavn());
-
-		///////////////////////////////
-		//---------Oppgave 8---------//
-		///////////////////////////////
-
-		//Legger til skuespillere til serien Friends
-
 		Person mattleBlanc = new Person("Matt", "LeBlanc", LocalDate.of(1967, 7, 25), "USA");
 		Person matthewPerry = new Person("Matthew", "Perry", LocalDate.of(1969, 8, 19), "USA");
 		Person davidSchwimmer = new Person("David", "Schwimmer", LocalDate.of(1966, 11, 2), "USA");
 		Person courtneyCox = new Person("Courtney", "Cox", LocalDate.of(1964, 6, 15), "USA");
 		Person jenniferAniston = new Person("Jennifer", "Aniston", LocalDate.of(1969, 2, 11), "USA");
 		Person lisaKudrow = new Person("Lisa", "Kudrow", LocalDate.of(1963, 7, 30), "USA");
-
 		Rolle joeyTribbiani = new Rolle("Joey", "Tribbiani", mattleBlanc);
 		Rolle chandlerBing = new Rolle("Chandler", "Bing", matthewPerry);
 		Rolle rossGeller = new Rolle("Ross", "Geller", davidSchwimmer);
 		Rolle monicaGeller = new Rolle("Monica", "Geller", courtneyCox);
 		Rolle rachelGreen = new Rolle("Rachel", "Green", jenniferAniston);
 		Rolle phoebeBuffay = new Rolle("Phoebe", "Buffay", lisaKudrow);
-
-		//Prøver ut metodene leggTilMangeRoller() og leggTilEnRolle() ved å legge roller til i en episode av friends(e01s01)
-
 		ArrayList<Rolle> jentene = new ArrayList<>();
 		jentene.add(monicaGeller);
 		jentene.add(rachelGreen);
@@ -129,26 +49,14 @@ public class Main {
 		friends_e01_s01.leggTilEnRolle(rossGeller);
 		friends_e01_s01.leggTilEnRolle(chandlerBing);
 		friends_e01_s01.leggTilEnRolle(joeyTribbiani);
-
-		System.out.println("\nOppgave 8:");
-		friends_e01_s01.skrivUtRoller();
-
-		// Gjør så det samme med en film
-
 		Person jamesCameron = new Person("James", "Cameron", LocalDate.of(1954, 8, 16), "Canada");
 		Person leonardoDiCaprio = new Person("Leonardo", "DiCaprio", LocalDate.of(1974, 11, 11), "USA");
 		Person kateWinslet = new Person("Kate", "Winslet", LocalDate.of(1975, 10, 5), "Storbritannia");
 		Rolle jackDawson = new Rolle("Jack", "Dawson", leonardoDiCaprio);
 		Rolle roseBukater = new Rolle("Rose", "Dewitt Bukater", kateWinslet);
-		Produksjon titanic = new Film("Titanic", "Film om en båt som treffer et isfjell", 194, LocalDate.of(1998, 2, 13), jamesCameron);
+		Film titanic = new Film("Titanic", "Film om en båt som treffer et isfjell", 194, LocalDate.of(1998, 2, 13), jamesCameron);
 		titanic.leggTilEnRolle(jackDawson);
 		titanic.leggTilEnRolle(roseBukater);
-
-		titanic.skrivUtRoller();
-
-		//Oppgave 10 og 11
-		//Legger til skuespillere i flere episoder
-
 		ArrayList<Rolle> skuespillereIFriends = new ArrayList<>();
 		skuespillereIFriends.add(monicaGeller);
 		skuespillereIFriends.add(rachelGreen);
@@ -159,19 +67,70 @@ public class Main {
 		friends_e02_s01.leggTilMangeRoller(skuespillereIFriends);
 		friends_e03_s01.leggTilMangeRoller(skuespillereIFriends);
 		friends_e04_s01.leggTilMangeRoller(skuespillereIFriends);
-
 		ArrayList<Rolle> rollerFriends = new ArrayList<>();
 		rollerFriends.addAll(friends.hentRollebesetning());
-		System.out.println("\nOppgave 10 og 11:");
-		System.out.println(rollerFriends.get(0).toString());
-		System.out.println(rollerFriends.get(5).toString());
-
-		System.out.println("\nOppgave 12:\n");
-		System.out.println(friends.antallEpisoderSkuespiller(mattleBlanc));
-
 		TVSerie daysOfOurLives = new TVSerie("Days of our Lives", "En serie som handler om ting", LocalDate.of(1965, 11, 8));
 		daysOfOurLives.lagSaape(13518, LocalDate.of(1965, 11, 8));
-		System.out.println(daysOfOurLives.hentFraEnSesong(42));
+
+		/////////////////////////////////////////////////////
+		//        OBLIG 4 -------------                    //
+		//                  Oppgave 5                      //
+		/////////////////////////////////////////////////////
+
+		ArrayList<TVSerie> listeMedSerier = new ArrayList<>();
+
+		listeMedSerier.add(bigBang);
+		listeMedSerier.add(friends);
+		listeMedSerier.add(daysOfOurLives);
+
+		System.out.println("\nUsortert liste med serier:");
+		printUtSerier(listeMedSerier);
+		Collections.sort(listeMedSerier);
+		System.out.println("\nSorert liste med serier: (alfabetisk)");
+		printUtSerier(listeMedSerier);
+
+		ArrayList<Episode> listeMedEpisoder = new ArrayList<>();
+		listeMedEpisoder.add(friends_e04_s01);
+		listeMedEpisoder.add(friends_e02_s01);
+		listeMedEpisoder.add(e01s06);
+		listeMedEpisoder.add(friends_e01_s01);
+		listeMedEpisoder.add(friends_e03_s01);
+
+		System.out.println("\nUsorert liste med episoder:");
+		printUtEpisoder(listeMedEpisoder);
+		Collections.sort(listeMedEpisoder);
+		System.out.println("\nSortert liste med episoder:");
+		printUtEpisoder(listeMedEpisoder);
+
+		ArrayList<Film> listeMedFilmer = new ArrayList<>();
+		listeMedFilmer.add(titanic);
+		listeMedFilmer.add(kapteinSabeltann);
+		listeMedFilmer.add(lovenesKonge);
+
+		System.out.println("\nUsortert liste med filmer:");
+		printUtFilmer(listeMedFilmer);
+		Collections.sort(listeMedFilmer);
+		System.out.println("\nSortert liste med filmer:");
+		printUtFilmer(listeMedFilmer);
+
 
 	}
+
+		private static void printUtSerier(ArrayList<TVSerie> serieListe){
+			for (TVSerie enSerie : serieListe){
+				System.out.println(enSerie.getTittel() + " (" + enSerie.getPubliseringsDato().getYear() + ")");
+			}
+		}
+
+		private static void printUtEpisoder(ArrayList<Episode> episodeListe){
+    		for (Episode enEpisode : episodeListe){
+				System.out.println(enEpisode.getTittel() + " | sesong: " + enEpisode.getSesongNummer() + " episode: " + enEpisode.getEpisodeNummer());
+			}
+		}
+
+		private static void printUtFilmer(ArrayList<Film> filmListe){
+    		for (Film enFilm : filmListe){
+				System.out.println(enFilm.getTittel() + " (" + enFilm.getUtgivelsesdato().getYear() + ")");
+			}
+		}
 	}

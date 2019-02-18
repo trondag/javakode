@@ -1,4 +1,5 @@
-package hiof.trondag.oblig4;
+package hiof.trondag.oblig4.model;
+
 import java.time.LocalDate;
 import java.util.ArrayList;
 
@@ -6,7 +7,7 @@ import java.util.ArrayList;
  * Klassen TVSerie, som inneholder konstruktør, get-metoder og en leggTilEpisode-metode.
  */
 
-public class TVSerie {
+public class TVSerie implements Comparable<TVSerie>{
     private String tittel;
     private String beskrivelse;
     private LocalDate publiseringsDato;
@@ -15,7 +16,7 @@ public class TVSerie {
     private int antallSesonger;
 
 
-    TVSerie(String tittel, String beskrivelse, LocalDate publiseringsDato) {
+    public TVSerie(String tittel, String beskrivelse, LocalDate publiseringsDato) {
         this.tittel = tittel;
         this.beskrivelse = beskrivelse;
         this.publiseringsDato = publiseringsDato;
@@ -226,5 +227,12 @@ public class TVSerie {
         }
         this.episoder = episodene;
     }
+
+    @Override
+    public int compareTo(TVSerie annenTVSerie) {
+        return this.tittel.compareTo(annenTVSerie.getTittel());
+    }
+
+
 }
 

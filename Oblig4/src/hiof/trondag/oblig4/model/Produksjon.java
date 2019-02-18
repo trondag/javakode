@@ -1,4 +1,4 @@
-package hiof.trondag.oblig4;
+package hiof.trondag.oblig4.model;
 
 import java.time.LocalDate;
 import java.util.ArrayList;

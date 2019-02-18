@@ -1,8 +1,8 @@
-package hiof.trondag.oblig4;
+package hiof.trondag.oblig4.model;
 
 import java.time.LocalDate;
 
-public class Episode extends Produksjon{
+public class Episode extends Produksjon implements Comparable<Episode>{
         //Instansvariabler
     private int episodeNummer;
     private int sesongNummer;
@@ -50,5 +50,13 @@ public class Episode extends Produksjon{
     @Override
     public String toString(){
         return "Tittel: " + getTittel() + "\nNummer: E:" + episodeNummer + " S:" + sesongNummer + "\nSpilletid: " + getSpilletid();
+    }
+
+    @Override
+    public int compareTo(Episode annenEpisode){
+        if (this.sesongNummer == annenEpisode.getSesongNummer())
+            return Integer.compare(this.episodeNummer, annenEpisode.episodeNummer);
+        else
+            return Integer.compare(this.sesongNummer, annenEpisode.sesongNummer);
     }
 }

@@ -1,4 +1,6 @@
-package hiof.trondag.oblig4;
+package hiof.trondag.oblig4.model;
+
+import hiof.trondag.oblig4.model.Person;
 
 public class Rolle {
     private String rolleFornavn;
