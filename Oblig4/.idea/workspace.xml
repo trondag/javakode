@@ -4,6 +4,7 @@
     <list default="true" id="d6ae18cb-4d9c-4dbd-9475-26cc89942439" name="Default Changelist" comment="Fixa JavaFX">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hiof/trondag/oblig4/MainJavaFX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hiof/trondag/oblig4/MainJavaFX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hiof/trondag/oblig4/view/Filmer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/hiof/trondag/oblig4/view/Filmer.fxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
@@ -54,10 +55,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig4/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1801">
+            <state relative-caret-position="198">
               <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -75,26 +76,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig4/MainJavaFX.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="414">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig4/view/Filmer.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="21" column="50" lean-forward="true" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
             </state>
           </provider>
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -113,6 +111,7 @@
       <list>
         <option value="JavaFXApplication" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -133,6 +132,7 @@
         <option value="$PROJECT_DIR$/src/hiof/trondag/oblig4/model/Film.java" />
         <option value="$PROJECT_DIR$/src/hiof/trondag/oblig4/model/Produksjon.java" />
         <option value="$PROJECT_DIR$/src/hiof/trondag/oblig4/model/TVSerie.java" />
+        <option value="$PROJECT_DIR$/src/hiof/trondag/oblig4/view/Filmer.java" />
         <option value="$PROJECT_DIR$/src/hiof/trondag/oblig4/MainJavaFX.java" />
         <option value="$PROJECT_DIR$/src/hiof/trondag/oblig4/view/Filmer.fxml" />
       </list>
@@ -156,7 +156,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -190,6 +189,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -201,7 +201,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550572970058" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550653239724" />
     <property name="last_opened_file_path" value="$PATH_TO_FX$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -429,6 +429,7 @@
       <workItem from="1550445903453" duration="1576000" />
       <workItem from="1550491932080" duration="20578000" />
       <workItem from="1550570388929" duration="3420000" />
+      <workItem from="1550647969815" duration="3882000" />
     </task>
     <task id="LOCAL-00001" summary="Fixa JavaFX">
       <created>1550525015455</created>
@@ -441,7 +442,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30572000" />
+    <option name="totallyTimeSpent" value="34454000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -454,8 +455,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49757674" visible="true" weight="0.16311301" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49757674" visible="true" weight="0.16471216" />
       <window_info id="Structure" order="1" sideWeight="0.5024233" side_tool="true" weight="0.16311301" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -465,7 +467,7 @@
       <window_info id="Learn" order="7" weight="0.32995737" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -573,31 +575,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig4/view/Filmer.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig4/MainJavaFX.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig4/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1801">
+        <state relative-caret-position="198">
           <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig4/view/Filmer.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig4/view/Filmer.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="50" lean-forward="true" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig4/MainJavaFX.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
