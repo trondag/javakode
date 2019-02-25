@@ -1,5 +1,8 @@
 package hiof.trondag.oblig4.model;
 
+import javafx.collections.ObservableList;
+import javafx.scene.text.Text;
+
 import java.time.LocalDate;
 import java.util.ArrayList;
 

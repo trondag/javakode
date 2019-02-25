@@ -19,9 +19,7 @@ import javafx.scene.Scene;
 public class MainJavaFX extends Application {
     private int teller = 0;
 
-    public static void main(String[] args) {
-        launch(args);
-    }
+
 
     @Override
     public void start(Stage primaryStage) throws Exception {
@@ -35,5 +33,10 @@ public class MainJavaFX extends Application {
         primaryStage.setScene(hovedScene);
         primaryStage.setTitle("Filmer");
         primaryStage.show();
+
+    }
+
+    public static void main(String[] args) {
+        launch(args);
     }
 }
