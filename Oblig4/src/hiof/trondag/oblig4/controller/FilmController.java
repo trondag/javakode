@@ -28,8 +28,6 @@ public class FilmController {
     @FXML
     private Text idFilmTittel;
 
-    private List<String> listeUtskrift = new ArrayList<>();
-
     @FXML
     public void initialize() {
 
@@ -39,17 +37,18 @@ public class FilmController {
 
         //Legger det jeg vil at denne dataen i en ArrayList
         for (int i = 0 ; i < filmerIListe.size() ; i++){
-            listeUtskrift.add(i, filmerIListe.get(i).getTittel());
+            idFilmListe.getItems().add(i, filmerIListe.get(i).getTittel() + " (" + filmerIListe.get(i).getUtgivelsesdato().getYear() + ")");
         }
 
         //Lager så en observableArrayList som jeg legger disse dataene inn i
-        idFilmListe.setItems(FXCollections.observableArrayList(listeUtskrift));
+        //idFilmListe.setItems(FXCollections.observableArrayList(listeUtskrift));
+        //idFilmListe.getItems().addAll(filmerIListe);
     }
 
     @FXML
     public void idListeTrykketPaa(MouseEvent mouseEvent){
         //if (mouseEvent.getTarget().ge
-        idFilmTittel.setText("tiss");
+        idFilmTittel.setText("promp");
         System.out.println(mouseEvent.getPickResult().getIntersectedNode());
 
     }
