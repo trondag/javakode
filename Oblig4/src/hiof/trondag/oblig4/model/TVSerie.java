@@ -68,7 +68,6 @@ public class TVSerie implements Comparable<TVSerie>{
             }
         }
     }
-
     /****************************
      * -------------Override av toString (Oppgave 5)
      * @return
@@ -153,9 +152,9 @@ public class TVSerie implements Comparable<TVSerie>{
     public ArrayList<Rolle> hentRollebesetning() {
         //Listen som skal fylles og returneres
         ArrayList<Rolle> rolleBesetning = new ArrayList<>();
-        //Går gjennom hver episode
+        //Går gjennom hver episode i objektet som kaller metoden
         for (int i = 0; i < this.episoder.size(); i++) {
-            //Går gjennom hver rolle
+            //Går gjennom hver rolle i episoden i objektet som kaller metoden
             for (int j = 0; j < this.episoder.get(i).getRoller().size(); j++) {
                 // går senere gjennom rollebesetning
                 // Hvis rollebesetning er 0, går det galt med løkka

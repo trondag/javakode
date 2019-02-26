@@ -48,6 +48,7 @@ public class FilmController {
     @FXML
     public void idListeTrykketPaa(MouseEvent mouseEvent){
         //if (mouseEvent.getTarget().ge
+
         idFilmTittel.setText("promp");
         System.out.println(mouseEvent.getPickResult().getIntersectedNode());
 
