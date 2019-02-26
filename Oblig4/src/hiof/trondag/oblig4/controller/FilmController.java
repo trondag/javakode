@@ -50,6 +50,7 @@ public class FilmController {
     public void idListeTrykketPaa(MouseEvent mouseEvent){
         //if (mouseEvent.getTarget().ge
         idFilmTittel.setText("tiss");
-        System.out.println(mouseEvent.getTarget());
+        System.out.println(mouseEvent.getPickResult().getIntersectedNode());
+
     }
 }
