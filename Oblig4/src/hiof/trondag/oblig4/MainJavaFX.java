@@ -17,7 +17,6 @@ import javafx.scene.layout.VBox;
 import javafx.scene.Scene;
 
 public class MainJavaFX extends Application {
-    private int teller = 0;
 
 
 

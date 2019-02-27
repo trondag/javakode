@@ -10,7 +10,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
-<?import javafx.scene.control.ListView?>
 
 <SplitPane dividerPositions="0.29797979797979796" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hiof.trondag.oblig4.controller.FilmController">
   <items>
@@ -20,15 +19,15 @@
          </children></AnchorPane>
     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
          <children>
-            <TextArea editable="false" layoutX="128.0" layoutY="85.0" prefHeight="89.0" prefWidth="200.0">
+            <TextArea fx:id="idBeskrivelse" editable="false" layoutX="128.0" layoutY="85.0" prefHeight="89.0" prefWidth="200.0" wrapText="true">
                <cursor>
                   <Cursor fx:constant="DEFAULT" />
                </cursor></TextArea>
-            <TextArea editable="false" layoutX="128.0" layoutY="199.0" prefHeight="49.0" prefWidth="200.0">
+            <TextArea fx:id="idUtgivelsesDato" editable="false" layoutX="128.0" layoutY="199.0" prefHeight="49.0" prefWidth="200.0">
                <cursor>
                   <Cursor fx:constant="DEFAULT" />
                </cursor></TextArea>
-            <TextArea editable="false" layoutX="128.0" layoutY="273.0" prefHeight="49.0" prefWidth="200.0">
+            <TextArea fx:id="idSpilletid" editable="false" layoutX="128.0" layoutY="273.0" prefHeight="49.0" prefWidth="200.0">
                <cursor>
                   <Cursor fx:constant="DEFAULT" />
                </cursor></TextArea>
@@ -66,7 +65,7 @@
                <cursor>
                   <Cursor fx:constant="DEFAULT" />
                </cursor></TextField>
-            <Text fx:id="idFilmTittel" layoutX="33.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="226.00000062584877">
+            <Text id="idTittel" fx:id="idFilmTittel" layoutX="33.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="226.00000062584877">
                <font>
                   <Font size="24.0" />
                </font>

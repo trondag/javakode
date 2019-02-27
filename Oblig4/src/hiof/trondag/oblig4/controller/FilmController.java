@@ -6,27 +6,32 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.collections.ListChangeListener;
 import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
-import javafx.scene.control.Label;
-import javafx.scene.control.TextField;
-import javafx.scene.control.ListView;
+import javafx.scene.control.*;
 import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.text.Text;
+import javafx.scene.control.TextArea;
+import javafx.scene.control.Button;
+import java.lang.Double;
 import javafx.scene.input.MouseEvent;
-
-import java.util.ArrayList;
-import java.util.EventListener;
-import java.util.List;
 
 public class FilmController {
     private ObservableList<Film> filmerIListe;
+    private static int antallFilmer = 0;
 
     @FXML
     private ListView idFilmListe;
 
     @FXML
     private Text idFilmTittel;
+
+    @FXML
+    private TextArea idBeskrivelse, idUtgivelsesDato, idSpilletid;
+
+    @FXML
+    private Button idNyKnapp, idRedigerKnapp, idSlettKnapp;
 
     @FXML
     public void initialize() {
@@ -38,18 +43,28 @@ public class FilmController {
         //Legger det jeg vil at denne dataen i en ArrayList
         for (int i = 0 ; i < filmerIListe.size() ; i++){
             idFilmListe.getItems().add(i, filmerIListe.get(i).getTittel() + " (" + filmerIListe.get(i).getUtgivelsesdato().getYear() + ")");
+            antallFilmer++;
         }
-
-        //Lager så en observableArrayList som jeg legger disse dataene inn i
-        //idFilmListe.setItems(FXCollections.observableArrayList(listeUtskrift));
-        //idFilmListe.getItems().addAll(filmerIListe);
     }
 
     @FXML
     public void idListeTrykketPaa(MouseEvent mouseEvent){
-        //if (mouseEvent.getTarget().ge
-        idFilmTittel.setText("promp");
-        System.out.println(mouseEvent.getPickResult().getIntersectedNode());
+        int listeIndex = idFilmListe.getSelectionModel().getSelectedIndex();
+        settEgenskaper(listeIndex);
+    }
 
+    private void settEgenskaper(int index){
+        idFilmTittel.setText(filmerIListe.get(index).getTittel());
+        idBeskrivelse.setText(filmerIListe.get(index).getBeskrivelse());
+        idUtgivelsesDato.setText(filmerIListe.get(index).getUtgivelsesdato().toString());
+        idSpilletid.setText(filmerIListe.get(index).getSpilletidTilMinOgSek());
+    }
+
+    @FXML
+    idRedigerKnapp.onMouseClicked(EventHandler<MouseEvent>()){
+        @Override
+                public void handle(MouseEvent mouseEvent){
+
+        }
     }
 }

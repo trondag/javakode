@@ -103,4 +103,11 @@ public abstract class Produksjon {
         return "Produksjonen " + getTittel() + " er utgitt " + getUtgivelsesdato() + ", og er regissert av " + getRegissor()
                 + ".\nBeskrivelse: " + getBeskrivelse() + "\nSpilletid: " + getSpilletid() + " minutter.";
     }
+
+    //Returnerer timer og minutter som en pen string.
+    public String getSpilletidTilMinOgSek(){
+        int minutter = (int) this.spilletid % 60;
+        int timer = (int) (this.spilletid - minutter) / 60;
+        return timer + " timer og " + minutter + " minutter";
+    }
 }
