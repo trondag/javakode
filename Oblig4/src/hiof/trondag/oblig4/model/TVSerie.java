@@ -74,8 +74,8 @@ public class TVSerie implements Comparable<TVSerie>{
      */
     private String iterEpisoder() {
         StringBuilder stringBuilder = new StringBuilder();
-        for (int i = 0; i < episoder.size(); i++) {
-            stringBuilder.append(episoder.get(i).getEpisodeNummer() + ". " + episoder.get(i).getTittel() + "\n");
+        for (Episode episode : episoder) {
+            stringBuilder.append(episode.getEpisodeNummer() + ". " + episode.getTittel() + "\n");
         }
         return stringBuilder.toString();
     }
@@ -153,23 +153,23 @@ public class TVSerie implements Comparable<TVSerie>{
         //Listen som skal fylles og returneres
         ArrayList<Rolle> rolleBesetning = new ArrayList<>();
         //Går gjennom hver episode i objektet som kaller metoden
-        for (int i = 0; i < this.episoder.size(); i++) {
+        for (Episode episode : this.episoder) {
             //Går gjennom hver rolle i episoden i objektet som kaller metoden
-            for (int j = 0; j < this.episoder.get(i).getRoller().size(); j++) {
+            for (int j = 0; j < episode.getRoller().size(); j++) {
                 // går senere gjennom rollebesetning
                 // Hvis rollebesetning er 0, går det galt med løkka
-                if(rolleBesetning.size() == 0){
-                    rolleBesetning.add(this.episoder.get(i).getRoller().get(j));
+                if (rolleBesetning.size() == 0) {
+                    rolleBesetning.add(episode.getRoller().get(j));
                 }
                 //Boolean som skal settes til true hvis løkka finner en duplikat rolle
                 boolean duplikatRolle = false;
-                for (int k = 0; k < rolleBesetning.size() ; k++){
-                    if(this.episoder.get(i).getRoller().get(j) == rolleBesetning.get(k)){
+                for (int k = 0; k < rolleBesetning.size(); k++) {
+                    if (episode.getRoller().get(j) == rolleBesetning.get(k)) {
                         duplikatRolle = true;
                     }
                 }
-                if (!duplikatRolle){
-                    rolleBesetning.add(this.episoder.get(i).getRoller().get(j));
+                if (!duplikatRolle) {
+                    rolleBesetning.add(episode.getRoller().get(j));
                 }
             }
         }
