@@ -19,6 +19,7 @@ public class DataHandler {
         return filmListe;
     }
 
+
     private static void genererFilmData() {
         Person jamesCameron = new Person("James", "Cameron", LocalDate.of(1954, 8, 16), "USA");
         filmListe.add(new Film("Titanic", "Romantisk film med isfjelltragedien i Atlanteren som kuliss.", 194, LocalDate.of(1998, 2, 13), jamesCameron));
