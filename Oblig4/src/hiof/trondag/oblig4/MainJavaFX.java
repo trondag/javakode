@@ -2,19 +2,21 @@ package hiof.trondag.oblig4;
 
 import javafx.application.Application;
 import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
+import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.geometry.Pos;
 import javafx.scene.Parent;
 import javafx.scene.control.Alert;
 import javafx.scene.input.MouseDragEvent;
 import javafx.scene.input.MouseEvent;
+import javafx.scene.input.MouseButton;
 import javafx.scene.text.Font;
 import javafx.stage.Stage;
 import javafx.scene.control.Label;
 import javafx.scene.control.Button;
 import javafx.scene.layout.VBox;
 import javafx.scene.Scene;
+import javafx.event.EventHandler;
 
 public class MainJavaFX extends Application {
 
@@ -38,4 +40,5 @@ public class MainJavaFX extends Application {
     public static void main(String[] args) {
         launch(args);
     }
+
 }

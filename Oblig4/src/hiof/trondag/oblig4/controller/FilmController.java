@@ -2,20 +2,14 @@ package hiof.trondag.oblig4.controller;
 
 import hiof.trondag.oblig4.data.DataHandler;
 import hiof.trondag.oblig4.model.Film;
-import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
-import javafx.collections.ListChangeListener;
-import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
-import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.text.Text;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.Button;
-import java.lang.Double;
-import javafx.scene.input.MouseEvent;
 
 public class FilmController {
     private ObservableList<Film> filmerIListe;
@@ -31,7 +25,7 @@ public class FilmController {
     private TextArea idBeskrivelse, idUtgivelsesDato, idSpilletid;
 
     @FXML
-    private Button idNyKnapp, idRedigerKnapp, idSlettKnapp;
+    private Button idNyKnapp, idSlettKnapp;
 
     @FXML
     public void initialize() {
@@ -60,11 +54,6 @@ public class FilmController {
         idSpilletid.setText(filmerIListe.get(index).getSpilletidTilMinOgSek());
     }
 
-    @FXML
-    idRedigerKnapp.onMouseClicked(EventHandler<MouseEvent>()){
-        @Override
-                public void handle(MouseEvent mouseEvent){
 
-        }
-    }
+
 }
