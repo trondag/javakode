@@ -33,7 +33,7 @@
                </cursor></TextArea>
             <AnchorPane layoutX="14.0" layoutY="359.0">
                <children>
-                  <Button mnemonicParsing="false" text="Ny">
+                  <Button fx:id="idNyKnapp" mnemonicParsing="false" text="Ny">
                      <cursor>
                         <Cursor fx:constant="OPEN_HAND" />
                      </cursor>
@@ -41,12 +41,12 @@
                         <Blend />
                      </effect>
                   </Button>
-                  <Button layoutX="39.0" mnemonicParsing="false" text="Rediger">
+                  <Button fx:id="idRedigerKnapp" layoutX="39.0" mnemonicParsing="false" text="Rediger">
                      <cursor>
                         <Cursor fx:constant="OPEN_HAND" />
                      </cursor>
                   </Button>
-                  <Button layoutX="103.0" mnemonicParsing="false" text="Slett">
+                  <Button fx:id="idSlettKnapp" layoutX="103.0" mnemonicParsing="false" text="Slett">
                      <cursor>
                         <Cursor fx:constant="OPEN_HAND" />
                      </cursor>
