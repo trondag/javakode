@@ -16,6 +16,8 @@ import javafx.scene.control.Button;
 import javafx.scene.layout.VBox;
 import javafx.scene.Scene;
 
+import java.io.IOException;
+
 public class MainJavaFX extends Application {
 
 
@@ -37,5 +39,20 @@ public class MainJavaFX extends Application {
 
     public static void main(String[] args) {
         launch(args);
+    }
+
+    public static void visRedigerVindu() throws Exception {
+        FXMLLoader fxmlInnlasterRediger = new FXMLLoader();
+        fxmlInnlasterRediger.setLocation(MainJavaFX.class.getResource("view/RedigerFilmer.fxml"));
+
+        Parent hovedLayoutRediger = fxmlInnlasterRediger.load();
+
+        Scene redigerScene = new Scene(hovedLayoutRediger);
+
+        Stage redigerRigg = new Stage();
+        redigerRigg.setScene(redigerScene);
+        redigerRigg.show();
+
+
     }
 }

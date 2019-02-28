@@ -1,11 +1,13 @@
 package hiof.trondag.oblig4.controller;
 
+import hiof.trondag.oblig4.MainJavaFX;
 import hiof.trondag.oblig4.data.DataHandler;
 import hiof.trondag.oblig4.model.Film;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.collections.ListChangeListener;
 import javafx.event.ActionEvent;
+import javafx.event.Event;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
@@ -45,6 +47,17 @@ public class FilmController {
             idFilmListe.getItems().add(i, filmerIListe.get(i).getTittel() + " (" + filmerIListe.get(i).getUtgivelsesdato().getYear() + ")");
             antallFilmer++;
         }
+
+        idRedigerKnapp.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event){
+                try {
+                    MainJavaFX.visRedigerVindu();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        });
     }
 
     @FXML
@@ -60,11 +73,4 @@ public class FilmController {
         idSpilletid.setText(filmerIListe.get(index).getSpilletidTilMinOgSek());
     }
 
-    @FXML
-    idRedigerKnapp.onMouseClicked(EventHandler<MouseEvent>()){
-        @Override
-                public void handle(MouseEvent mouseEvent){
-
-        }
-    }
 }
