@@ -23,6 +23,10 @@ public class FilmController {
     private ObservableList<Film> filmerIListe;
     private static int antallFilmer = 0;
 
+    public ObservableList<Film> getFilmer(){
+        return this.filmerIListe;
+    }
+
     @FXML
     private ListView idFilmListe;
 
@@ -52,7 +56,7 @@ public class FilmController {
             @Override
             public void handle(ActionEvent event){
                 try {
-                    MainJavaFX.visRedigerVindu();
+                    MainJavaFX.getInstance().visRedigerVindu();
                 } catch (Exception e) {
                     e.printStackTrace();
                 }

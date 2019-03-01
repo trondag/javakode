@@ -9,6 +9,10 @@ public class Film extends Produksjon implements Comparable<Film>{
         super(tittel, beskrivelse, spilletid, utgivelsesdato, regissor);
     }
 
+    public Film(String tittel, String beskrivelse, double spilletid, LocalDate utgivelsesdato){
+        super(tittel, beskrivelse, spilletid, utgivelsesdato);
+    }
+
     @Override
     public String toString(){
         return "Filmen " + getTittel() + " er utgitt " + getUtgivelsesdato() + ", og er regissert av " + getRegissor()
