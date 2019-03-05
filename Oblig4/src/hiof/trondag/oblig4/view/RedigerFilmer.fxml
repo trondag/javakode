@@ -10,7 +10,7 @@
 
 <AnchorPane prefHeight="291.0" prefWidth="580.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hiof.trondag.oblig4.controller.RedigerFilmerController">
    <children>
-      <Text layoutX="14.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rediger Film">
+      <Text fx:id="idOverskrift" layoutX="14.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rediger Film">
          <font>
             <Font name="Arial" size="18.0" />
          </font></Text>

@@ -12,6 +12,7 @@ import java.io.IOException;
 public class MainJavaFX extends Application {
 
     private Stage primaryStage;
+    private Stage redigerRigg;
     private static MainJavaFX instance;
 
     @Override
@@ -40,7 +41,7 @@ public class MainJavaFX extends Application {
         primaryStage.show();
     }
 
-    public void visRedigerVindu() throws Exception {
+    public void visRedigerVindu(String vinduNavn) throws Exception {
         FXMLLoader fxmlInnlasterRediger = new FXMLLoader();
         fxmlInnlasterRediger.setLocation(MainJavaFX.class.getResource("view/RedigerFilmer.fxml"));
 
@@ -48,13 +49,17 @@ public class MainJavaFX extends Application {
 
         Scene redigerScene = new Scene(hovedLayoutRediger);
 
-        Stage redigerRigg = new Stage();
+        this.redigerRigg = new Stage();
+
         redigerRigg.initModality(Modality.APPLICATION_MODAL);
+        redigerRigg.initOwner(primaryStage);
         redigerRigg.setScene(redigerScene);
-        redigerRigg.setTitle("Rediger Film");
+        redigerRigg.setTitle(vinduNavn);
         redigerRigg.show();
+    }
 
-
+    public void lukkRedigerVindu() throws Exception {
+        redigerRigg.close();
     }
 
     public static MainJavaFX getInstance() {

@@ -11,14 +11,13 @@ public class DataHandler {
     private final static ObservableList<Film> filmListe = FXCollections.observableArrayList();
 
     public static ObservableList<Film> hentFilmData(){
-
-        if (filmListe.isEmpty())
-
-            genererFilmData();
-
+        genererFilmData();
         return filmListe;
     }
 
+    public static void slettFraListen(int index){
+        filmListe.remove(index);
+    }
 
     private static void genererFilmData() {
         Person jamesCameron = new Person("James", "Cameron", LocalDate.of(1954, 8, 16), "USA");

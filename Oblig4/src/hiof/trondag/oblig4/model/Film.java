@@ -15,8 +15,7 @@ public class Film extends Produksjon implements Comparable<Film>{
 
     @Override
     public String toString(){
-        return "Filmen " + getTittel() + " er utgitt " + getUtgivelsesdato() + ", og er regissert av " + getRegissor()
-                + ".\nBeskrivelse: " + getBeskrivelse() + "\nSpilletid: " + getSpilletid() + " minutter.";
+        return getTittel() + " (" + getUtgivelsesdato().getYear() + ")";
     }
 
     @Override
