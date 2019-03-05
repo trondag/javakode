@@ -70,6 +70,7 @@
                   <Font size="24.0" />
                </font>
             </Text>
+            <Text fx:id="idAntallFilmer" layoutX="179.0" layoutY="376.0" strokeType="OUTSIDE" strokeWidth="0.0" />
          </children></AnchorPane>
   </items>
 </SplitPane>

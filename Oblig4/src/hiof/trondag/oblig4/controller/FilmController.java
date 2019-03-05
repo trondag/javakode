@@ -11,18 +11,18 @@ import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.text.Text;
-
 import java.util.Collections;
 
-public class FilmController {
-    public static void setFilmIListe(Film film, int index) {
-        FilmController.filmerIListe.set(index, film);
 
-    }
+public class FilmController {
 
     private static ObservableList<Film> filmerIListe;
     private static int antallFilmer = 0;
     private static int valgtFilmIndex = 0;
+
+    public static void setFilmIListe(Film film, int index) {
+        FilmController.filmerIListe.set(index, film);
+    }
 
     public static ObservableList<Film> getFilmer(){
         return filmerIListe;
@@ -33,6 +33,8 @@ public class FilmController {
         return valgtFilmIndex;
     }
 
+
+    //Alle FXML elementene
     @FXML
     private ListView idFilmListe;
 
@@ -46,19 +48,24 @@ public class FilmController {
     private Button idNyKnapp, idRedigerKnapp, idSlettKnapp;
 
     @FXML
-    public void initialize() {
+    private void initialize() {
 
         //Henter all dataen fra listen i DataHandler.java
         filmerIListe = DataHandler.hentFilmData();
+        //Sorterer listen
         Collections.sort(filmerIListe);
+        //Fyller opp ListView med filmer fra listen
         fyllListe();
+        //Oppdaterer den statiske variabelen med antall filmer
         oppdaterAntallFilmer();
 
         idNyKnapp.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent actionEvent) {
                 try {
+                    //En boolean som jeg sender med til RedigerFilmController.
                     RedigerFilmerController.skalDetLagesNyFilm = true;
+                    //Metode i Main som lager vindu
                     MainJavaFX.getInstance().visRedigerVindu("Ny film");
                 } catch (Exception e){
                     e.printStackTrace();
@@ -71,7 +78,9 @@ public class FilmController {
             @Override
             public void handle(ActionEvent event){
                 try {
+                    //En boolean som jeg sender med til RedigerFilmController.
                     RedigerFilmerController.skalDetLagesNyFilm = false;
+                    //Metode i Main som lager vindu
                     MainJavaFX.getInstance().visRedigerVindu("Rediger film");
                 } catch (Exception e) {
                     e.printStackTrace();
@@ -82,6 +91,7 @@ public class FilmController {
         idSlettKnapp.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent actionEvent) {
+                //Sletter fra listen, metoden er i DataHandler
                 DataHandler.slettFraListen(idFilmListe.getSelectionModel().getSelectedIndex());
             }
         });
@@ -98,7 +108,7 @@ public class FilmController {
         });
     }
 
-    public void fyllListe(){
+    private void fyllListe(){
         //Legger filmene inn i ListView
         for (Film enFilm: filmerIListe) {
             idFilmListe.getItems().add(enFilm.toString());
@@ -106,7 +116,7 @@ public class FilmController {
     }
 
     @FXML
-    public void idListeTrykketPaa(MouseEvent mouseEvent){
+    private void idListeTrykketPaa(MouseEvent mouseEvent){
         int listeIndex = idFilmListe.getSelectionModel().getSelectedIndex();
         valgtFilmIndex = listeIndex;
         settEgenskaper(listeIndex);
