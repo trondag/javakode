@@ -36,7 +36,7 @@ public class FilmController {
 
     //Alle FXML elementene
     @FXML
-    private ListView idFilmListe;
+    private ListView<Film> idFilmListe;
 
     @FXML
     private Text idFilmTittel, idAntallFilmer;
@@ -70,7 +70,6 @@ public class FilmController {
                 } catch (Exception e){
                     e.printStackTrace();
                 }
-
             }
         });
 
@@ -111,7 +110,7 @@ public class FilmController {
     private void fyllListe(){
         //Legger filmene inn i ListView
         for (Film enFilm: filmerIListe) {
-            idFilmListe.getItems().add(enFilm.toString());
+            idFilmListe.getItems().add(enFilm);
         }
     }
 

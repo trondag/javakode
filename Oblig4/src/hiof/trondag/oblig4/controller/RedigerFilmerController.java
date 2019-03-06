@@ -1,16 +1,13 @@
 package hiof.trondag.oblig4.controller;
 
 import hiof.trondag.oblig4.MainJavaFX;
+import hiof.trondag.oblig4.data.DataHandler;
 import hiof.trondag.oblig4.model.Film;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.text.Text;
-import javafx.util.StringConverter;
-
-import java.io.IOException;
-import java.time.LocalDate;
 
 public class RedigerFilmerController {
 
@@ -39,8 +36,10 @@ public class RedigerFilmerController {
         // Synes dette var en grei måte å gjøre det på
 
         if (!skalDetLagesNyFilm) {
+            //Hvilken film skal redigeres
             valgtFilm = FilmController.getFilmer().get(FilmController.getValgtFilmIndex());
 
+            //Fyller ut feltene med allerede "lagret" informasjon
             idTittelInput.setText(valgtFilm.getTittel());
             idBeskrivelseInput.setText(valgtFilm.getBeskrivelse());
             idDatoInput.setValue(valgtFilm.getUtgivelsesdato());
@@ -48,6 +47,7 @@ public class RedigerFilmerController {
         }
 
         else {
+            //Ny film i stedet
             idOverskrift.setText("Ny film");
         }
 
@@ -56,45 +56,68 @@ public class RedigerFilmerController {
             public void handle(ActionEvent event) {
                 try {
                     if (!skalDetLagesNyFilm) {
-                        //Henter informasjon fra valgt film
-                        valgtFilm.setTittel(idTittelInput.getText());
-                        valgtFilm.setBeskrivelse(idBeskrivelseInput.getText());
-                        valgtFilm.setUtgivelsesdato(idDatoInput.getValue());
-                        valgtFilm.setSpilletid(Double.parseDouble(idSpilletidInput.getText()));
 
+                        inputKontroll();
+
+                        valgtFilm.settEgenskaper(idTittelInput.getText(), idBeskrivelseInput.getText(), Double.parseDouble(idSpilletidInput.getText()), idDatoInput.getValue());
+
+                        //Setter filmen inn i observeable list, der den sto
                         FilmController.setFilmIListe(valgtFilm, FilmController.getValgtFilmIndex());
 
+                        //Lukk
                         MainJavaFX.getInstance().lukkRedigerVindu();
 
                     } else {
-                        try {
-                            //Henter informasjon som brukeren har skrevet inn og lager et film-objekt som blir lagt til i listen
-                            String tittel = idTittelInput.getText().toLowerCase();
-                            //Setter første forbokstav til stor bokstav
-                            tittel = tittel.substring(0, 1).toUpperCase() + tittel.substring(1).toLowerCase();
-                            String beskrivelse = idBeskrivelseInput.getText();
-                            Double spilletid = Double.parseDouble(idSpilletidInput.getText());
-                            LocalDate utgivelsesDato = idDatoInput.getValue();
+                            //Nytt tomt filmobjekt
+                            Film nyFilm = new Film();
+                        System.out.println("bø");
+                        System.out.println(idSpilletidInput.getText());
 
-                            Film nyFilm = new Film(tittel, beskrivelse, spilletid, utgivelsesDato);
-                            FilmController.leggTilFilm(nyFilm);
+                        //Input kontroll
+                         if (!inputKontroll()){
+                             return;
+                         }
 
-                            MainJavaFX.getInstance().lukkRedigerVindu();
 
-                        } catch (StringIndexOutOfBoundsException sioe){
-                            Alert ikkeFyltUtAlleFelter = new Alert(Alert.AlertType.ERROR);
-                            ikkeFyltUtAlleFelter.setTitle("Feil!");
-                            ikkeFyltUtAlleFelter.setHeaderText("Felter ikke fylt ut!");
-                            ikkeFyltUtAlleFelter.setContentText("Vennligst fyll ut felter med korrekt informasjon");
-                            ikkeFyltUtAlleFelter.showAndWait();
-                            sioe.printStackTrace();
+                        //Dette ser rart ut, men hvis jeg ikke legger denne snutten inn i en slik if-test så starter den likevel, og programmet tryner
+                        //Sett instansvariabler ved hjelp av metode i film-klassen
+                        nyFilm.settEgenskaper(idTittelInput.getText(), idBeskrivelseInput.getText(), Double.parseDouble(idSpilletidInput.getText()), idDatoInput.getValue());
 
-                        }
+                        //Legg til i slutten av lista
+                        FilmController.leggTilFilm(nyFilm);
+
+                        MainJavaFX.getInstance().lukkRedigerVindu();
+
                     }
                 }
                 catch (Exception e){
+                    e.printStackTrace();
                 }
             }
         });
+    }
+
+    private boolean inputKontroll(){
+        if(idTittelInput.getText().equals("")){
+            feilMelding("Vennligst fyll ut et navn!");
+            return false;
+        } else if (idBeskrivelseInput.getText().equals("")){
+            feilMelding("Vennligst fyll ut beskrivelse!");
+            return false;
+        } else if (idSpilletidInput.getText().equals("")){
+            feilMelding("Vennligst fyll ut spilletid i minutter!");
+            return false;
+        } else if (idDatoInput.getValue() == null){
+            feilMelding("Velg utgivelsesdato!");
+            return false;
+        } else return true;
+    }
+
+    private void feilMelding(String feilMelding){
+        Alert alert = new Alert(Alert.AlertType.ERROR);
+        alert.setTitle("En feil har oppstått");
+        alert.setHeaderText(feilMelding);
+
+        alert.showAndWait();
     }
 }

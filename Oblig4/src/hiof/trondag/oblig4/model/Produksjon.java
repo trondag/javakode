@@ -15,6 +15,9 @@ public abstract class Produksjon {
     private Person regissor;
     private ArrayList<Rolle> roller = new ArrayList<>();
 
+    public Produksjon() {
+    }
+
     public ArrayList<Rolle> getRoller() {
         return roller;
     }
