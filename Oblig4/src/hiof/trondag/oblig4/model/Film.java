@@ -13,18 +13,15 @@ public class Film extends Produksjon implements Comparable<Film>{
         super(tittel, beskrivelse, spilletid, utgivelsesdato);
     }
 
+
     public Film(){}
 
-    //Metode som setter egenskaper på en film
-    public void settEgenskaper(String tittel, String beskrivelse, Double spilletid, LocalDate utgivelsesDato){
-        //Stor forbokstav på tittel
-        tittel = tittel.toLowerCase();
+    public void settEgenskaper(String tittel, String beskrivelse, Double spilletid, LocalDate utgivelsesdatp){
         tittel = tittel.substring(0,1).toUpperCase() + tittel.substring(1).toLowerCase();
-
         this.setTittel(tittel);
         this.setBeskrivelse(beskrivelse);
         this.setSpilletid(spilletid);
-        this.setUtgivelsesdato(utgivelsesDato);
+        this.setUtgivelsesdato(utgivelsesdatp);
     }
 
     @Override

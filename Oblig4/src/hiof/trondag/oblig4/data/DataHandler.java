@@ -19,9 +19,13 @@ public class DataHandler {
         return filmListe;
     }
 
-    public static void slettFraListen(int index){
-        filmListe.remove(index);
+    public static ObservableList<Film> getFilmListe() {
+        return filmListe;
     }
+
+    /*public static void slettFraListen(int index){
+        filmListe.remove(index);
+    }*/
 
     private static void genererFilmData() {
         Person jamesCameron = new Person("James", "Cameron", LocalDate.of(1954, 8, 16), "USA");

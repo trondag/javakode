@@ -1,5 +1,6 @@
 package hiof.trondag.oblig4;
 
+import hiof.trondag.oblig4.controller.RedigerFilmerController;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -16,12 +17,16 @@ public class MainJavaFX extends Application {
     private static MainJavaFX instance;
 
     @Override
-    public void start(Stage primaryStage) throws Exception {
+    public void start(Stage primaryStage) {
 
         this.primaryStage = primaryStage;
         instance = this;
 
-        visFilmVindu();
+        try {
+            visFilmVindu();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     public static void main(String[] args) {
@@ -46,11 +51,12 @@ public class MainJavaFX extends Application {
         fxmlInnlasterRediger.setLocation(MainJavaFX.class.getResource("view/RedigerFilmer.fxml"));
 
         Parent hovedLayoutRediger = fxmlInnlasterRediger.load();
+        RedigerFilmerController controller = fxmlInnlasterRediger.getController();
 
         Scene redigerScene = new Scene(hovedLayoutRediger);
 
         this.redigerRigg = new Stage();
-
+        controller.setStage(redigerRigg);
         redigerRigg.initModality(Modality.APPLICATION_MODAL);
         redigerRigg.initOwner(primaryStage);
         redigerRigg.setScene(redigerScene);
@@ -58,8 +64,12 @@ public class MainJavaFX extends Application {
         redigerRigg.show();
     }
 
-    public void lukkRedigerVindu() throws Exception {
-        redigerRigg.close();
+    public void lukkRedigerVindu(){
+        try{
+            redigerRigg.close();
+        } catch (Exception e){
+            e.printStackTrace();
+        }
     }
 
     public static MainJavaFX getInstance() {

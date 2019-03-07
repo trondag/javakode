@@ -1,8 +1,5 @@
 package hiof.trondag.oblig4.model;
 
-import javafx.collections.ObservableList;
-import javafx.scene.text.Text;
-
 import java.time.LocalDate;
 import java.util.ArrayList;
 
@@ -46,6 +43,8 @@ public abstract class Produksjon {
         this.tittel = tittel;
         this.spilletid = spilletid;
     }
+
+    public Produksjon(){}
 
     public Person getRegissor() {
         return regissor;

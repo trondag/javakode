@@ -4,7 +4,6 @@ import hiof.trondag.oblig4.MainJavaFX;
 import hiof.trondag.oblig4.data.DataHandler;
 import hiof.trondag.oblig4.model.Film;
 import javafx.collections.ObservableList;
-import javafx.collections.ListChangeListener;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
@@ -17,15 +16,11 @@ import java.util.Collections;
 public class FilmController {
 
     private static ObservableList<Film> filmerIListe;
-    private static int antallFilmer = 0;
-    private static int valgtFilmIndex = 0;
+    private static int valgtFilmIndex;
 
     public static void setFilmIListe(Film film, int index) {
         FilmController.filmerIListe.set(index, film);
-    }
 
-    public static ObservableList<Film> getFilmer(){
-        return filmerIListe;
     }
 
 
@@ -33,16 +28,16 @@ public class FilmController {
         return valgtFilmIndex;
     }
 
-
     //Alle FXML elementene
     @FXML
-    private ListView<Film> idFilmListe;
+    private ListView<Film> filmListeListView;
 
     @FXML
-    private Text idFilmTittel, idAntallFilmer;
+    private Text filmTittelText, idAntallFilmer;
 
     @FXML
-    private TextArea idBeskrivelse, idUtgivelsesDato, idSpilletid;
+    private TextArea beskriveTextArea, utgivelseDatoTextArea, idSpilletid;
+
 
     @FXML
     private Button idNyKnapp, idRedigerKnapp, idSlettKnapp;
@@ -51,11 +46,18 @@ public class FilmController {
     private void initialize() {
 
         //Henter all dataen fra listen i DataHandler.java
-        filmerIListe = DataHandler.hentFilmData();
-        //Sorterer listen
-        Collections.sort(filmerIListe);
+        //filmerIListe = DataHandler.hentFilmData();
+
+
         //Fyller opp ListView med filmer fra listen
-        fyllListe();
+        filmListeListView.getItems().addAll( DataHandler.hentFilmData() );
+
+        System.out.println(filmListeListView.getItems());
+        //Sorterer listen
+        Collections.sort(filmListeListView.getItems());
+
+        System.out.println(filmListeListView.getItems());
+
         //Oppdaterer den statiske variabelen med antall filmer
         oppdaterAntallFilmer();
 
@@ -70,6 +72,7 @@ public class FilmController {
                 } catch (Exception e){
                     e.printStackTrace();
                 }
+
             }
         });
 
@@ -81,6 +84,7 @@ public class FilmController {
                     RedigerFilmerController.skalDetLagesNyFilm = false;
                     //Metode i Main som lager vindu
                     MainJavaFX.getInstance().visRedigerVindu("Rediger film");
+                    valgtFilmIndex = filmListeListView.getSelectionModel().getSelectedIndex();
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -91,50 +95,42 @@ public class FilmController {
             @Override
             public void handle(ActionEvent actionEvent) {
                 //Sletter fra listen, metoden er i DataHandler
-                DataHandler.slettFraListen(idFilmListe.getSelectionModel().getSelectedIndex());
+                filmListeListView.getItems().remove(filmListeListView.getSelectionModel().getSelectedIndex());
             }
         });
 
-        filmerIListe.addListener(new ListChangeListener<Film>() {
-            @Override
-            public void onChanged(Change<? extends Film> change) {
 
-                //Oppdaterer ListView hvis observableList endrer seg
-                idFilmListe.getItems().clear();
-                fyllListe();
-                oppdaterAntallFilmer();
-            }
-        });
-    }
 
-    private void fyllListe(){
-        //Legger filmene inn i ListView
-        for (Film enFilm: filmerIListe) {
-            idFilmListe.getItems().add(enFilm);
-        }
     }
 
     @FXML
     private void idListeTrykketPaa(MouseEvent mouseEvent){
-        int listeIndex = idFilmListe.getSelectionModel().getSelectedIndex();
-        valgtFilmIndex = listeIndex;
-        settEgenskaper(listeIndex);
+        settEgenskaper();
     }
 
-    private void settEgenskaper(int index){
-        idFilmTittel.setText(filmerIListe.get(index).getTittel());
-        idBeskrivelse.setText(filmerIListe.get(index).getBeskrivelse());
-        idUtgivelsesDato.setText(filmerIListe.get(index).getUtgivelsesdato().toString());
-        idSpilletid.setText(filmerIListe.get(index).getSpilletidTilMinOgSek());
+    //Fyller opp hvert felt med informasjon
+    private void settEgenskaper(){
+
+        Film valgFilm = filmListeListView.getSelectionModel().getSelectedItem();
+
+        filmTittelText.setText(valgFilm.getTittel());
+        beskriveTextArea.setText(valgFilm.getBeskrivelse());
+        utgivelseDatoTextArea.setText(valgFilm.getUtgivelsesdato().toString());
+        idSpilletid.setText(valgFilm.getSpilletidTilMinOgSek());
     }
 
-    public static void leggTilFilm(Film enFilm){
-        filmerIListe.add(enFilm);
+    //Legger til film i slutten av ObserveableList med filmer
+    public void leggTilFilm(Film enFilm){
+        filmListeListView.getItems().add(enFilm);
         Collections.sort(filmerIListe);
     }
 
+    //Oppdater teksten som forteller antall filmer
     private void oppdaterAntallFilmer(){
-        antallFilmer = filmerIListe.size();
-        idAntallFilmer.setText("Antall filmer: " + antallFilmer);
+        idAntallFilmer.setText("Antall filmer: " + filmListeListView.getItems().size());
+    }
+
+    public static void oppdaterListView(){
+
     }
 }

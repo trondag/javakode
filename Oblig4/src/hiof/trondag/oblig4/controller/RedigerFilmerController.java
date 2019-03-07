@@ -6,8 +6,13 @@ import hiof.trondag.oblig4.model.Film;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
+import javafx.scene.chart.PieChart;
 import javafx.scene.control.*;
 import javafx.scene.text.Text;
+import javafx.stage.Stage;
+import javafx.stage.Window;
+
+import static hiof.trondag.oblig4.controller.FilmController.getValgtFilmIndex;
 
 public class RedigerFilmerController {
 
@@ -16,6 +21,8 @@ public class RedigerFilmerController {
 
     @FXML
     private Button idLagreKnapp;
+
+    private Stage stage;
 
     @FXML
     private Text idOverskrift;
@@ -36,10 +43,11 @@ public class RedigerFilmerController {
         // Synes dette var en grei måte å gjøre det på
 
         if (!skalDetLagesNyFilm) {
-            //Hvilken film skal redigeres
-            valgtFilm = FilmController.getFilmer().get(FilmController.getValgtFilmIndex());
+            //Henter riktig film ved hjelp av index som finnes i Filmkontroller
+            //valgtFilm = FilmController.getFilmer().get(FilmController.getValgtFilmIndex());
+            valgtFilm = DataHandler.getFilmListe().get(getValgtFilmIndex());
 
-            //Fyller ut feltene med allerede "lagret" informasjon
+            //Fyller ut feltene med informasjonen som finnes fra før
             idTittelInput.setText(valgtFilm.getTittel());
             idBeskrivelseInput.setText(valgtFilm.getBeskrivelse());
             idDatoInput.setValue(valgtFilm.getUtgivelsesdato());
@@ -47,7 +55,6 @@ public class RedigerFilmerController {
         }
 
         else {
-            //Ny film i stedet
             idOverskrift.setText("Ny film");
         }
 
@@ -56,35 +63,38 @@ public class RedigerFilmerController {
             public void handle(ActionEvent event) {
                 try {
                     if (!skalDetLagesNyFilm) {
-
-                        //Input kontroll
-                        if (!inputKontroll())
-                            return;
-
+                        //Sett egenskaper til filmen
                         valgtFilm.settEgenskaper(idTittelInput.getText(), idBeskrivelseInput.getText(), Double.parseDouble(idSpilletidInput.getText()), idDatoInput.getValue());
+                        //Sett så filmen "tilbake" i listen
+                        FilmController.setFilmIListe(valgtFilm, 0);
 
-                        //Setter filmen inn i observeable list, der den sto
-                        FilmController.setFilmIListe(valgtFilm, FilmController.getValgtFilmIndex());
-
-                        //Lukk
-                        MainJavaFX.getInstance().lukkRedigerVindu();
+                        //Lukk vindu
+                        stage.close();
 
                     } else {
-                        //Nytt tomt filmobjekt
-                        Film nyFilm = new Film();
+                        try {
+                            //Lager tomt filmobjekt
+                            Film nyFilm = new Film();
+                            //Setter instansvariablene
+                            nyFilm.settEgenskaper(idTittelInput.getText(), idBeskrivelseInput.getText(), Double.parseDouble(idSpilletidInput.getText()), idDatoInput.getValue());
+                            //Legger til denne filmen i observeableList
+                            DataHandler.getFilmListe().add(nyFilm);
 
-                        //Input kontroll
-                         if (!inputKontroll())
-                             return;
+                            System.out.println(DataHandler.getFilmListe());
+                            FilmController.oppdaterListView();
 
-                        //Setter instansvariabler ved hjelp av metode i film-klassen
-                        nyFilm.settEgenskaper(idTittelInput.getText(), idBeskrivelseInput.getText(), Double.parseDouble(idSpilletidInput.getText()), idDatoInput.getValue());
+                            //Lukk vindu
+                            stage.close();
 
-                        //Legg til i slutten av lista
-                        FilmController.leggTilFilm(nyFilm);
+                        } catch (StringIndexOutOfBoundsException sioe){
+                            Alert ikkeFyltUtAlleFelter = new Alert(Alert.AlertType.ERROR);
+                            ikkeFyltUtAlleFelter.setTitle("Feil!");
+                            ikkeFyltUtAlleFelter.setHeaderText("Felter ikke fylt ut!");
+                            ikkeFyltUtAlleFelter.setContentText("Vennligst fyll ut felter med korrekt informasjon");
+                            ikkeFyltUtAlleFelter.showAndWait();
+                            sioe.printStackTrace();
 
-                        MainJavaFX.getInstance().lukkRedigerVindu();
-
+                        }
                     }
                 }
                 catch (Exception e){
@@ -93,28 +103,7 @@ public class RedigerFilmerController {
             }
         });
     }
-
-    private boolean inputKontroll(){
-        if(idTittelInput.getText().equals("")){
-            feilMelding("Vennligst fyll ut et navn!");
-            return false;
-        } else if (idBeskrivelseInput.getText().equals("")){
-            feilMelding("Vennligst fyll ut beskrivelse!");
-            return false;
-        } else if (idSpilletidInput.getText().equals("")){
-            feilMelding("Vennligst fyll ut spilletid i minutter!");
-            return false;
-        } else if (idDatoInput.getValue() == null){
-            feilMelding("Velg utgivelsesdato!");
-            return false;
-        } else return true;
-    }
-
-    private void feilMelding(String feilMelding){
-        Alert alert = new Alert(Alert.AlertType.ERROR);
-        alert.setTitle("En feil har oppstått");
-        alert.setHeaderText(feilMelding);
-
-        alert.showAndWait();
+    public void setStage(Stage stage) {
+        this.stage = stage;
     }
 }
