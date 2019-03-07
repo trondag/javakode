@@ -18,6 +18,7 @@ public class MainJavaFX extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
 
+        //Starter hovedvinduet og setter programmet som en statisk variabel slik at den kan nås fra andre klasser
         this.primaryStage = primaryStage;
         instance = this;
 
@@ -29,6 +30,7 @@ public class MainJavaFX extends Application {
     }
 
     public void visFilmVindu() throws IOException {
+        //Viser hovedvinduet
         FXMLLoader fxmlInnlaster = new FXMLLoader();
         fxmlInnlaster.setLocation(getClass().getResource("view/Filmer.fxml"));
 
@@ -41,6 +43,7 @@ public class MainJavaFX extends Application {
         primaryStage.show();
     }
 
+    //Viser redigervinduet
     public void visRedigerVindu(String vinduNavn) throws Exception {
         FXMLLoader fxmlInnlasterRediger = new FXMLLoader();
         fxmlInnlasterRediger.setLocation(MainJavaFX.class.getResource("view/RedigerFilmer.fxml"));
@@ -51,6 +54,7 @@ public class MainJavaFX extends Application {
 
         this.redigerRigg = new Stage();
 
+        //initModality så man ikke kan trykke på bakgrunnsvinduet mens man redigerer
         redigerRigg.initModality(Modality.APPLICATION_MODAL);
         redigerRigg.initOwner(primaryStage);
         redigerRigg.setScene(redigerScene);

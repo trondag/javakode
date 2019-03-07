@@ -8,9 +8,6 @@ import javafx.collections.ObservableList;
 import java.time.LocalDate;
 
 public class DataHandler {
-    public static ObservableList<Film> getFilmListe() {
-        return filmListe;
-    }
 
     private final static ObservableList<Film> filmListe = FXCollections.observableArrayList();
 

@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="d6ae18cb-4d9c-4dbd-9475-26cc89942439" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hiof/trondag/oblig4/MainJavaFX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hiof/trondag/oblig4/MainJavaFX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hiof/trondag/oblig4/controller/FilmController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hiof/trondag/oblig4/controller/FilmController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hiof/trondag/oblig4/controller/RedigerFilmerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hiof/trondag/oblig4/controller/RedigerFilmerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hiof/trondag/oblig4/data/DataHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hiof/trondag/oblig4/data/DataHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hiof/trondag/oblig4/view/Filmer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/hiof/trondag/oblig4/view/Filmer.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hiof/trondag/oblig4/view/RedigerFilmer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/hiof/trondag/oblig4/view/RedigerFilmer.fxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
@@ -30,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig4/MainJavaFX.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="53" column="61" selection-start-line="53" selection-start-column="61" selection-end-line="53" selection-end-column="61" />
+            <state relative-caret-position="515">
+              <caret line="56" column="84" selection-start-line="56" selection-start-column="84" selection-end-line="56" selection-end-column="84" />
             </state>
           </provider>
         </entry>
@@ -46,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig4/controller/RedigerFilmerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1494">
-              <caret line="89" column="36" lean-forward="true" selection-start-line="89" selection-start-column="36" selection-end-line="89" selection-end-column="36" />
+            <state relative-caret-position="911">
+              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,11 +66,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig4/data/DataHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+            <state relative-caret-position="270">
+              <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
               <folding>
-                <element signature="e#309#310#0" expanded="true" />
-                <element signature="e#341#342#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="method#genererFilmData#0;class#DataHandler#0" />
               </folding>
             </state>
           </provider>
@@ -75,31 +80,21 @@
         <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig4/view/Filmer.fxml">
           <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="75" selection-start-line="21" selection-start-column="75" selection-end-line="21" selection-end-column="75" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig4/controller/FilmController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-115">
-              <caret line="90" column="21" selection-start-line="90" selection-start-column="21" selection-end-line="90" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="450">
+              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig4/model/Produksjon.java">
+        <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig4/controller/FilmController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="659">
+              <caret line="48" column="50" lean-forward="true" selection-start-line="48" selection-start-column="50" selection-end-line="48" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#3374#3375#0" expanded="true" />
+                <element signature="e#3434#3435#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -133,13 +128,13 @@
         <option value="$PROJECT_DIR$/src/hiof/trondag/oblig4/model/TVSerie.java" />
         <option value="$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions" />
         <option value="$PROJECT_DIR$/src/hiof/trondag/oblig4/view/RedigerFilmer.fxml" />
-        <option value="$PROJECT_DIR$/src/hiof/trondag/oblig4/view/Filmer.fxml" />
-        <option value="$PROJECT_DIR$/src/hiof/trondag/oblig4/MainJavaFX.java" />
         <option value="$PROJECT_DIR$/src/hiof/trondag/oblig4/model/Produksjon.java" />
         <option value="$PROJECT_DIR$/src/hiof/trondag/oblig4/model/Film.java" />
-        <option value="$PROJECT_DIR$/src/hiof/trondag/oblig4/data/DataHandler.java" />
-        <option value="$PROJECT_DIR$/src/hiof/trondag/oblig4/controller/FilmController.java" />
         <option value="$PROJECT_DIR$/src/hiof/trondag/oblig4/controller/RedigerFilmerController.java" />
+        <option value="$PROJECT_DIR$/src/hiof/trondag/oblig4/data/DataHandler.java" />
+        <option value="$PROJECT_DIR$/src/hiof/trondag/oblig4/view/Filmer.fxml" />
+        <option value="$PROJECT_DIR$/src/hiof/trondag/oblig4/controller/FilmController.java" />
+        <option value="$PROJECT_DIR$/src/hiof/trondag/oblig4/MainJavaFX.java" />
       </list>
     </option>
   </component>
@@ -227,7 +222,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551913737269" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551968611620" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PATH_TO_FX$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -466,7 +461,7 @@
       <workItem from="1551770921583" duration="5628000" />
       <workItem from="1551820216804" duration="2608000" />
       <workItem from="1551851417525" duration="13573000" />
-      <workItem from="1551950047820" duration="736000" />
+      <workItem from="1551950047820" duration="4050000" />
     </task>
     <task id="LOCAL-00001" summary="Fixa JavaFX">
       <created>1550525015455</created>
@@ -482,11 +477,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551913298916</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Ordnet inputkontroll 7/3">
+      <created>1551955155443</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1551955155443</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104557000" />
+    <option name="totallyTimeSpent" value="107871000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -510,8 +512,8 @@
       <window_info id="Favorites" order="6" sideWeight="0.50080776" side_tool="true" weight="0.16151386" />
       <window_info id="Learn" order="7" weight="0.32995737" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1971831" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38136512" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -582,7 +584,20 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fixa JavaFX" />
     <MESSAGE value="Ordnet inputkontroll" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ordnet inputkontroll" />
+    <MESSAGE value="Ordnet inputkontroll 7/3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ordnet inputkontroll 7/3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hiof/trondag/oblig4/data/DataHandler.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/httpRequests/2019-02-18T122933.200.html">
@@ -677,10 +692,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig4/view/Filmer.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig4/data/DataHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#genererFilmData#0;class#DataHandler#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig4/model/Produksjon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-457">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig4/MainJavaFX.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="53" column="61" selection-start-line="53" selection-start-column="61" selection-end-line="53" selection-end-column="61" />
+        <state relative-caret-position="515">
+          <caret line="56" column="84" selection-start-line="56" selection-start-column="84" selection-end-line="56" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig4/controller/FilmController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="659">
+          <caret line="48" column="50" lean-forward="true" selection-start-line="48" selection-start-column="50" selection-end-line="48" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3374#3375#0" expanded="true" />
+            <element signature="e#3434#3435#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -692,49 +748,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig4/data/DataHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-          <folding>
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig4/view/Filmer.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="75" selection-start-line="21" selection-start-column="75" selection-end-line="21" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig4/model/Produksjon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig4/controller/RedigerFilmerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1494">
-          <caret line="89" column="36" lean-forward="true" selection-start-line="89" selection-start-column="36" selection-end-line="89" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig4/controller/FilmController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-115">
-          <caret line="90" column="21" selection-start-line="90" selection-start-column="21" selection-end-line="90" selection-end-column="21" />
+        <state relative-caret-position="911">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
