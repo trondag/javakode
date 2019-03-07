@@ -57,7 +57,9 @@ public class RedigerFilmerController {
                 try {
                     if (!skalDetLagesNyFilm) {
 
-                        inputKontroll();
+                        //Input kontroll
+                        if (!inputKontroll())
+                            return;
 
                         valgtFilm.settEgenskaper(idTittelInput.getText(), idBeskrivelseInput.getText(), Double.parseDouble(idSpilletidInput.getText()), idDatoInput.getValue());
 
@@ -68,19 +70,14 @@ public class RedigerFilmerController {
                         MainJavaFX.getInstance().lukkRedigerVindu();
 
                     } else {
-                            //Nytt tomt filmobjekt
-                            Film nyFilm = new Film();
-                        System.out.println("bø");
-                        System.out.println(idSpilletidInput.getText());
+                        //Nytt tomt filmobjekt
+                        Film nyFilm = new Film();
 
                         //Input kontroll
-                         if (!inputKontroll()){
+                         if (!inputKontroll())
                              return;
-                         }
 
-
-                        //Dette ser rart ut, men hvis jeg ikke legger denne snutten inn i en slik if-test så starter den likevel, og programmet tryner
-                        //Sett instansvariabler ved hjelp av metode i film-klassen
+                        //Setter instansvariabler ved hjelp av metode i film-klassen
                         nyFilm.settEgenskaper(idTittelInput.getText(), idBeskrivelseInput.getText(), Double.parseDouble(idSpilletidInput.getText()), idDatoInput.getValue());
 
                         //Legg til i slutten av lista
