@@ -1,6 +1,5 @@
 package hiof.trondag.oblig4;
 
-import hiof.trondag.oblig4.controller.RedigerFilmerController;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -19,6 +18,7 @@ public class MainJavaFX extends Application {
     @Override
     public void start(Stage primaryStage) {
 
+        //Starter hovedvinduet og setter programmet som en statisk variabel slik at den kan nås fra andre klasser
         this.primaryStage = primaryStage;
         instance = this;
 
@@ -34,6 +34,7 @@ public class MainJavaFX extends Application {
     }
 
     public void visFilmVindu() throws IOException {
+        //Viser hovedvinduet
         FXMLLoader fxmlInnlaster = new FXMLLoader();
         fxmlInnlaster.setLocation(getClass().getResource("view/Filmer.fxml"));
 
@@ -46,6 +47,7 @@ public class MainJavaFX extends Application {
         primaryStage.show();
     }
 
+    //Viser redigervinduet
     public void visRedigerVindu(String vinduNavn) throws Exception {
         FXMLLoader fxmlInnlasterRediger = new FXMLLoader();
         fxmlInnlasterRediger.setLocation(MainJavaFX.class.getResource("view/RedigerFilmer.fxml"));
@@ -57,6 +59,8 @@ public class MainJavaFX extends Application {
 
         this.redigerRigg = new Stage();
         controller.setStage(redigerRigg);
+
+        //initModality så man ikke kan trykke på bakgrunnsvinduet mens man redigerer
         redigerRigg.initModality(Modality.APPLICATION_MODAL);
         redigerRigg.initOwner(primaryStage);
         redigerRigg.setScene(redigerScene);
