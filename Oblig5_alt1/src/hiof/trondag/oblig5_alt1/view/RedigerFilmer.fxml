@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="291.0" prefWidth="580.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hiof.trondag.oblig5_alt1.controller.RedigerFilmerController">
+   <children>
+      <Text fx:id="overskriftText" layoutX="14.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rediger Film">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font></Text>
+      <Text layoutX="14.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tittel:" />
+      <Text layoutX="18.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Beskrivelse:" />
+      <Text layoutX="18.0" layoutY="191.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Utgivelsesdato:" />
+      <Text layoutX="18.0" layoutY="231.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Spilletid: (min)" />
+      <TextField fx:id="tittelInputTextField" layoutX="129.0" layoutY="50.0" prefHeight="31.0" prefWidth="167.0" />
+      <TextArea fx:id="beskrivelseInputTextArea" layoutX="129.0" layoutY="89.0" prefHeight="74.0" prefWidth="440.0" />
+      <DatePicker fx:id="datoInputDatePicker" layoutX="129.0" layoutY="170.0" />
+      <TextField fx:id="spilleTidInputTextField" layoutX="129.0" layoutY="210.0" />
+      <Button fx:id="lagreButton" layoutX="501.0" layoutY="246.0" mnemonicParsing="false" text="Lagre" />
+   </children>
+</AnchorPane>
