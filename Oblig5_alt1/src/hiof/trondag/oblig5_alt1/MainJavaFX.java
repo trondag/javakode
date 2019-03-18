@@ -1,5 +1,7 @@
 package hiof.trondag.oblig5_alt1;
 
+import hiof.trondag.oblig5_alt1.controller.RedigerFilmerController;
+import hiof.trondag.oblig5_alt1.data.DataHandler;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -7,6 +9,8 @@ import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.scene.Scene;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
 import java.io.IOException;
 
 public class MainJavaFX extends Application {
@@ -68,5 +72,11 @@ public class MainJavaFX extends Application {
 
     public static MainJavaFX getInstance() {
         return instance;
+    }
+
+    @Override
+    public void stop(){
+        //Skriver over alt det gamle med det nye
+        DataHandler.lagreFilmData();
     }
 }

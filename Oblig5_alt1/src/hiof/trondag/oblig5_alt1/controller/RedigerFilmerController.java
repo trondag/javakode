@@ -1,6 +1,7 @@
 package hiof.trondag.oblig5_alt1.controller;
 
 import hiof.trondag.oblig5_alt1.MainJavaFX;
+import hiof.trondag.oblig5_alt1.data.DataHandler;
 import hiof.trondag.oblig5_alt1.model.Film;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -61,7 +62,10 @@ public class RedigerFilmerController {
                             return;
 
                         //Setter instansvariabler ved hjelp av metode i film-klassen
-                        valgtFilm.settEgenskaper(tittelInputTextField.getText(), beskrivelseInputTextArea.getText(), Double.parseDouble(spilleTidInputTextField.getText()), datoInputDatePicker.getValue());
+                        valgtFilm.settEgenskaper(tittelInputTextField.getText(),
+                                beskrivelseInputTextArea.getText(),
+                                Double.parseDouble(spilleTidInputTextField.getText()),
+                                datoInputDatePicker.getValue());
 
                         //Setter filmen inn i observeable list, der den sto
                         FilmController.setFilmIListe(valgtFilm, FilmController.getValgtFilmIndex());
@@ -78,7 +82,10 @@ public class RedigerFilmerController {
                              return;
 
                         //Setter instansvariabler ved hjelp av metode i film-klassen
-                        nyFilm.settEgenskaper(tittelInputTextField.getText(), beskrivelseInputTextArea.getText(), Double.parseDouble(spilleTidInputTextField.getText()), datoInputDatePicker.getValue());
+                        nyFilm.settEgenskaper(tittelInputTextField.getText(),
+                                beskrivelseInputTextArea.getText(),
+                                Double.parseDouble(spilleTidInputTextField.getText()),
+                                datoInputDatePicker.getValue());
 
                         //Legg til i slutten av lista
                         FilmController.leggTilFilm(nyFilm);

@@ -4,16 +4,23 @@ import java.time.LocalDate;
 
 public class Film extends Produksjon implements Comparable<Film>{
 
+    private String bildePath;
 
     public Film(String tittel, String beskrivelse, double spilletid, LocalDate utgivelsesdato, Person regissor){
         super(tittel, beskrivelse, spilletid, utgivelsesdato, regissor);
     }
 
-    public Film(String tittel, String beskrivelse, double spilletid, LocalDate utgivelsesdato){
+    public Film(String tittel, String beskrivelse, double spilletid, LocalDate utgivelsesdato, String bildePath){
         super(tittel, beskrivelse, spilletid, utgivelsesdato);
+        this.bildePath = bildePath;
     }
 
     public Film(){}
+
+
+    public String getBildePath() { return bildePath; }
+
+    public void setBildePath(String bildePath) { this.bildePath = bildePath; }
 
     //Metode som setter egenskaper på en film
     public void settEgenskaper(String tittel, String beskrivelse, Double spilletid, LocalDate utgivelsesDato){
