@@ -37,7 +37,7 @@ public class RedigerFilmerController {
 
         if (!skalDetLagesNyFilm) {
             //Hvilken film skal redigeres
-            valgtFilm = FilmController.getFilmer().get(FilmController.getValgtFilmIndex());
+            valgtFilm = DataHandler.getFilmListe().get(FilmController.getValgtFilmIndex());
 
             //Fyller ut feltene med allerede "lagret" informasjon
             tittelInputTextField.setText(valgtFilm.getTittel());
