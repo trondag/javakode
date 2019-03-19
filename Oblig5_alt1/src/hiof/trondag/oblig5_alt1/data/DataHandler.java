@@ -21,8 +21,8 @@ public class DataHandler {
         return filmListe;
     }
 
-    public static void slettFraListen(int index){
-        filmListe.remove(index);
+    public static ObservableList<Film> getFilmListe(){
+        return filmListe;
     }
 
     private static void lesFilmData() {
