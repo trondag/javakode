@@ -3,6 +3,11 @@ package hiof.trondag.oblig5_alt1.model;
 import java.time.LocalDate;
 import java.util.ArrayList;
 
+/**
+ * Representerer en produksjon av enten film eller episode.
+ * Holder på tittel, beskrivelse, spilletid, utgivelsesdato, regissør og roller.
+ */
+
 public abstract class Produksjon {
 
     private String tittel;
@@ -84,32 +89,42 @@ public abstract class Produksjon {
         this.spilletid = spilletid;
     }
 
-    /******************
-     * ----------------- (Oblig 3) oppgave 8
-     * @param enRolle
+    /**
+     * Tar imot en rolle som skal legges til i episoden/filmen
+     *
+     * @param enRolle Rollen som skal legges til
      */
 
     public void leggTilEnRolle(Rolle enRolle){
         this.roller.add(enRolle);
     }
 
+    /**
+     * Legger til en ArrayList med roller
+     *
+     * @param flereRoller Rollelisten som skal legges til
+     */
+
     public void leggTilMangeRoller(ArrayList<Rolle> flereRoller){
         this.roller.addAll(flereRoller);
     }
 
-    public void skrivUtRoller(){
-        System.out.println("Skuespillere i produksjonen " + tittel);
-        for (Rolle rolle:this.roller
-             ) {
-            System.out.println(rolle.toString());
-        }
-    }
+    /**
+     * Ordner en pen utskrift av en en film/episode
+     * @return String med informasjon om filmen/episoden
+     */
 
     @Override
     public String toString(){
         return "Produksjonen " + getTittel() + " er utgitt " + getUtgivelsesdato() + ", og er regissert av " + getRegissor()
                 + ".\nBeskrivelse: " + getBeskrivelse() + "\nSpilletid: " + getSpilletid() + " minutter.";
     }
+
+    /**
+     * Returnerer en String med en pen utskrift av timer og minutter
+     *
+     * @return String timer og minutter pent formattert
+     */
 
     //Returnerer timer og minutter som en pen string.
     public String getSpilletidTilMinOgSek(){

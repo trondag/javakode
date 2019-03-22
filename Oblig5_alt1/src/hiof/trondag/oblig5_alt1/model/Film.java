@@ -3,7 +3,13 @@ package hiof.trondag.oblig5_alt1.model;
 import java.time.LocalDate;
 import java.util.Comparator;
 
+/**
+ * Representerer en film, holder på tittel, beskrivelse, spilletid, utgivelsesdato, regissør.
+ * Alle instansvariablene er arvet fra Produksjon
+ */
+
 public class Film extends Produksjon implements Comparable<Film>{
+
 
     private String bildePath;
     public static final Comparator<Film> PAA_TITTEL_STIGENDE = new SorterTittelStigende();
@@ -27,7 +33,14 @@ public class Film extends Produksjon implements Comparable<Film>{
 
     public void setBildePath(String bildePath) { this.bildePath = bildePath; }
 
-    //Metode som setter egenskaper på en film
+    /**
+     *  En metode som raskt setter alle instansvariablene i et filmobjekt
+     * @param tittel tittelen (String)
+     * @param beskrivelse beskrivelse av filmen (String)
+     * @param spilletid spilletiden i minutter (Double)
+     * @param utgivelsesDato utgivelsesdato (LocalDate)
+     */
+
     public void settEgenskaper(String tittel, String beskrivelse, Double spilletid, LocalDate utgivelsesDato){
         //Stor forbokstav på tittel
         tittel = tittel.toLowerCase();
@@ -39,22 +52,41 @@ public class Film extends Produksjon implements Comparable<Film>{
         this.setUtgivelsesdato(utgivelsesDato);
     }
 
+    /**
+     * Lager en pen utskrift med "film (utgivelsesår)
+     * @return String med pen utskrift
+     */
+
     @Override
     public String toString(){
         return getTittel() + " (" + getUtgivelsesdato().getYear() + ")";
     }
+
+    /**
+     * Sammenligner en film på tittelen
+     *
+     * @param enFilm Et filmobjekt som skal sammenlignes med this
+     * @return Filmobjektet som skal først i lista
+     */
 
     @Override
     public int compareTo(Film enFilm){
         return this.getTittel().compareTo(enFilm.getTittel());
     }
 
-    //Anonyme klasser som sorterer på forskjellige kriterier
+    /**
+     * Sorterer på tittel stigende
+     */
+
     private static class SorterTittelStigende implements Comparator<Film> {
         public int compare(Film f1, Film f2) {
             return f1.compareTo(f2);
         }
     }
+
+    /**
+     * Sorterer på tittel synkende
+     */
 
     private static class SorterTittelSynkende implements Comparator<Film> {
         public int compare(Film f1, Film f2){
@@ -62,11 +94,19 @@ public class Film extends Produksjon implements Comparable<Film>{
         }
     }
 
+    /**
+     * Sorterer på dato stigende
+     */
+
     private static class SorterDatoStigende implements Comparator<Film> {
         public int compare(Film f1, Film f2){
             return f2.getUtgivelsesdato().compareTo(f1.getUtgivelsesdato());
         }
     }
+
+    /**
+     * Sorterer på dato synkende
+     */
 
     private static class SorterDatoSynkende implements Comparator<Film> {
         public int compare(Film f1, Film f2) {

@@ -119,13 +119,11 @@ public class RedigerFilmerController {
         } else return true;
     }
 
-    private void feilMelding(String feilMelding){
+    private void feilMelding(String feilMelding) {
         Alert alert = new Alert(Alert.AlertType.ERROR);
         alert.setTitle("En feil har oppstått");
         alert.setHeaderText(feilMelding);
 
         alert.showAndWait();
-    public void setStage(Stage stage) {
-        this.stage = stage;
     }
 }

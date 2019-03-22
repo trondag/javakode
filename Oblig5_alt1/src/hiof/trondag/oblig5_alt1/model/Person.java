@@ -2,6 +2,10 @@ package hiof.trondag.oblig5_alt1.model;
 
 import java.time.LocalDate;
 
+/**
+ * Representerer en person, holder på fornavn, etternavn, fødselsdag og hjemland
+ */
+
 public class Person {
     private String fornavn;
     private String etternavn;
@@ -31,9 +35,20 @@ public class Person {
         return hjemland;
     }
 
+    /**
+     * Returnerer personens fulle navn
+     *
+     * @return String med personens fulle navn
+     */
+
     public String getFulltNavn() {
         return fornavn + " " + etternavn;
     }
+
+    /**
+     * Gir en pen utskrift av en person, hvor han/hun er født, og fødselsdag
+     * @return String med informasjon om person
+     */
 
     @Override
     public String toString(){

@@ -1,5 +1,9 @@
 package hiof.trondag.oblig5_alt1.model;
 
+/**
+ * Holder på en Rolle, holder på fornavn og etternavn til rollen, og dens skuespiller
+ */
+
 public class Rolle {
     private String rolleFornavn;
     private String rolleEtternavn;
@@ -22,6 +26,12 @@ public class Rolle {
     public Person getSkuespiller() {
         return skuespiller;
     }
+
+    /**
+     * Gir en pen utskrift av en rolle
+     *
+     * @return String med informasjon om rollen
+     */
 
     @Override
     public String toString(){

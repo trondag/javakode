@@ -4,7 +4,7 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 
 /************************'
- * Klassen TVSerie, som inneholder konstruktør, get-metoder og en leggTilEpisode-metode.
+ * Klassen TVSerie, som holder på tittel, beskrivelse, publiseringsdato, episodene i serien, gjennomsnittlig spille tid samt antall sesonger.
  */
 
 public class TVSerie implements Comparable<TVSerie>{
@@ -22,12 +22,6 @@ public class TVSerie implements Comparable<TVSerie>{
         this.publiseringsDato = publiseringsDato;
         episoder = new ArrayList<>();
     }
-
-    /*******
-     *        GET-METODER
-     * @return tittel
-     *
-     */
 
     public String getTittel() {
         return tittel;
@@ -53,9 +47,10 @@ public class TVSerie implements Comparable<TVSerie>{
         return antallSesonger;
     }
 
-    /******************************************
-     *      METODE SOM LEGGER TIL EPISODER (oppgave 3, 4 og 9)
-     * @param episode
+    /**
+     * Legger til en episode i en tv-serie.
+     * Hvis episoden er i en sesong to sesonger høyere enn de episodene som allerede er der vil ikke det gå
+     * @param episode Episoden som skal legges til
      */
 
     public void leggTilEpisode(Episode episode) {
@@ -68,9 +63,9 @@ public class TVSerie implements Comparable<TVSerie>{
             }
         }
     }
-    /****************************
-     * -------------Override av toString (Oppgave 5)
-     * @return
+    /**
+     * Går gjennom alle episodene i serien ved hjelp av en for løkke og lager en pen utskrift av hver episode i serien
+     * @return String Returnerer String med informasjon om episoden
      */
     private String iterEpisoder() {
         StringBuilder stringBuilder = new StringBuilder();
@@ -80,14 +75,20 @@ public class TVSerie implements Comparable<TVSerie>{
         return stringBuilder.toString();
     }
 
+    /**
+     * Returnerer en pen utskrift av serien og alle episodene
+     * @return String med serie og episoder
+     */
+
     @Override
     public String toString() {
         return "Tittel: " + tittel + "\nBeskrivelse: " + beskrivelse + "\nPubliseringsdato: " + publiseringsDato
                 + "\nInneholder episodene: \n" + iterEpisoder();
     }
 
-    /********************************
-     * -------------Henter alle episodene fra en sesong og legger disse i et TVSerie-objekt (Oppgave 6)
+    /**
+     * Metode som returnerer alle episodene ved å gå gjennom med en for løkke
+     * @return ArrayList med alle episodene fra en sesong
      */
 
     public ArrayList<Episode> hentFraEnSesong(int sesong) {
@@ -100,8 +101,14 @@ public class TVSerie implements Comparable<TVSerie>{
         return enSesong;
     }
 
-    /************************
-     * -----------Metode som lager episoder (Oppgave 6)
+    /**
+     *
+     * Denne metoden lager et antall sesonger og episoder, og returnerer en hel TVSerie
+     *
+     * @param serie Serien som skal fylles opp
+     * @param antallSesonger Antall sesonger som serien skal inneholde
+     * @param antallEpisoder Antall episoder som hver sesong skal ha
+     * @return Returnerer et helt TVSerie-objekt
      */
 
 
@@ -117,8 +124,11 @@ public class TVSerie implements Comparable<TVSerie>{
         return serie;
     }
 
-    /****
-     * ------------Metode som regner ut gjennomsnittlig spilletid (Oppgave 7 og 8)
+    /**
+     * Denne metoden går gjennom alle episodene i en hel TVSerie og regner ut gjennomsnittlig spilletid
+     *
+     * @param serie Serien der gjennomsnittlig spilletid skal oppdateres
+     *
      */
 
     private void oppdaterGjennomsnittligSpilletid(TVSerie serie) {
@@ -131,10 +141,11 @@ public class TVSerie implements Comparable<TVSerie>{
         serie.gjennomSnittligSpilletid = snittSpilleTid / (k + 1);
     }
 
-    /**************
-     * ----------------Metode som lager en penere utskrift, og regner ut sekunder.
-     * @param minTall
-     * @return
+    /**
+     * Metode som lager en penere utskrift, og regner ut sekunder og minutter
+     *
+     * @param minTall Tar inn et antall minutter som parameter
+     * @return Returnerer en String med antall minutter og sekunder
      */
 
     public String minutterOgSekunder(double minTall) {
@@ -144,9 +155,9 @@ public class TVSerie implements Comparable<TVSerie>{
         return minutter + "." + sekunder + "(min.sek)";
     }
 
-    /***************
-     * ---------------- (Oblig 3) oppgave 10 og 11
-     * @return
+    /**
+     * Metode som henter alle de forskjellige rollene som har deltatt i en TVSerie. Den hindrer at duplikate roller blir tatt med
+     * @return Returnerer en liste med alle rollene
      */
 
     public ArrayList<Rolle> hentRollebesetning() {
@@ -176,10 +187,10 @@ public class TVSerie implements Comparable<TVSerie>{
         return rolleBesetning;
     }
 
-    /*****************
-     * -------------------- (Oblig 3) oppgave 12
-     * @param skuespiller
-     * @return
+    /**
+     * Sjekker hvor mange episoder hver skuespiller har deltatt i Dette gjøres ved å sjekke hver episode med for løkke
+     * @param skuespiller Tar inn en skuespiller
+     * @return String med informasjon om hvor mange episoder skuespilleren har spilt i
      */
 
     public String antallEpisoderSkuespiller(Person skuespiller){
@@ -195,10 +206,10 @@ public class TVSerie implements Comparable<TVSerie>{
         return "Skuespilleren " + skuespiller.getFulltNavn() + " har spilt i " + antallEpisoder + " episoder i serien" + this.tittel + ".";
     }
 
-    /****************
-     * ------------------------(Oblig 3) oppgave 13
-     * @param antallEpisoder
-     * @param startDato
+    /**
+     * Lager en såpeserie med et gitt antall episoder. Mens antallepisoder ikke er nådd lager den en episode hver dag i uka.
+     * @param antallEpisoder Antall episoder som skal lages
+     * @param startDato Hvilken dato den første episoden skal sendes
      */
 
     public void lagSaape(int antallEpisoder, LocalDate startDato){
@@ -226,6 +237,12 @@ public class TVSerie implements Comparable<TVSerie>{
         }
         this.episoder = episodene;
     }
+
+    /**
+     * Sammenligner en tvserie med en annen basert på tittel
+     * @param annenTVSerie Serien som skal sammenlignes
+     * @return Hvilken TVSerie som kommer først i sorteringen
+     */
 
     @Override
     public int compareTo(TVSerie annenTVSerie) {

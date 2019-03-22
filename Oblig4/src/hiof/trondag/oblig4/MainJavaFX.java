@@ -53,12 +53,10 @@ public class MainJavaFX extends Application {
         fxmlInnlasterRediger.setLocation(MainJavaFX.class.getResource("view/RedigerFilmer.fxml"));
 
         Parent hovedLayoutRediger = fxmlInnlasterRediger.load();
-        RedigerFilmerController controller = fxmlInnlasterRediger.getController();
 
         Scene redigerScene = new Scene(hovedLayoutRediger);
 
         this.redigerRigg = new Stage();
-        controller.setStage(redigerRigg);
 
         //initModality så man ikke kan trykke på bakgrunnsvinduet mens man redigerer
         redigerRigg.initModality(Modality.APPLICATION_MODAL);
