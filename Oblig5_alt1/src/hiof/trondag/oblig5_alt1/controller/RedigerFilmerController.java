@@ -62,10 +62,10 @@ public class RedigerFilmerController {
                             return;
 
                         //Setter instansvariabler ved hjelp av metode i film-klassen
-                        valgtFilm.settEgenskaper(tittelInputTextField.getText(),
-                                beskrivelseInputTextArea.getText(),
-                                Double.parseDouble(spilleTidInputTextField.getText()),
-                                datoInputDatePicker.getValue());
+                        valgtFilm.setTittel(tittelInputTextField.getText());
+                        valgtFilm.setBeskrivelse(beskrivelseInputTextArea.getText());
+                        valgtFilm.setSpilletid(Double.parseDouble(spilleTidInputTextField.getText()));
+                        valgtFilm.setUtgivelsesdato(datoInputDatePicker.getValue());
 
                         //Setter filmen inn i observeable list, der den sto
                         FilmController.setFilmIListe(valgtFilm, FilmController.getValgtFilmIndex());

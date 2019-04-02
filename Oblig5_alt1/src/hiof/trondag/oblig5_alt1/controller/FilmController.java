@@ -1,6 +1,5 @@
 package hiof.trondag.oblig5_alt1.controller;
 
-import com.sun.javafx.scene.ImageViewHelper;
 import hiof.trondag.oblig5_alt1.MainJavaFX;
 import hiof.trondag.oblig5_alt1.data.DataHandler;
 import hiof.trondag.oblig5_alt1.model.Film;
@@ -9,18 +8,19 @@ import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.collections.ListChangeListener;
+import javafx.collections.transformation.FilteredList;
+import javafx.concurrent.Task;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.image.Image;
+import javafx.scene.input.KeyEvent;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.text.Text;
 import javafx.scene.image.ImageView;
 import javafx.util.Callback;
-
 import java.util.Collections;
-import java.util.Comparator;
 
 
 public class FilmController {
@@ -58,12 +58,17 @@ public class FilmController {
     @FXML
     private void initialize() {
 
+
         //Henter all dataen fra listen i DataHandler.java
         filmerIListe = DataHandler.hentFilmData();
+
+        FilteredList<Film> filmerIListeFilteredList = new FilteredList<>(filmerIListe,  s -> true);
+
+
         //Sorterer listen
         Collections.sort(DataHandler.getFilmListe());
         //Fyller opp ListView med filmer fra listen
-        fyllListe();
+        filmListeListView.setItems(filmerIListeFilteredList);
 
         //ChoiceBox fylles med sorteringskriterier
         sorteringChoiceBox.setItems(FXCollections.observableArrayList("Tittel, stigende", "Tittel, synkende", "År, stigende", "År, synkende"));
@@ -98,6 +103,7 @@ public class FilmController {
                 try {
                     //En boolean som jeg sender med til RedigerFilmController.
                     RedigerFilmerController.skalDetLagesNyFilm = false;
+                    valgtFilmIndex = filmListeListView.getSelectionModel().getSelectedIndex();
 
                     //Metode i Main som lager vindu
                     MainJavaFX.getInstance().visRedigerVindu("Rediger film");
@@ -120,8 +126,7 @@ public class FilmController {
             public void onChanged(Change<? extends Film> change) {
 
                 //Oppdaterer ListView hvis observableList endrer seg
-                filmListeListView.getItems().clear();
-                fyllListe();
+                filmListeListView.setItems(filmerIListe);
                 oppdaterAntallFilmer();
             }
         });
@@ -133,6 +138,23 @@ public class FilmController {
                 nySortering(valgtSortering);
             }
         });
+
+        sokTextField.setOnKeyTyped(new EventHandler<KeyEvent>() {
+            @Override
+            public void handle(KeyEvent keyEvent) {
+
+                String filtertekst = sokTextField.getText();
+                if (filtertekst == null || filtertekst.length() == 0) {
+                    filmerIListeFilteredList.setPredicate(s -> true);
+                } else {
+                    filmerIListeFilteredList.setPredicate(s -> s.getTittel().contains(filtertekst));
+
+                    //filmListeListView.setItems(filmerIListeFilteredList);
+                }
+            }
+        });
+
+
     }
 
     private static class FilmListCell extends ListCell<Film> {
@@ -151,35 +173,38 @@ public class FilmController {
         DataHandler.getFilmListe().set(index, film);
     }
 
-    private void fyllListe(){
-        //Legger filmene inn i ListView
-        for (Film enFilm: DataHandler.getFilmListe()) {
-            filmListeListView.getItems().add(enFilm);
-        }
-    }
 
     @FXML
     private void idListeTrykketPaa(MouseEvent mouseEvent){
-        //Reagerer hvis listen blir trykket på, og oppdaterer egenskapene til høyre i grensesnittet
+        Film enFilm = filmListeListView.getSelectionModel().getSelectedItem();
+        filmTittelText.setText(enFilm.getTittel());
+        beskrivelseTextArea.setText(enFilm.getBeskrivelse());
+        utgivelsesdatoTextArea.setText(enFilm.getUtgivelsesdato().toString());
+        spilletidTextArea.setText(enFilm.getSpilletidTilMinOgSek());
+        Thread bildeLoader = new Thread(hentBilde);
+        bildeLoader.setDaemon(false);
+        bildeLoader.start();
         valgtFilmIndex = filmListeListView.getSelectionModel().getSelectedIndex();
-        settEgenskaper(valgtFilmIndex);
     }
-
-
-    private void settEgenskaper(int index){
-        //Oppdaterer egenskaper til høyre i grensesnitt hvis man trykker på en film
-        filmTittelText.setText(DataHandler.getFilmListe().get(index).getTittel());
-        beskrivelseTextArea.setText(DataHandler.getFilmListe().get(index).getBeskrivelse());
-        utgivelsesdatoTextArea.setText(DataHandler.getFilmListe().get(index).getUtgivelsesdato().toString());
-        spilletidTextArea.setText(DataHandler.getFilmListe().get(index).getSpilletidTilMinOgSek());
-        posterImageView.setImage(hentBilde(DataHandler.getFilmListe().get(index).getBildePath()));
-    }
-
+    /*
     private Image hentBilde(String path){
         path = "https://image.tmdb.org/t/p/w500" + path;
         Image poster = new Image(path);
         return poster;
-    }
+    }*/
+
+    public Task<Void> hentBilde = new Task<>() {
+        @Override
+        protected Void call(){
+            try {
+                Image poster = new Image("https://image.tmdb.org/t/p/w500" + filmListeListView.getSelectionModel().getSelectedItem().getBildePath());
+                posterImageView.setImage(poster);
+            } catch (Exception e){
+                e.printStackTrace();
+            }
+            return null;
+        }
+    };
 
     public static void leggTilFilm(Film enFilm){
         //Legger til film i lista

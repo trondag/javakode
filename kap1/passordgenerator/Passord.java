@@ -18,10 +18,23 @@ public class Passord {
 
     for (var i = 0 ; i < lengde ; i++){
       int unicode = firma.charAt(i);
-      unicode += 4;
+      
+      if (i % 2 = 0){
+        unicode -= 3;
+      } else {
+        unicode += 4;
+      }
       tallkode += unicode;
     }
 
     System.out.println(tallkode);
+
+    String passord = "";
+
+    for (var j = 0 ; 0 <= 10 ; j++){
+      for (var k = 0 ; 0 <= 2 ; k++){
+        
+      }
+    }
   }
 }
