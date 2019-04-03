@@ -19,10 +19,10 @@
             <Font size="24.0" />
          </font>
       </Text>
-      <TextField layoutX="79.0" layoutY="307.0" />
-      <TextField layoutX="379.0" layoutY="307.0" />
+      <TextField fx:id="valuta1TextField" layoutX="79.0" layoutY="307.0" />
+      <TextField fx:id="valuta2TextField" editable="false" layoutX="379.0" layoutY="307.0" />
       <Button fx:id="beregnButton" layoutX="282.0" layoutY="361.0" mnemonicParsing="false" text="Beregn" />
-      <ImageView fitHeight="105.0" fitWidth="174.0" layoutX="67.0" layoutY="107.0" pickOnBounds="true" preserveRatio="true" />
-      <ImageView fitHeight="105.0" fitWidth="174.0" layoutX="361.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="valuta1ImageView" fitHeight="105.0" fitWidth="174.0" layoutX="67.0" layoutY="107.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="valuta2ImageView" fitHeight="105.0" fitWidth="174.0" layoutX="361.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true" />
    </children>
 </AnchorPane>

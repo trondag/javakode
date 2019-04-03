@@ -2,44 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6ae18cb-4d9c-4dbd-9475-26cc89942439" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Oblig5Alt2/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Oblig5Alt2/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Oblig5Alt2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Oblig5Alt2/src/hiof/trondag/Oblig5Alt2/Data/DataHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Oblig5Alt2/src/hiof/trondag/Oblig5Alt2/MainJavaFX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Oblig5Alt2/src/hiof/trondag/Oblig5Alt2/controller/ValutaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Oblig5Alt2/src/hiof/trondag/Oblig5Alt2/model/Valuta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Oblig5Alt2/src/hiof/trondag/Oblig5Alt2/view/valutakalkulator.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RobocodeTest1/.idea/libraries/robocode.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RobocodeTest1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RobocodeTest1/lib/robocode.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RobocodeTest1/src/Fred.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestBlokkerendeTraader/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestFlereTraader/src/trondag/testMultipleThreads/BankKonto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestFlereTraader/src/trondag/testMultipleThreads/TransaksjonsHaandterer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestPredicate/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestPredicate/src/trondag/testPredicate/IntegerPrediactes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/filmer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/filmer.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/controller/FilmController$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/controller/FilmController$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/controller/FilmController$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/controller/FilmController$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/controller/FilmController$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/controller/FilmController$FilmListCell.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/controller/FilmController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/controller/RedigerFilmerController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/controller/RedigerFilmerController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/data/filmer.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/model/Episode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/model/Episode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/model/Film.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/model/Film.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/model/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/model/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/model/Produksjon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/model/Produksjon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/model/Rolle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/model/Rolle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/model/TVSerie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/model/TVSerie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/controller/FilmController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/controller/FilmController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/controller/RedigerFilmerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/controller/RedigerFilmerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/data/filmer.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kap1/passordgenerator/Passord.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kap1/passordgenerator/Passord.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
@@ -142,8 +106,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/controller/FilmController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="182" column="55" selection-start-line="182" selection-start-column="55" selection-end-line="182" selection-end-column="55" />
+            <state relative-caret-position="142">
+              <caret line="197" column="30" selection-start-line="197" selection-start-column="30" selection-end-line="197" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -240,7 +204,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -291,7 +255,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -305,7 +269,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554133396169" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Oblig5Alt2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Problems" />
@@ -578,6 +542,8 @@
       <workItem from="1553870617643" duration="2397000" />
       <workItem from="1554101026419" duration="7936000" />
       <workItem from="1554191897458" duration="61000" />
+      <workItem from="1554201159391" duration="243000" />
+      <workItem from="1554236175509" duration="164000" />
     </task>
     <task id="LOCAL-00001" summary="Fixa JavaFX">
       <created>1550525015455</created>
@@ -625,7 +591,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179380000" />
+    <option name="totallyTimeSpent" value="179787000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -639,7 +605,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49757674" visible="true" weight="0.1663113" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49757674" visible="true" weight="0.16950959" />
       <window_info id="Structure" order="1" sideWeight="0.5024233" side_tool="true" weight="0.16311301" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -649,7 +615,7 @@
       <window_info id="Learn" order="7" weight="0.32995737" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.16143012" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16143012" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -909,16 +875,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/controller/FilmController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="182" column="55" selection-start-line="182" selection-start-column="55" selection-end-line="182" selection-end-column="55" />
+        <state relative-caret-position="142">
+          <caret line="197" column="30" selection-start-line="197" selection-start-column="30" selection-end-line="197" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#983#984#0" expanded="true" />
-            <element signature="e#1020#1021#0" expanded="true" />
-            <element signature="e#2470#2471#0" expanded="true" />
-            <element signature="e#2527#2528#0" expanded="true" />
-            <element signature="e#6759#7171#0" expanded="true" />
-            <element signature="e#7170#7171#0" expanded="true" />
           </folding>
         </state>
       </provider>

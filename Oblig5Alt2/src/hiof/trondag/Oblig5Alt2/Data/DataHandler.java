@@ -44,7 +44,7 @@ public class DataHandler {
             e.printStackTrace();
         }
         for (Valuta valuta: kursListe) {
-            System.out.println(valuta);
+            System.out.println(valuta.getValue() + " - " + valuta.getCountryname());
         }
         kurser = kursListe;
         return kursListe;
