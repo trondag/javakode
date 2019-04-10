@@ -11,6 +11,7 @@ import javafx.collections.ListChangeListener;
 import javafx.collections.transformation.FilteredList;
 import javafx.concurrent.Task;
 import javafx.event.ActionEvent;
+import javafx.event.Event;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
@@ -141,7 +142,7 @@ public class FilmController {
 
         sokTextField.setOnKeyTyped(new EventHandler<KeyEvent>() {
             @Override
-            public void handle(KeyEvent keyEvent) {
+            public void handle(KeyEvent keyEvent)  {
 
                 String filtertekst = sokTextField.getText();
                 if (filtertekst == null || filtertekst.length() == 0) {

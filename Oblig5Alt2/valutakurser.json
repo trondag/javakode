@@ -1,0 +1,224 @@
+[
+  {
+    "countryname": "Australia",
+    "countrycode": "AU",
+    "currencycode": "AUD",
+    "value": 6.0771
+  },
+  {
+    "countryname": "Bulgaria",
+    "countrycode": "BG",
+    "currencycode": "BGN",
+    "value": 4.9065
+  },
+  {
+    "countryname": "Bangladesh",
+    "countrycode": "BD",
+    "currencycode": "BDT",
+    "value": 0.0969
+  },
+  {
+    "countryname": "Brazil",
+    "countrycode": "BR",
+    "currencycode": "BRL",
+    "value": 2.2348
+  },
+  {
+    "countryname": "Belarus",
+    "countrycode": "BY",
+    "currencycode": "BYN",
+    "value": 3.9891
+  },
+  {
+    "countryname": "Canada",
+    "countrycode": "CA",
+    "currencycode": "CAD",
+    "value": 6.2773
+  },
+  {
+    "countryname": "Switzerland",
+    "countrycode": "CH",
+    "currencycode": "CHF",
+    "value": 8.3138
+  },
+  {
+    "countryname": "China",
+    "countrycode": "CN",
+    "currencycode": "CNY",
+    "value": 1.2288
+  },
+  {
+    "countryname": "Czech Republic",
+    "countrycode": "CZ",
+    "currencycode": "CZK",
+    "value": 0.37419
+  },
+  {
+    "countryname": "Denmark",
+    "countrycode": "DK",
+    "currencycode": "DKK",
+    "value": 1.2875
+  },
+  {
+    "countryname": "European Union",
+    "countrycode": "EU",
+    "currencycode": "EUR",
+    "value": 9.5962
+  },
+  {
+    "countryname": "United Kingdom",
+    "countrycode": "GB",
+    "currencycode": "GBP",
+    "value": 10.8463
+  },
+  {
+    "countryname": "Hong Kong",
+    "countrycode": "HK",
+    "currencycode": "HKD",
+    "value": 1.0378
+  },
+  {
+    "countryname": "Croatia",
+    "countrycode": "HR",
+    "currencycode": "HRK",
+    "value": 1.2935
+  },
+  {
+    "countryname": "Hungary",
+    "countrycode": "HU",
+    "currencycode": "HUF",
+    "value": 0.0301
+  },
+  {
+    "countryname": "Indonesia",
+    "countrycode": "ID",
+    "currencycode": "IDR",
+    "value": 0.00057132
+  },
+  {
+    "countryname": "Israel",
+    "countrycode": "IL",
+    "currencycode": "ILS",
+    "value": 2.2627
+  },
+  {
+    "countryname": "India",
+    "countrycode": "IN",
+    "currencycode": "INR",
+    "value": 0.11893
+  },
+  {
+    "countryname": "Japan",
+    "countrycode": "JP",
+    "currencycode": "JPY",
+    "value": 0.073611
+  },
+  {
+    "countryname": "Korea",
+    "countrycode": "KR",
+    "currencycode": "KRW",
+    "value": 0.007387
+  },
+  {
+    "countryname": "Myanmar",
+    "countrycode": "MM",
+    "currencycode": "MMK",
+    "value": 0.005649
+  },
+  {
+    "countryname": "Mexico",
+    "countrycode": "MX",
+    "currencycode": "MXN",
+    "value": 0.423
+  },
+  {
+    "countryname": "Malaysia",
+    "countrycode": "MY",
+    "currencycode": "MYR",
+    "value": 2.0145
+  },
+  {
+    "countryname": "New Zealand",
+    "countrycode": "NZ",
+    "currencycode": "NZD",
+    "value": 5.6261
+  },
+  {
+    "countryname": "Norway",
+    "countrycode": "NO",
+    "currencycode": "NOK",
+    "value": 1
+  },
+  {
+    "countryname": "Philippines",
+    "countrycode": "PH",
+    "currencycode": "PHP",
+    "value": 0.15434
+  },
+  {
+    "countryname": "Pakistan",
+    "countrycode": "PK",
+    "currencycode": "PKR",
+    "value": 0.0671
+  },
+  {
+    "countryname": "Poland",
+    "countrycode": "PL",
+    "currencycode": "PLN",
+    "value": 2.2525
+  },
+  {
+    "countryname": "Romania",
+    "countrycode": "RO",
+    "currencycode": "RON",
+    "value": 2.0618
+  },
+  {
+    "countryname": "Russian Federation",
+    "countrycode": "RU",
+    "currencycode": "RUB",
+    "value": 0.12981
+  },
+  {
+    "countryname": "Sweden",
+    "countrycode": "SE",
+    "currencycode": "SEK",
+    "value": 0.9359
+  },
+  {
+    "countryname": "Singapore",
+    "countrycode": "SG",
+    "currencycode": "SGD",
+    "value": 6.0263
+  },
+  {
+    "countryname": "Thailand",
+    "countrycode": "TH",
+    "currencycode": "THB",
+    "value": 0.25147
+  },
+  {
+    "countryname": "Turkey",
+    "countrycode": "TR",
+    "currencycode": "TRY",
+    "value": 1.7204
+  },
+  {
+    "countryname": "Taiwan",
+    "countrycode": "TW",
+    "currencycode": "TWD",
+    "value": 0.26962
+  },
+  {
+    "countryname": "United States",
+    "countrycode": "US",
+    "currencycode": "USD",
+    "value": 8.1338
+  },
+  {
+    "countryname": "South Africa",
+    "countrycode": "ZA",
+    "currencycode": "ZAR",
+    "value": 0.616
+  }
+]
