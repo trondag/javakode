@@ -1,14 +1,11 @@
 package hiof.trondag.oblig5_alt1.data;
 
-import hiof.trondag.oblig5_alt1.controller.FilmController;
 import hiof.trondag.oblig5_alt1.model.Film;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.scene.control.Alert;
-
 import java.io.*;
 import java.time.LocalDate;
-import java.util.ArrayList;
 
 import static java.lang.Double.parseDouble;
 
