@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04f4b411-8bab-48f2-9fd4-7ba295f1551c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/hiof/trondag/robocodeTest1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oblig5_alt1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Oblig5_alt1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oblig5_alt1/src/hiof/trondag/oblig5_alt1/controller/FilmController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Oblig5_alt1/src/hiof/trondag/oblig5_alt1/controller/FilmController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Trond_Arne_Graabræk.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hiof/trondag/robocodeTest1/Johan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RobocodeTest1/Fred.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RobocodeTest1/Fred.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Fred.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fred.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,6 +15,10 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -24,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Fred.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+            <state relative-caret-position="594">
+              <caret line="57" column="5" lean-forward="true" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,29 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/robocode.jar!/robocode/HitRobotEvent.class">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/hiof/trondag/robocodeTest1/Johan.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/robocode.jar!/robocode/ScannedRobotEvent.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1998">
-              <caret line="164" column="25" selection-start-line="164" selection-start-column="21" selection-end-line="164" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/robocode.jar!/robocode/Event.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            <state relative-caret-position="504">
+              <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -84,6 +73,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Fred.java" />
+        <option value="$PROJECT_DIR$/src/hiof/trondag/robocodeTest1/Johan.java" />
       </list>
     </option>
   </component>
@@ -110,70 +100,13 @@
             <path>
               <item name="RobocodeTest1" type="b2602c69:ProjectViewProjectNode" />
               <item name="RobocodeTest1" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RobocodeTest1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RobocodeTest1" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="robocode.jar" type="ab9368bb:PsiFileNode" />
-            </path>
-            <path>
-              <item name="RobocodeTest1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RobocodeTest1" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="robocode.jar" type="ab9368bb:PsiFileNode" />
-              <item name="robocode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RobocodeTest1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RobocodeTest1" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RobocodeTest1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RobocodeTest1" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RobocodeTest1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RobocodeTest1" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="RobocodeTest1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RobocodeTest1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RobocodeTest1" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="RobocodeTest1" type="462c0819:PsiDirectoryNode" />
-              <item name="hiof" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RobocodeTest1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RobocodeTest1" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="RobocodeTest1" type="462c0819:PsiDirectoryNode" />
-              <item name="hiof" type="462c0819:PsiDirectoryNode" />
-              <item name="trondag" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RobocodeTest1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RobocodeTest1" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="RobocodeTest1" type="462c0819:PsiDirectoryNode" />
-              <item name="hiof" type="462c0819:PsiDirectoryNode" />
-              <item name="trondag" type="462c0819:PsiDirectoryNode" />
-              <item name="robocodeTest1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RobocodeTest1" type="b2602c69:ProjectViewProjectNode" />
               <item name="RobocodeTest1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="robocodeTest1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -183,10 +116,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554136227233" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -237,12 +172,12 @@
       <workItem from="1554279678536" duration="84000" />
       <workItem from="1554317201745" duration="655000" />
       <workItem from="1554382623654" duration="190000" />
-      <workItem from="1554878318290" duration="667000" />
+      <workItem from="1554878318290" duration="6780000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6810000" />
+    <option name="totallyTimeSpent" value="12923000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -313,11 +248,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Fred.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        <state relative-caret-position="594">
+          <caret line="57" column="5" lean-forward="true" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hiof/trondag/robocodeTest1/Johan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
         </state>
       </provider>
     </entry>

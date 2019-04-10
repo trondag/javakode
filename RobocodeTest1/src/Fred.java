@@ -5,28 +5,43 @@ import robocode.HitRobotEvent;
 
 public class Fred extends Robot {
 
+    boolean skalSkyte = true;
+    int antallKjoringerForSkyting = 0;
+
     @Override
     public void run() {
         while (true) {
-            ahead(100);
-            turnGunRight(360);
-            turnGunRight(360);
+            if (getX() < 100 || getX() > 700){
+                turnRight(Math.random()*90);
+                ahead(50);
+                out.println("Svinger 90 grader til høyre og rygger 50");
+            } else if (getY() < 100 || getY() > 500){
+                turnRight(Math.random()*90);
+                ahead(50);
+                out.println("Svinger 90 grader til høyre og rygger 50");
+            } else {
+                ahead(80);
+                turnLeft(Math.random()*40-20);
+                /*if (!skalSkyte){
+                    antallKjoringerForSkyting++;
+                    if (antallKjoringerForSkyting > 8){
+                        skalSkyte = true;
+                        antallKjoringerForSkyting = 0;
+                        turnRadarRight(360);
+                    }
+                }
+                out.println(antallKjoringerForSkyting);*/
+
+            }
 
         }
     }
     public void onScannedRobot(ScannedRobotEvent e) {
-        fire(1);
-        if (e.getDistance() <= 150) {
-            if (getX() < 100 || getX() > 700){
-                turnRight(90);
-                ahead(50);
-                out.println("Svinger 90 grader til høyre og rygger 50");
-            } else if (getY() < 100 || getY() > 500){
-                turnRight(90);
-                ahead(50);
-                out.println("Svinger 90 grader til høyre og rygger 50");
-            }
-        }
+        //if (skalSkyte) {
+          //  turnGunRight(getHeading() - getGunHeading() + e.getBearing());
+            fire(1);
+            skalSkyte = false;
+        //}
     }
 
     @Override
