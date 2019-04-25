@@ -1,7 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3954a881-294b-41ef-881b-952e32364e49" name="Default Changelist" comment="" />
+    <list default="true" id="3954a881-294b-41ef-881b-952e32364e49" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Oblig5_alt1/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Oblig5_alt1/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Oblig5_alt1/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Oblig5_alt1/.idea/libraries/lib1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Oblig5_alt1/.idea/libraries/mysql_connector_java_8_0_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Oblig5_alt1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Oblig5_alt1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Oblig5_alt1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Oblig5_alt1/src/hiof/trondag/oblig5_alt1/data/FilmMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Oblig5_alt1/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Oblig5_alt1/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Oblig5_alt1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Oblig5_alt1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Oblig5_alt1/Oblig5_alt1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Oblig5_alt1/Oblig5_alt1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Oblig5_alt1/filmer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../Oblig5_alt1/filmer.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Oblig5_alt1/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/controller/FilmController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Oblig5_alt1/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/controller/FilmController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Oblig5_alt1/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/controller/FilmController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Oblig5_alt1/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/controller/FilmController$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Oblig5_alt1/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/controller/FilmController$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Oblig5_alt1/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/controller/FilmController$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Oblig5_alt1/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/controller/FilmController$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Oblig5_alt1/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/controller/FilmController$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Oblig5_alt1/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/controller/FilmController$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Oblig5_alt1/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/controller/FilmController$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Oblig5_alt1/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/controller/FilmController$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Oblig5_alt1/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/controller/FilmController$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Oblig5_alt1/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/controller/FilmController$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Oblig5_alt1/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/controller/FilmController$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Oblig5_alt1/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/controller/FilmController$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Oblig5_alt1/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/controller/FilmController$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Oblig5_alt1/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/controller/FilmController$FilmListCell.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Oblig5_alt1/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/controller/FilmController$FilmListCell.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Oblig5_alt1/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/controller/FilmController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Oblig5_alt1/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/controller/FilmController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Oblig5_alt1/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/model/Film$SorterDatoStigende.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Oblig5_alt1/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/model/Film$SorterDatoStigende.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Oblig5_alt1/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/model/Film$SorterDatoSynkende.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Oblig5_alt1/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/model/Film$SorterDatoSynkende.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Oblig5_alt1/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/model/Film$SorterTittelStigende.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Oblig5_alt1/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/model/Film$SorterTittelStigende.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Oblig5_alt1/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/model/Film$SorterTittelSynkende.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Oblig5_alt1/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/model/Film$SorterTittelSynkende.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Oblig5_alt1/src/hiof/trondag/oblig5_alt1/MainJavaFX.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Oblig5_alt1/src/hiof/trondag/oblig5_alt1/MainJavaFX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Oblig5_alt1/src/hiof/trondag/oblig5_alt1/controller/FilmController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Oblig5_alt1/src/hiof/trondag/oblig5_alt1/controller/FilmController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Oblig5_alt1/src/hiof/trondag/oblig5_alt1/model/Film.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Oblig5_alt1/src/hiof/trondag/oblig5_alt1/model/Film.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,8 +87,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hiof/trondag/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="251">
+              <caret line="39" column="28" lean-forward="true" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,12 +99,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/hiof/trondag/FilmMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="21" column="66" lean-forward="true" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
-              <folding>
-                <element signature="e#168#169#0" expanded="true" />
-                <element signature="e#211#212#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="378">
+              <caret line="23" column="66" lean-forward="true" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -89,35 +117,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hiof/trondag/Film.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="252">
               <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
               <folding>
                 <element signature="e#273#274#0" expanded="true" />
                 <element signature="e#298#299#0" expanded="true" />
                 <element signature="e#331#332#0" expanded="true" />
                 <element signature="e#359#360#0" expanded="true" />
-                <element signature="e#220#221#0" expanded="true" />
-                <element signature="e#249#250#0" expanded="true" />
-                <element signature="e#293#294#0" expanded="true" />
-                <element signature="e#329#330#0" expanded="true" />
-                <element signature="e#367#368#0" expanded="true" />
-                <element signature="e#401#402#0" expanded="true" />
-                <element signature="e#455#456#0" expanded="true" />
+                <element signature="e#465#466#0" expanded="true" />
                 <element signature="e#501#502#0" expanded="true" />
-                <element signature="e#537#538#0" expanded="true" />
-                <element signature="e#569#570#0" expanded="true" />
-                <element signature="e#619#620#0" expanded="true" />
-                <element signature="e#661#662#0" expanded="true" />
-                <element signature="e#705#706#0" expanded="true" />
-                <element signature="e#742#743#0" expanded="true" />
-                <element signature="e#805#806#0" expanded="true" />
-                <element signature="e#857#858#0" expanded="true" />
-                <element signature="e#893#894#0" expanded="true" />
-                <element signature="e#925#926#0" expanded="true" />
-                <element signature="e#975#976#0" expanded="true" />
-                <element signature="e#1017#1018#0" expanded="true" />
-                <element signature="e#1416#1417#0" expanded="true" />
-                <element signature="e#1483#1484#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -125,11 +133,7 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a3a4a557-1efe-4703-923e-b701f964fce8/console.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -169,22 +173,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
-        <option value="$PROJECT_DIR$/.idea/dataSources.xml" />
-        <option value="$PROJECT_DIR$/.idea/dataSources.xml" />
-        <option value="$PROJECT_DIR$/.idea/dataSources.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_15.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="673" />
-    <option name="width" value="1254" />
-    <option name="height" value="1047" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -192,6 +185,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -219,11 +213,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
@@ -277,6 +271,7 @@
       <option name="presentableId" value="Default" />
       <updated>1554798407870</updated>
       <workItem from="1554798411579" duration="14857000" />
+      <workItem from="1555236127988" duration="2733000" />
     </task>
     <task id="LOCAL-00001" summary="testa db">
       <created>1554811026272</created>
@@ -289,26 +284,20 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14857000" />
+    <option name="totallyTimeSpent" value="17590000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Learn" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15884861" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16044776" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Console" sideWeight="0.49626866" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.50479746" side_tool="true" visible="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" sideWeight="0.49946696" weight="0.32936078" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Image Layers" order="6" />
+      <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49520257" weight="0.32936078" />
@@ -316,15 +305,22 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" weight="0.32995737" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" visible="true" weight="0.141258" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Database Console" order="7" sideWeight="0.49626866" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50479746" side_tool="true" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49946696" weight="0.32936078" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info active="true" anchor="right" id="Database" order="6" visible="true" weight="0.141258" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,13 +343,6 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/63261214-0a6f-4f70-a920-398f4b8a9b3e/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/filmer.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="83" selection-start-line="17" selection-start-column="83" selection-end-line="17" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://a3a4a557-1efe-4703-923e-b701f964fce8/schema/filmdata/table/filmer.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -361,55 +350,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hiof/trondag/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/hiof/trondag/Film.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="252">
           <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding>
             <element signature="e#273#274#0" expanded="true" />
             <element signature="e#298#299#0" expanded="true" />
             <element signature="e#331#332#0" expanded="true" />
             <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
             <element signature="e#501#502#0" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#619#620#0" expanded="true" />
-            <element signature="e#661#662#0" expanded="true" />
-            <element signature="e#705#706#0" expanded="true" />
-            <element signature="e#742#743#0" expanded="true" />
-            <element signature="e#805#806#0" expanded="true" />
-            <element signature="e#857#858#0" expanded="true" />
-            <element signature="e#893#894#0" expanded="true" />
-            <element signature="e#925#926#0" expanded="true" />
-            <element signature="e#975#976#0" expanded="true" />
-            <element signature="e#1017#1018#0" expanded="true" />
-            <element signature="e#1416#1417#0" expanded="true" />
-            <element signature="e#1483#1484#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a3a4a557-1efe-4703-923e-b701f964fce8/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filmer.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="83" selection-start-line="17" selection-start-column="83" selection-end-line="17" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hiof/trondag/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="251">
+          <caret line="39" column="28" lean-forward="true" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -422,12 +394,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hiof/trondag/FilmMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" column="66" lean-forward="true" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
-          <folding>
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#211#212#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="378">
+          <caret line="23" column="66" lean-forward="true" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
         </state>
       </provider>
     </entry>

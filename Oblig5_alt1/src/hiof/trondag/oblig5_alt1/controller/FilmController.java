@@ -2,6 +2,7 @@ package hiof.trondag.oblig5_alt1.controller;
 
 import hiof.trondag.oblig5_alt1.MainJavaFX;
 import hiof.trondag.oblig5_alt1.data.DataHandler;
+import hiof.trondag.oblig5_alt1.data.FilmMapper;
 import hiof.trondag.oblig5_alt1.model.Film;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
@@ -61,7 +62,7 @@ public class FilmController {
 
 
         //Henter all dataen fra listen i DataHandler.java
-        filmerIListe = DataHandler.hentFilmData();
+        filmerIListe = FilmMapper.hentFilmer();
 
         FilteredList<Film> filmerIListeFilteredList = new FilteredList<>(filmerIListe,  s -> true);
 

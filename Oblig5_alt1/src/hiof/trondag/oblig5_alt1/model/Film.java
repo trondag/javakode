@@ -10,8 +10,8 @@ import java.util.Comparator;
 
 public class Film extends Produksjon implements Comparable<Film>{
 
-
     private String bildePath;
+    private int filmId;
     public static final Comparator<Film> PAA_TITTEL_STIGENDE = new SorterTittelStigende();
     public static final Comparator<Film> PAA_TITTEL_SYNKENDE = new SorterTittelSynkende();
     public static final Comparator<Film> PAA_DATO_STIGENDE = new SorterDatoStigende();
@@ -26,7 +26,12 @@ public class Film extends Produksjon implements Comparable<Film>{
         this.bildePath = bildePath;
     }
 
-    public Film(){}
+    public Film(int filmId, String tittel, LocalDate utgivelsesdato){
+        super(tittel, utgivelsesdato);
+        this.filmId = filmId;
+    }
+
+    public Film(){};
 
 
     public String getBildePath() { return bildePath; }

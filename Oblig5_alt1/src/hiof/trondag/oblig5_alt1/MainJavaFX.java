@@ -45,6 +45,8 @@ public class MainJavaFX extends Application {
         primaryStage.setScene(hovedScene);
         primaryStage.setTitle("Filmer");
         primaryStage.show();
+
+
     }
 
     //Viser redigervinduet

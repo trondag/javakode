@@ -2,7 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6ae18cb-4d9c-4dbd-9475-26cc89942439" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/data/FilmMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oblig5_alt1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Oblig5_alt1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filmer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/filmer.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/controller/FilmController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/controller/FilmController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/controller/FilmController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/controller/FilmController$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/controller/FilmController$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/controller/FilmController$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/controller/FilmController$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/controller/FilmController$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/controller/FilmController$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/controller/FilmController$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/controller/FilmController$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/controller/FilmController$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/controller/FilmController$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/controller/FilmController$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/controller/FilmController$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/controller/FilmController$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/controller/FilmController$FilmListCell.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/controller/FilmController$FilmListCell.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/controller/FilmController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/controller/FilmController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/model/Film$SorterDatoStigende.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/model/Film$SorterDatoStigende.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/model/Film$SorterDatoSynkende.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/model/Film$SorterDatoSynkende.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/model/Film$SorterTittelStigende.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/model/Film$SorterTittelStigende.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/model/Film$SorterTittelSynkende.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Oblig5_alt1/hiof/trondag/oblig5_alt1/model/Film$SorterTittelSynkende.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/MainJavaFX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/MainJavaFX.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/controller/FilmController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/controller/FilmController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/model/Film.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/model/Film.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestMappe/TestDatabase/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestMappe/TestDatabase/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
@@ -23,19 +53,39 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="filmdata: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
     <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="Oblig4" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/MainJavaFX.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="486">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+              <caret line="40" column="43" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -43,8 +93,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/model/Film.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
+            <state relative-caret-position="576">
+              <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,28 +103,30 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/model/Rolle.java">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e7902194-c8cc-461e-ba70-0b2b8092ebe0/console.sql">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/data/FilmMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+            <state relative-caret-position="303">
+              <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/model/Person.java">
+        <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/data/DataHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="40" column="46" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/model/TVSerie.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+            <state relative-caret-position="90">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,12 +134,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/controller/FilmController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="155" column="11" selection-start-line="155" selection-start-column="11" selection-end-line="155" selection-end-column="11" />
+            <state relative-caret-position="720">
+              <caret line="64" column="47" selection-start-line="64" selection-start-column="47" selection-end-line="64" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#6759#7167#0" expanded="true" />
-                <element signature="e#7166#7167#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/controller/RedigerFilmerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1260">
+              <caret line="77" column="38" selection-start-line="77" selection-start-column="38" selection-end-line="77" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,6 +157,9 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/filmer.csv">
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
           <provider selected="true" editor-type-id="csv-text-editor" />
         </entry>
       </file>
@@ -150,17 +215,19 @@
         <option value="$PROJECT_DIR$/src/hiof/trondag/oblig4/view/Filmer.fxml" />
         <option value="$PROJECT_DIR$/src/hiof/trondag/oblig4/MainJavaFX.java" />
         <option value="$PROJECT_DIR$/src/hiof/trondag/oblig4/controller/FilmController.java" />
-        <option value="$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/MainJavaFX.java" />
         <option value="$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/view/Filmer.fxml" />
         <option value="$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/data/DataHandler.java" />
         <option value="$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/model/Episode.java" />
-        <option value="$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/model/Film.java" />
         <option value="$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/model/Person.java" />
         <option value="$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/model/Rolle.java" />
         <option value="$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/controller/RedigerFilmerController.java" />
         <option value="$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/model/Produksjon.java" />
         <option value="$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/model/TVSerie.java" />
+        <option value="$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/Main.java" />
+        <option value="$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/MainJavaFX.java" />
         <option value="$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/controller/FilmController.java" />
+        <option value="$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/data/FilmMapper.java" />
+        <option value="$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/model/Film.java" />
       </list>
     </option>
   </component>
@@ -171,63 +238,68 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-129" />
-    <option name="y" value="152" />
-    <option name="width" value="1940" />
-    <option name="height" value="1060" />
+    <option name="x" value="410" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
+      <pane id="ProjectPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
-              <item name="Oblig5_alt1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Oblig5_alt1" type="462c0819:PsiDirectoryNode" />
+              <item name="Oblig5_alt1" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Oblig5_Alt1" type="2674bda8:ScopeViewTreeModel$GroupNode" />
             </path>
             <path>
-              <item name="Oblig5_alt1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Oblig5_alt1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Oblig5_alt1" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Oblig5_Alt1" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="Oblig5_alt1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Oblig5_alt1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="oblig5_alt1" type="462c0819:PsiDirectoryNode" />
+              <item name="Oblig5_alt1" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Oblig5_Alt1" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="hiof" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="Oblig5_alt1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Oblig5_alt1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="oblig5_alt1" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="Oblig5_alt1" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Oblig5_Alt1" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="hiof" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="trondag" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="Oblig5_alt1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Oblig5_alt1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="oblig5_alt1" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="Oblig5_alt1" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Oblig5_Alt1" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="hiof" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="trondag" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="oblig5_alt1" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="Oblig5_alt1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Oblig5_alt1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="oblig5_alt1" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="Oblig5_alt1" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Oblig5_Alt1" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="hiof" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="trondag" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="oblig5_alt1" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="controller" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="Oblig5_alt1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Oblig5_alt1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="oblig5_alt1" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="Oblig5_alt1" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Oblig5_Alt1" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="hiof" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="trondag" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="oblig5_alt1" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="data" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -248,15 +320,16 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554133396169" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
+    <property name="last_opened_file_path" value="C:/Program Files (x86)/MySQL/Connector J 8.0/mysql-connector-java-8.0.15.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -446,8 +519,10 @@
       </method>
     </configuration>
     <configuration name="MainJavaFX" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="hiof.trondag.oblig5_alt1.MainJavaFX" />
-      <module name="Oblig5_alt1" />
+      <module name="Oblig5_Alt1" />
       <option name="VM_PARAMETERS" value="--module-path ${PATH_TO_FX} --add-modules=javafx.controls,javafx.fxml" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -524,6 +599,8 @@
       <workItem from="1554201159391" duration="243000" />
       <workItem from="1554236175509" duration="164000" />
       <workItem from="1554823568151" duration="874000" />
+      <workItem from="1555236284495" duration="4080000" />
+      <workItem from="1556211945343" duration="84000" />
     </task>
     <task id="LOCAL-00001" summary="Fixa JavaFX">
       <created>1550525015455</created>
@@ -571,7 +648,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180661000" />
+    <option name="totallyTimeSpent" value="184825000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -585,7 +662,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49757674" visible="true" weight="0.17110874" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49757674" visible="true" weight="0.17430703" />
       <window_info id="Structure" order="1" sideWeight="0.5024233" side_tool="true" weight="0.16311301" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -595,7 +672,7 @@
       <window_info id="Learn" order="7" weight="0.32995737" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16143012" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.16143012" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -614,7 +691,7 @@
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.32942432" />
+      <window_info active="true" anchor="right" id="Database" order="6" visible="true" weight="0.24626866" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Remote Host" order="9" weight="0.32995737" />
@@ -674,16 +751,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="19/3" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/httpRequests/2019-02-18T122933.200.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/httpRequests/2019-02-18T123001.404.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/httpRequests/2019-02-18T122933.200.html" />
+    <entry file="file://$PROJECT_DIR$/.idea/httpRequests/2019-02-18T123001.404.html" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/rest-api.http" />
-    <entry file="file://$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/rest-api_1.http" />
     <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/math/BigDecimal.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -711,16 +782,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="657">
-          <caret line="102" column="42" selection-start-line="102" selection-start-column="42" selection-end-line="102" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -754,26 +815,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/controller/RedigerFilmerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
-          <caret line="70" column="100" selection-start-line="70" selection-start-column="100" selection-end-line="70" selection-end-column="100" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/data/DataHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="67" column="41" selection-start-line="67" selection-start-column="41" selection-end-line="67" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PATH_TO_FX$/javafx.base.jar!/javafx/event/Event.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="313">
@@ -798,16 +839,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/model/Film.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/model/Rolle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -822,6 +853,80 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/model/TVSerie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="87" column="16" selection-start-line="87" selection-start-column="16" selection-end-line="134" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/MainJavaFX.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="40" column="43" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/model/Film.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e7902194-c8cc-461e-ba70-0b2b8092ebe0/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/data/DataHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/controller/FilmController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="64" column="47" selection-start-line="64" selection-start-column="47" selection-end-line="64" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/controller/RedigerFilmerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="77" column="38" selection-start-line="77" selection-start-column="38" selection-end-line="77" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filmer.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/model/Produksjon.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -832,36 +937,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/controller/FilmController.java">
+    <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/data/FilmMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="155" column="11" selection-start-line="155" selection-start-column="11" selection-end-line="155" selection-end-column="11" />
+        <state relative-caret-position="303">
+          <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6759#7167#0" expanded="true" />
-            <element signature="e#7166#7167#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/model/TVSerie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/filmer.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hiof/trondag/oblig5_alt1/MainJavaFX.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>
@@ -928,12 +1010,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Oblig4</last-edited>
+          <last-edited>Oblig5_Alt1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -953,7 +1034,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>lib</last-edited>
+          <last-edited>mysql-connector-java-8.0.15</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
