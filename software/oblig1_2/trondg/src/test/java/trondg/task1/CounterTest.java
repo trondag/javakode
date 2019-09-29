@@ -9,5 +9,6 @@ class CounterTest {
     @Test
     void getNumbers(){
         assertEquals(1, Counter.count(1));
+        assertEquals(2, Counter.count(2));
     }
 }
