@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_material_light"
+    tools:context=".Meny">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+    <ScrollView
+        android:id="@+id/meny"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#07535E"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="343dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/NyRutine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/ny_forbruksvare"
+                android:textAllCaps="false"
+                android:textColor="#EBE4E4"
+                android:textSize="36sp"
+                app:fontFamily="@font/amarante" />
+
+            <TextView
+                android:id="@+id/NyttRom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/nytt_rom"
+                android:textAllCaps="false"
+                android:textColor="#EBE4E4"
+                android:textSize="36sp"
+                app:fontFamily="@font/amarante" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/romliste"
+                android:textColor="#EBE4E4"
+                android:textSize="36sp"
+                app:fontFamily="@font/amarante" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/kalender"
+                android:textColor="#EBE4E4"
+                android:textSize="36sp"
+                app:fontFamily="@font/amarante" />
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+
+</FrameLayout>

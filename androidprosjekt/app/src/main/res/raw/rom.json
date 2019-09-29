@@ -1,0 +1,78 @@
+[
+  {
+    "navn": "soverom",
+    "elementer": [
+      {
+        "gulv": 14
+      },
+      {
+        "vegger": 365
+      },
+      {
+        "tak": 730
+      }
+    ]
+  },
+  {
+    "navn": "kjøkken",
+    "elementer": [
+      {
+        "gulv": 7
+      },
+      {
+        "vegger": 90
+      },
+      {
+        "tak": 365
+      }
+    ]
+  },
+  {
+    "navn": "gang",
+    "elementer": [
+      {
+        "gulv": 7
+      },
+      {
+        "vegger": 365
+      },
+      {
+        "tak": 730
+      }
+    ]
+  },
+  {
+    "navn": "stue",
+    "elementer": [
+      {
+        "gulv": 14
+      },
+      {
+        "vegger": 365
+      },
+      {
+        "tak": 730
+      }
+    ]
+  },
+  {
+    "navn": "toalett",
+    "elementer": [
+      {
+        "gulv": 7
+      },
+      {
+        "vegger": 21
+      },
+      {
+        "tak": 365
+      },
+      {
+        "do": 7
+      },
+      {
+        "vask": 7
+      }
+    ]
+  }
+]
