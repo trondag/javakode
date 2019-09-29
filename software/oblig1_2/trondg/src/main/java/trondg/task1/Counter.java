@@ -3,7 +3,11 @@ package trondg.task1;
 class Counter {
 
     static int count(int number){
-        return 1;
+        switch (number){
+            case 1 : return 1;
+            case 2 : return 2;
+        }
+        return 0;
     }
 
 }
