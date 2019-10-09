@@ -5,6 +5,7 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 
 class CounterTest {
@@ -38,7 +39,7 @@ class CounterTest {
     }
 
     @Test
-    void testNegativeNumber() throws TooNegativeException{
-        assertEquals("1", Counter.count(-1));
+    void testNegativeNumber(){
+        assertThrows(TooNegativeException.class, () -> Counter.count(-1));
     }
 }
