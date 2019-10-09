@@ -9,10 +9,9 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class CounterTest {
     @Test
-    void testNumbers() throws tooNegativeException{
+    void testNumbers() throws TooNegativeException {
         assertEquals("1", Counter.count(1));
         assertEquals("2", Counter.count(2));
-        assertEquals("1", Counter.count(-1));
         assertEquals("100", Counter.count(120));
 
         assertEquals("Hi", Counter.count(3));
@@ -28,13 +27,18 @@ class CounterTest {
 
     @ParameterizedTest
     @ValueSource(ints = {3, 6, 9, 12})
-    void testSeveralNumbers(int argument) throws tooNegativeException{
+    void testSeveralNumbers(int argument) throws TooNegativeException {
         assertEquals("Hi", Counter.count(argument));
     }
 
     @ParameterizedTest
     @ValueSource(ints = {5,10,20,25})
-    void testWidthMoreNumbers(int argument) throws tooNegativeException{
+    void testWidthMoreNumbers(int argument) throws TooNegativeException {
         assertEquals("Of", Counter.count(argument));
+    }
+
+    @Test
+    void testNegativeNumber() throws TooNegativeException{
+        assertEquals("1", Counter.count(-1));
     }
 }
